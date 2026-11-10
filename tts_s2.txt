@@ -1,0 +1,1 @@
+Câu hỏi đặt ra là: Liệu chỉ biết quãng đường 100 mét, chúng mình có thể xác định chính xác xe đang ở đâu trên bản đồ không? Chắc chắn là chưa thể rồi, vì ta chưa biết xe đi về hướng Đông, Tây, Nam hay Bắc!

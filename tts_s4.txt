@@ -1,0 +1,1 @@
+Khi chúng mình kết hợp hệ tọa độ này cùng với mốc thời gian và một chiếc đồng hồ bấm giờ, ta sẽ có một hệ quy chiếu hoàn chỉnh. Nếu xe chỉ chạy thẳng trên một đường, ta chỉ cần chọn một trục Ox trùng với đường đi. Và khi kích thước xe rất nhỏ so với quãng đường 100 mét, tụi mình hoàn toàn có thể coi nó là một chất điểm!

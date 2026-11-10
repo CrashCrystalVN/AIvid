@@ -1,0 +1,1 @@
+Để biết chính xác vị trí, chúng ta cần một hệ tọa độ gắn với vật mốc. Trong đời sống, các bạn thường thấy hệ tọa độ địa lí với trục Ox theo hướng Tây – Đông và trục Oy theo hướng Bắc – Nam. Ví dụ điểm A cách O 20 mét theo hướng 45 độ Đông – Bắc.

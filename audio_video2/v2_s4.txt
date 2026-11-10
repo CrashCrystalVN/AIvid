@@ -1,0 +1,1 @@
+Một quy tắc cốt lõi mà tụi mình rút ra: Chỉ khi vật chuyển động thẳng và tuyệt đối không quay đầu đổi chiều thì độ lớn độ dịch chuyển mới bằng quãng đường: trị tuyệt đối của d bằng s. Còn nếu vật đi đường cong hoặc quay đầu ngược lại, độ lớn độ dịch chuyển sẽ luôn nhỏ hơn quãng đường!

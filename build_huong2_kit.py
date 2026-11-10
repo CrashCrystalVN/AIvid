@@ -1,0 +1,161 @@
+import os
+import shutil
+
+WORK_DIR = r"c:\Users\huy83\Downloads\AIvid"
+KIT_DIR = os.path.join(WORK_DIR, "Huong2_Kit_Video1")
+os.makedirs(KIT_DIR, exist_ok=True)
+
+# Copy 5 images and 5 audio files into Huong2_Kit_Video1 with clear sequential names
+items = [
+    ("01_nga_tu_oto.jpg", "tts_s1.mp3", "Canh1_NgaTu_Oto"),
+    ("02_hoc_sinh_dat_van_de.jpg", "tts_s2.mp3", "Canh2_HocSinh_DatVanDe"),
+    ("03_he_toa_do_oxy.jpg", "tts_s3.mp3", "Canh3_HeToaDo_Oxy"),
+    ("04_he_quy_chieu_chat_diem.jpg", "tts_s4.mp3", "Canh4_HeQuyChieu_ChatDiem"),
+    ("05_cau_hoi_tuong_tac.jpg", "tts_s5.mp3", "Canh5_CauHoi_TuongTac"),
+]
+
+for img_name, mp3_name, prefix in items:
+    src_img = os.path.join(WORK_DIR, "scenes_video1", img_name)
+    src_mp3 = os.path.join(WORK_DIR, mp3_name)
+    shutil.copy2(src_img, os.path.join(KIT_DIR, f"{prefix}.jpg"))
+    shutil.copy2(src_mp3, os.path.join(KIT_DIR, f"{prefix}.mp3"))
+
+shutil.copy2(os.path.join(WORK_DIR, "final_audio_huong1.mp3"), os.path.join(KIT_DIR, "Full_Audio_Video1_CoNhacNen.mp3"))
+shutil.copy2(os.path.join(WORK_DIR, "voice_huong1.mp3"), os.path.join(KIT_DIR, "Full_Voiceover_KhongNhac.mp3"))
+
+html_content = """<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Bộ Công Cụ Phương Án 2 - Google Flow / Kling / Dreamina (Video 1)</title>
+<style>
+  body { font-family: 'Segoe UI', Arial, sans-serif; background: #0f172a; color: #f8fafc; margin: 0; padding: 30px; line-height: 1.6; }
+  .container { max-width: 1200px; margin: 0 auto; }
+  h1 { color: #38bdf8; margin-bottom: 5px; }
+  .subtitle { color: #94a3b8; font-size: 16px; margin-bottom: 25px; }
+  .guide-box { background: #1e293b; border-left: 5px solid #fbbf24; padding: 18px 24px; border-radius: 10px; margin-bottom: 30px; }
+  .guide-box h3 { margin-top: 0; color: #fbbf24; }
+  .scene-card { background: #1e293b; border: 1px solid #334155; border-radius: 14px; padding: 22px; margin-bottom: 24px; display: grid; grid-template-columns: 380px 1fr; gap: 24px; align-items: start; }
+  .scene-card img { width: 100%; border-radius: 10px; border: 2px solid #475569; }
+  .badge { display: inline-block; background: #2563eb; color: #fff; padding: 4px 12px; border-radius: 6px; font-weight: bold; font-size: 14px; margin-bottom: 8px; }
+  .prompt-box { background: #0f172a; border: 1px solid #475569; border-radius: 8px; padding: 12px; font-family: Consolas, monospace; font-size: 13.5px; color: #e2e8f0; margin: 8px 0 14px 0; white-space: pre-wrap; }
+  button { background: #0284c7; color: white; border: none; padding: 8px 16px; border-radius: 6px; cursor: pointer; font-weight: bold; font-size: 13px; margin-right: 8px; }
+  button:hover { background: #0369a1; }
+  audio { width: 100%; margin-top: 10px; height: 36px; }
+  .label { font-weight: bold; color: #38bdf8; font-size: 14px; }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>🎬 BỘ KIT PHƯƠNG ÁN 2: TẠO VIDEO AI CHUYỂN ĐỘNG NGƯỜI THẬT (#GoogleFlow #Kling #Dreamina)</h1>
+  <div class="subtitle">Bài 4 (Phần 1): Vị trí của vật & Hệ quy chiếu — Nhóm: Anh Thư, Hữu Trọng, Thế Mỹ</div>
+
+  <div class="guide-box">
+    <h3>⚡ Quy trình 3 bước làm nhân vật cử động tay & nhép môi y hệt clip mẫu trên Facebook:</h3>
+    <ol>
+      <li>Mở <b>Google Flow (Veo)</b> tại <a href="https://labs.google/fx/vi/tools/flow" target="_blank" style="color:#38bdf8">labs.google/fx/vi/tools/flow</a> (chọn chế độ <i>Frames to Video / Image to Video</i>) hoặc <b>Kling AI / Dreamina CapCut</b>.</li>
+      <li>Tải tấm ảnh gốc (<b>Canh1..Canh5.jpg</b> trong thư mục <code>Huong2_Kit_Video1</code>) lên làm khung hình đầu (First Frame / Keyframe).</li>
+      <li>Bấm nút <b>"Copy Prompt"</b> bên dưới tương ứng với từng cảnh và dán vào ô mô tả chuyển động &rarr; Xuất ra 5 đoạn clip 8 giây &rarr; Ghép với file âm thanh <code>Full_Audio_Video1_CoNhacNen.mp3</code> trên CapCut/Canva!</li>
+    </ol>
+  </div>
+
+  <!-- SCENE 1 -->
+  <div class="scene-card">
+    <div>
+      <span class="badge">CẢNH 1 (0:00 - 0:12) • Giọng: Anh Thư</span>
+      <img src="Huong2_Kit_Video1/Canh1_NgaTu_Oto.jpg" alt="Cảnh 1">
+      <audio controls src="Huong2_Kit_Video1/Canh1_NgaTu_Oto.mp3"></audio>
+    </div>
+    <div>
+      <div class="label">1. Prompt Image-to-Video (Giữ nguyên chữ & sơ đồ, cho ô tô chạy qua ngã tư):</div>
+      <div class="prompt-box" id="p1">Aerial top-down view of a modern 4-way city intersection. Keep all infographic text labels (BẮC, NAM, ĐÔNG, TÂY, O, v = 36 km/h, t = 10 s, s = 100 m) and compass lines completely sharp, static, and unchanged. The red car in the center smoothly accelerates forward along the road while other city cars move gently in the background. Subtle cinematic drone hover, 4k educational physics visualization.</div>
+      <button onclick="copyText('p1', this)">📋 Copy Prompt Cảnh 1 (Flow / Kling)</button>
+      <div class="label" style="margin-top:12px;">Lời thoại khớp cảnh (12.5 giây):</div>
+      <div class="prompt-box">"Chào thầy cô và các bạn! Hãy cùng nhóm mình bắt đầu bằng một tình huống thực tế nhé: Một chiếc ô tô đi qua ngã tư O với tốc độ 36 km/h. Sau 10 giây, xe đi được quãng đường 100 mét."</div>
+    </div>
+  </div>
+
+  <!-- SCENE 2 -->
+  <div class="scene-card">
+    <div>
+      <span class="badge">CẢNH 2 (0:12 - 0:25) • Giọng: Anh Thư</span>
+      <img src="Huong2_Kit_Video1/Canh2_HocSinh_DatVanDe.jpg" alt="Cảnh 2">
+      <audio controls src="Huong2_Kit_Video1/Canh2_HocSinh_DatVanDe.mp3"></audio>
+    </div>
+    <div>
+      <div class="label">2. Prompt Image-to-Video (Học sinh nữ cử động tay chỉ bảng & nói tự nhiên, khóa cố định chữ trên bảng):</div>
+      <div class="prompt-box" id="p2">Static tripod camera in a bright classroom. Keep the digital smartboard screen, all Vietnamese text ("QUÃNG ĐƯỜNG ĐI ĐƯỢC = 100 m. Ô TÔ ĐANG Ở ĐÂU?"), and the 4-way intersection diagram completely static, sharp, and unchanged. The Vietnamese female high school student speaks naturally with friendly facial expressions, nodding slightly and gesturing smoothly with her right hand toward the intersection diagram on the smartboard as she explains the physics question. Realistic natural human motion.</div>
+      <button onclick="copyText('p2', this)">📋 Copy Prompt Cảnh 2 (Flow / Kling)</button>
+      <div class="label" style="margin-top:12px;">Lời thoại khớp cảnh (13.1 giây):</div>
+      <div class="prompt-box">"Câu hỏi đặt ra là: Liệu chỉ biết quãng đường 100 mét, chúng mình có thể xác định chính xác xe đang ở đâu trên bản đồ không? Chắc chắn là chưa thể rồi, vì ta chưa biết xe đi về hướng Đông, Tây, Nam hay Bắc!"</div>
+    </div>
+  </div>
+
+  <!-- SCENE 3 -->
+  <div class="scene-card">
+    <div>
+      <span class="badge">CẢNH 3 (0:25 - 0:41) • Giọng: Hữu Trọng</span>
+      <img src="Huong2_Kit_Video1/Canh3_HeToaDo_Oxy.jpg" alt="Cảnh 3">
+      <audio controls src="Huong2_Kit_Video1/Canh3_HeToaDo_Oxy.mp3"></audio>
+    </div>
+    <div>
+      <div class="label">3. Prompt Image-to-Video (Học sinh nam chỉ tay vào hệ trục tọa độ Oxy trên bảng thông minh):</div>
+      <div class="prompt-box" id="p3">Static tripod camera shot in a classroom. Keep the digital smartboard screen, the Vietnamese title ("HỆ TỌA ĐỘ ĐỊA LÍ GẮN VỚI VẬT MỐC"), the Ox and Oy axes, and the red vector arrow A completely locked, sharp, and unchanged. The Vietnamese male high school student speaks engagingly to the class, pointing his hand toward origin O and then moving his hand along the red vector arrow toward point A (20 m, 45° Đông - Bắc) while smiling warmly. Realistic natural presenter movement.</div>
+      <button onclick="copyText('p3', this)">📋 Copy Prompt Cảnh 3 (Flow / Kling)</button>
+      <div class="label" style="margin-top:12px;">Lời thoại khớp cảnh (16.2 giây):</div>
+      <div class="prompt-box">"Để biết chính xác vị trí, chúng ta cần một hệ tọa độ gắn với vật mốc. Trong đời sống, các bạn thường thấy hệ tọa độ địa lí với trục Ox theo hướng Tây – Đông và trục Oy theo hướng Bắc – Nam. Ví dụ điểm A cách O 20 mét theo hướng 45 độ Đông – Bắc."</div>
+    </div>
+  </div>
+
+  <!-- SCENE 4 -->
+  <div class="scene-card">
+    <div>
+      <span class="badge">CẢNH 4 (0:41 - 1:01) • Giọng: Anh Thư</span>
+      <img src="Huong2_Kit_Video1/Canh4_HeQuyChieu_ChatDiem.jpg" alt="Cảnh 4">
+      <audio controls src="Huong2_Kit_Video1/Canh4_HeQuyChieu_ChatDiem.mp3"></audio>
+    </div>
+    <div>
+      <div class="label">4. Prompt Image-to-Video (Học sinh nữ giảng công thức Hệ quy chiếu & Chất điểm):</div>
+      <div class="prompt-box" id="p4">Static medium shot in a classroom. Keep all text and graphics on the smartboard ("HỆ QUY CHIẾU = HỆ TỌA ĐỘ + MỐC THỜI GIAN + ĐỒNG HỒ ĐO", the icons, and the Ox axis with "CHẤT ĐIỂM") completely fixed, crisp, and unaltered. The Vietnamese female student speaks clearly and confidently, gesturing with her open hand toward the formula and the small red car on the Ox axis while looking between the board and the camera.</div>
+      <button onclick="copyText('p4', this)">📋 Copy Prompt Cảnh 4 (Flow / Kling)</button>
+      <div class="label" style="margin-top:12px;">Lời thoại khớp cảnh (19.2 giây):</div>
+      <div class="prompt-box">"Khi chúng mình kết hợp hệ tọa độ này cùng với mốc thời gian và một chiếc đồng hồ bấm giờ, ta sẽ có một hệ quy chiếu hoàn chỉnh. Nếu xe chỉ chạy thẳng trên một đường, ta chỉ cần chọn một trục Ox trùng với đường đi. Và khi kích thước xe rất nhỏ so với quãng đường 100 mét, tụi mình hoàn toàn có thể coi nó là một chất điểm!"</div>
+    </div>
+  </div>
+
+  <!-- SCENE 5 -->
+  <div class="scene-card">
+    <div>
+      <span class="badge">CẢNH 5 (1:01 - 1:14) • Giọng: Thế Mỹ & Nhóm 1</span>
+      <img src="Huong2_Kit_Video1/Canh5_CauHoi_TuongTac.jpg" alt="Cảnh 5">
+      <audio controls src="Huong2_Kit_Video1/Canh5_CauHoi_TuongTac.mp3"></audio>
+    </div>
+    <div>
+      <div class="label">5. Prompt Image-to-Video (Cả hai học sinh tương tác & chào kết thúc bài thuyết trình):</div>
+      <div class="prompt-box" id="p5">Static medium shot in a classroom. Keep the smartboard text ("CÂU HỎI TƯƠNG TÁC: Khi nào vật chuyển động được coi là CHẤT ĐIỂM?" and the green answer box) completely sharp and unchanged. Both Vietnamese high school students smile warmly at the camera, nodding and speaking cheerfully, then wave their hands slightly at the end to thank the teacher and classmates. Natural friendly classroom presentation.</div>
+      <button onclick="copyText('p5', this)">📋 Copy Prompt Cảnh 5 (Flow / Kling)</button>
+      <div class="label" style="margin-top:12px;">Lời thoại khớp cảnh (12.5 giây):</div>
+      <div class="prompt-box">"Câu hỏi tương tác dành cho cả lớp: Khi nào độ dài quãng đường cho phép coi vật là chất điểm? Đó là khi kích thước của vật rất nhỏ so với độ dài đường đi! Cảm ơn thầy cô và các bạn đã lắng nghe!"</div>
+    </div>
+  </div>
+</div>
+
+<script>
+function copyText(id, btn) {
+  const txt = document.getElementById(id).innerText;
+  navigator.clipboard.writeText(txt);
+  const old = btn.innerText;
+  btn.innerText = "✓ Đã Copy!";
+  btn.style.background = "#16a34a";
+  setTimeout(() => { btn.innerText = old; btn.style.background = "#0284c7"; }, 2000);
+}
+</script>
+</body>
+</html>
+"""
+
+html_path = os.path.join(WORK_DIR, "Huong2_GoogleFlow_Kit.html")
+with open(html_path, "w", encoding="utf-8") as f:
+    f.write(html_content)
+
+print("Created Huong2_GoogleFlow_Kit.html and Huong2_Kit_Video1 folder successfully!")

@@ -1,0 +1,11 @@
+# Temporary scraped files
+fb_page.html
+fb_thumb_*.jpg
+test*.mp3
+test*.vtt
+test_audio.mp3
+sample_frame.png
+concat_*.txt
+*.pyc
+__pycache__/
+.vscode/

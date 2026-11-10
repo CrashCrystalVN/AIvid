@@ -1,0 +1,1 @@
+Vì đi theo ba con đường khác nhau, nên Quãng đường s của họ chắc chắn khác nhau: s1 khác s2 và khác s3. Thế nhưng Độ dịch chuyển d lại chỉ quan tâm điểm đầu là siêu thị A và điểm cuối là bưu điện B. Vì cùng xuất phát từ A và cùng đến B, nên độ dịch chuyển của cả ba người là hoàn toàn như nhau!

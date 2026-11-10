@@ -1,0 +1,1 @@
+Chào thầy cô và các bạn! Hãy cùng nhóm mình bắt đầu bằng một tình huống thực tế nhé: Một chiếc ô tô đi qua ngã tư với tốc độ 36 km/h. Sau 10 giây, xe đi được quãng đường 100 m. Câu hỏi đặt ra là: Liệu chỉ biết quãng đường 100 m, chúng mình có thể xác định chính xác xe đang ở đâu trên bản đồ không?

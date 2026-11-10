@@ -1,0 +1,1 @@
+Quay lại ngã tư ban nãy, nếu mình nói rõ là: xe chạy 100 mét về hướng Bắc, các bạn sẽ chỉ ra ngay xe đang ở điểm B. Đại lượng vừa cho biết độ dài, vừa cho biết hướng thay đổi vị trí đó chính là Độ dịch chuyển! Độ dịch chuyển là một đại lượng vectơ, ký hiệu là d có mũi tên trên đầu, vẽ bằng một mũi tên nối từ điểm xuất phát đến điểm kết thúc.
