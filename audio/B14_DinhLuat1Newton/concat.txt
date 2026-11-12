@@ -1,0 +1,5 @@
+file 'C:/Users/huy83/Downloads/AIvid/audio/B14_DinhLuat1Newton/s1.mp3'
+file 'C:/Users/huy83/Downloads/AIvid/audio/B14_DinhLuat1Newton/s2.mp3'
+file 'C:/Users/huy83/Downloads/AIvid/audio/B14_DinhLuat1Newton/s3.mp3'
+file 'C:/Users/huy83/Downloads/AIvid/audio/B14_DinhLuat1Newton/s4.mp3'
+file 'C:/Users/huy83/Downloads/AIvid/audio/B14_DinhLuat1Newton/s5.mp3'

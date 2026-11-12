@@ -1,0 +1,5 @@
+file 'C:/Users/huy83/Downloads/AIvid/audio/B12_ChuyenDongNem/s1.mp3'
+file 'C:/Users/huy83/Downloads/AIvid/audio/B12_ChuyenDongNem/s2.mp3'
+file 'C:/Users/huy83/Downloads/AIvid/audio/B12_ChuyenDongNem/s3.mp3'
+file 'C:/Users/huy83/Downloads/AIvid/audio/B12_ChuyenDongNem/s4.mp3'
+file 'C:/Users/huy83/Downloads/AIvid/audio/B12_ChuyenDongNem/s5.mp3'
