@@ -1,11 +1,39 @@
-# Temporary scraped files
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache & compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Backups & temporary edits
+*.bak
+*.bak*
+*.tmp
+
+# Editors & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Scraped / temporary test dumps
 fb_page.html
 fb_thumb_*.jpg
-test*.mp3
 test*.vtt
 test_audio.mp3
 sample_frame.png
 concat_*.txt
-*.pyc
-__pycache__/
-.vscode/
+
+# Intermediate inspection frame dumps & draft scratch files
+output_videos/previews_v1/
+output_videos/previews_v2/
+preview_huds/
+scratch/flow_frame_audit/
+_cutout_drafts/
+test_audio_extracted/

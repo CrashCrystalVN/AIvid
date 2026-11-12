@@ -1,0 +1,56 @@
+=== V2_B4_DoDichChuyen_QuangDuong (Speaker: N/A) ===
+Scene 1: Mở đầu & Tiêu đề Video 2 | MC: Hữu Trọng | has_mc: None | hud: title_banner
+  Prompt: Cinematic medium shot of a 16-year-old Vietnamese male high school student with neat short black hair and black-rimmed glasses, warm confident smile, wearing a crisp white school uniform shirt with navy blue trim. He stands on the left of an open modern bright science studio. The right 65% is clean open space with soft architectural blur. 16:9, 8k, photorealistic, no text, no symbols.
+
+Scene 2: Quay lại ngã tư: Xác định rõ hướng Bắc | MC: Hữu Trọng | has_mc: None | hud: animated_vector_road
+  Prompt: Aerial top-down view of the urban four-way intersection. Origin point at center junction. Crisp asphalt road surface, pedestrian crosswalks, surrounding modern city buildings and sidewalks. Large clear asphalt surface ready for vector graphics overlay. 16:9, 8k, photorealistic, no text, no numbers.
+
+Scene 3: Định nghĩa Độ dịch chuyển (Đại lượng Vectơ) | MC: Hữu Trọng | has_mc: None | hud: hud_boxes
+  Prompt: Medium shot of the Vietnamese male student with glasses in white uniform standing on the left side of the science studio, right hand open in a demonstrative gesture pointing horizontally. Crisp soft lighting, negative space across the right two-thirds. 16:9, 8k, photorealistic, no text.
+
+Scene 4: Mô hình 3 tuyến đường: Siêu thị A đến Bưu điện B | MC: Hữu Trọng | has_mc: None | hud: animated_vector_road
+  Prompt: Cinematic high-angle bird's-eye view of a modern European-style city district with two distinct landmarks: a modern glass supermarket building on the left and an iconic post office building with clock tower on the right, separated by green city squares and asphalt streets. 16:9, 8k, photorealistic, no text, no labels.
+
+Scene 5: Bản chất Quãng đường (s) | MC: Hữu Trọng | has_mc: None | hud: hud_boxes
+  Prompt: Medium shot of the Vietnamese male student in glasses, speaking with an expressive explanatory hand gesture, standing on the left side of the modern studio. Right side empty with modern dark navy backdrop. 16:9, 8k, photorealistic, no text.
+
+Scene 6: Bản chất Độ dịch chuyển (d) | MC: Hữu Trọng | has_mc: None | hud: hud_boxes
+  Prompt: Medium shot of the Vietnamese male student with glasses in white uniform, smiling broadly and pointing both index fingers decisively forward-right. Clean bright high-tech background, ample open area on the right. 16:9, 8k, photorealistic, no text.
+
+Scene 7: Bảng so sánh trực quan s vs d | MC: Hữu Trọng | has_mc: None | hud: comparison_table
+  Prompt: Medium wide shot of the Vietnamese male student standing respectfully to the far left of the modern studio, gesturing with an open palm toward the large open central and right space. Elegant dark navy tech background with subtle vertical light beams. 16:9, 8k, photorealistic, no text.
+
+Scene 8: Điều kiện cốt lõi: Khi nào |d| = s? | MC: Hữu Trọng | has_mc: None | hud: hud_boxes
+  Prompt: Cinematic straight highway vanishing toward the horizon at sunset. A lone white sedan drives smoothly along a single lane. Large open sky and roadside space for formula callouts. 16:9, 8k, photorealistic, no text.
+
+Scene 9: Câu hỏi củng cố & Chào kết Video 2 | MC: Hữu Trọng | has_mc: None | hud: quiz_popup
+  Prompt: Medium close-up of the Vietnamese male student with glasses in white uniform, smiling warmly, holding up one finger playfully, posing a thought-provoking question. Soft blurred modern studio background. 16:9, 8k, photorealistic, no text.
+
+=== V3_B4_TongHop_DoDichChuyen (Speaker: N/A) ===
+Scene 1: Mở đầu & Tiêu đề Video 3 | MC: Thế Mỹ | has_mc: None | hud: title_banner
+  Prompt: Cinematic medium shot of a 16-year-old Vietnamese male high school student with clean modern side-part black hair and a confident, enthusiastic expression, wearing a crisp white high school uniform shirt. He stands on the left of a high-tech physics simulation laboratory with sleek glass equipment in soft background blur. The right 65% is clean open space. 16:9, 8k, photorealistic, no text, no symbols.
+
+Scene 2: Quy tắc cộng vectơ tổng quát | MC: Thế Mỹ | has_mc: None | hud: hud_boxes
+  Prompt: Medium shot of the Vietnamese male student standing on the left side of the lab, gesturing with both hands outward to frame a virtual graphic area on his right. Soft studio lighting with cool cyan rim light, 16:9, 8k, photorealistic, no text.
+
+Scene 3: Ví dụ thực tế: Đi 4 km Đông rồi 4 km Bắc | MC: Thế Mỹ | has_mc: None | hud: animated_vector_road
+  Prompt: Aerial high-angle bird's-eye view of a modern landscaped city park with square walking paths, green lawns, and rectangular flowerbeds. Crisp sunlight, clear pathways. Completely clean open landscape free of text or labels. 16:9, 8k, photorealistic.
+
+Scene 4: Tính Quãng đường (s) | MC: Thế Mỹ | has_mc: None | hud: hud_boxes
+  Prompt: Medium shot of the Vietnamese male student in white uniform, pointing toward the right space with a light smile, explaining a simple math concept. High-tech lab backdrop with subtle cyan glow. 16:9, 8k, photorealistic, no text.
+
+Scene 5: Tính Độ dịch chuyển (d) bằng Định lý Pythagoras | MC: Thế Mỹ | has_mc: None | hud: hud_boxes
+  Prompt: Cinematic high-angle view of a sleek futuristic digital laboratory floor with dark reflective tiles and soft grid lines. Deep blue and slate atmosphere, ample clear central space for a glowing 3D holographic triangle. 16:9, 8k, photorealistic, no text.
+
+Scene 6: So sánh s (8 km) vs |d| (5,7 km) | MC: Thế Mỹ | has_mc: None | hud: hud_boxes
+  Prompt: Medium shot of the Vietnamese male student in white uniform, holding his palms apart to compare two quantities, standing in the modern science lab. Right side open space with soft cyan lighting. 16:9, 8k, photorealistic, no text.
+
+Scene 7: 3 Trường hợp tổng hợp vectơ đặc biệt | MC: Thế Mỹ | has_mc: None | hud: hud_boxes
+  Prompt: Medium wide shot of the Vietnamese male student standing on the left side of the spacious tech studio, hands gesturing across three vertical imaginary zones on his right. Modern ambient blue lighting. 16:9, 8k, photorealistic, no text.
+
+Scene 8: Câu hỏi tương tác Pop-up Bài 4 | MC: Thế Mỹ | has_mc: None | hud: quiz_popup
+  Prompt: Medium close-up of the Vietnamese male student in white uniform, smiling warmly, holding up a finger as he poses a brain teaser. Soft tech lab background. 16:9, 8k, photorealistic, no text.
+
+Scene 9: Tổng kết toàn bộ Bài 4 & Lời cảm ơn | MC: Thế Mỹ | has_mc: None | hud: hud_boxes
+  Prompt: Medium shot of the Vietnamese male student in white uniform standing proudly in the modern physics lab, smiling warmly with a polite bow and wave. Bright, encouraging studio lighting, 16:9, 8k, photorealistic, no text.
+

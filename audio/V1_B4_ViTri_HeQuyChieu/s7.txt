@@ -1,0 +1,1 @@
+Khi kích thước của vật rất nhỏ so với quãng đường di chuyển — ví dụ chiếc ô tô 4 mét chạy hàng trăm mét — ta hoàn toàn có thể coi nó là một chất điểm!

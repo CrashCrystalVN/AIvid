@@ -1,0 +1,1 @@
+Để mô tả trọn vẹn chuyển động, các bạn nhớ công thức vàng: Hệ quy chiếu bao gồm Hệ tọa độ gắn với vật mốc, kết hợp cùng mốc thời gian và đồng hồ đo.

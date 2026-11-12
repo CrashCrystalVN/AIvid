@@ -1,0 +1,260 @@
+import os
+import json
+
+WORK_DIR = r"C:\Users\vuasu\.gemini\antigravity\scratch\AIvid"
+PLAN_FILE = os.path.join(WORK_DIR, "master_plan_b12_b14.json")
+
+plan_data = {
+    "project_name": "Google Flow Hybrid Full Animation - Bài 12 & Bài 14 (Vật Lí 10 KNTT)",
+    "style_reference": "Cô Nhung Cute / Hologram HUD Cyan Glow / Clean Keyframe + Python HUD Engine",
+    "budget_summary": {
+        "total_flow_credits": 200,
+        "cost_per_veo_fast_clip": 20,
+        "total_clips": 10,
+        "total_credits_used": 200,
+        "remaining_credits": 0,
+        "breakdown": [
+            {
+                "lesson_code": "B12",
+                "lesson_name": "Bài 12: Chuyển động ném",
+                "video_id": "V8_B12_ChuyenDongNem",
+                "clips_count": 5,
+                "credits_used": 100
+            },
+            {
+                "lesson_code": "B14",
+                "lesson_name": "Bài 14: Định luật 1 Newton",
+                "video_id": "V9_B14_DinhLuat1Newton",
+                "clips_count": 5,
+                "credits_used": 100
+            }
+        ]
+    },
+    "curriculum_scope": [
+        "Bài 12: Chuyển động ném (Vật lí 10 Kết nối tri thức với cuộc sống)",
+        "Bài 14: Định luật 1 Newton (Vật lí 10 Kết nối tri thức với cuộc sống)"
+    ],
+    "presenter": {
+        "name": "Cô Cẩm Nhung",
+        "role": "Lead Physics Teacher / Presenter",
+        "description": "24-year-old Vietnamese female physics teacher, elegant dark titanium wireframe round glasses, friendly warm smile, wearing a sleek modern educational white blazer over graphite knitwear, articulate gestures.",
+        "voice": "vi-VN-HoaiMyNeural"
+    },
+    "videos": [
+        {
+            "video_id": "V8_B12_ChuyenDongNem",
+            "folder_name": "B12_ChuyenDongNem",
+            "title": "Bài 12: Chuyển động ném (Ném ngang & Ném xiên)",
+            "lesson": "Bài 12: Chuyển động ném",
+            "part": 1,
+            "clip_count": 5,
+            "credits": 100,
+            "total_estimated_duration_sec": 75.0,
+            "scenes": [
+                {
+                    "scene_idx": 1,
+                    "scene_id": "B12_S01",
+                    "title": "Intro: Mở đầu & Hiện tượng ném trong đời sống",
+                    "duration_sec": 14.5,
+                    "keyframe_file": "s1.png",
+                    "keyframe_path": "keyframes/B12_ChuyenDongNem/s1.png",
+                    "flow_clip_path": "flow_clips/B12_ChuyenDongNem/B12_S01.mp4",
+                    "voiceover": "Chào các em! Trong thể thao hay đời sống hàng ngày, chúng ta thường xuyên bắt gặp những chuyển động ném: từ cú ném rổ bóng rổ, quả bóng đá bay vút lên không trung, đến dòng nước phun ra từ vòi cứu hỏa. Điều gì quyết định quỹ đạo và tầm bay xa của các vật đó? Hôm nay, chúng ta cùng khám phá Bài 12: Chuyển động ném!",
+                    "keyframe_prompt": "Cinematic medium shot of an elegant 24-year-old Vietnamese female physics teacher with dark wireframe round glasses and friendly warm smile, standing on the left side of a modern physics laboratory studio. Clean dark blue background with 65% uncluttered negative space on the right for floating holographic sports trajectories. 16:9 aspect ratio, 8k, photorealistic, zero text, zero numbers, zero watermark.",
+                    "flow_i2v_prompt": "The Vietnamese female physics teacher smiles warmly and gestures smoothly towards the empty space on the right with open palms. Gentle studio lighting, tripod medium camera shot, subtle realistic micro-expressions, background remains completely static, 4k.",
+                    "omni_prompt": 'A charismatic Vietnamese female teacher standing on the left side of a modern mechanics physics lab, speaking warmly with natural lip-sync and articulate hand gestures pointing towards the right. Dialogue: "Chào các em! Trong thể thao hay đời sống hàng ngày, chúng ta thường xuyên bắt gặp những chuyển động ném: từ cú ném rổ bóng rổ, quả bóng đá bay vút lên không trung, đến dòng nước phun ra từ vòi cứu hỏa. Điều gì quyết định quỹ đạo và tầm bay xa của các vật đó? Hôm nay, chúng ta cùng khám phá Bài 12: Chuyển động ném!"',
+                    "hud_elements": [
+                        "Tiêu đề: BÀI 12: CHUYỂN ĐỘNG NÉM",
+                        "Icon thể thao: Bóng rổ, Cầu thủ đá bóng, Vòi phun nước",
+                        "Đường cong quỹ đạo minh họa mở đầu"
+                    ]
+                },
+                {
+                    "scene_idx": 2,
+                    "scene_id": "B12_S02",
+                    "title": "Thí nghiệm ném ngang: Hai viên bi A và B (Hình 12.1 & 12.2 SGK)",
+                    "duration_sec": 16.0,
+                    "keyframe_file": "s2.png",
+                    "keyframe_path": "keyframes/B12_ChuyenDongNem/s2.png",
+                    "flow_clip_path": "flow_clips/B12_ChuyenDongNem/B12_S02.mp4",
+                    "voiceover": "Để tìm hiểu chuyển động ném ngang, SGK bố trí thí nghiệm với hai viên bi A và B cùng ở độ cao H. Khi búa gạt đập vào thanh đàn hồi, bi A bị đẩy bay theo phương ngang với vận tốc ban đầu v0, còn bi B đồng thời rơi tự do thẳng đứng. Kết quả bất ngờ: cả hai viên bi đều chạm sàn cùng một lúc!",
+                    "keyframe_prompt": "Cinematic laboratory close-up of a precision mechanics apparatus on a polished dark lab workbench. On the left, an automated release mechanism holds two metallic steel spheres A and B at height H. Ample negative space across the right and lower frame for simultaneous trajectory tracking. Photorealistic, 16:9, no text, no numbers, no watermark.",
+                    "flow_i2v_prompt": "Slow-motion camera tracking shot of two chrome spheres released simultaneously from the mechanical stand: one sphere projects horizontally outward in an arc while the other drops vertically. Pristine physics laboratory, crisp metal reflections, ultra-smooth motion, 4k.",
+                    "omni_prompt": 'A precision physics lab apparatus on a sleek dark table with two chrome spheres mounted on a release rig. Smooth slow-motion camera pan showing the simultaneous release mechanism, pristine scientific atmosphere. Dialogue: "Để tìm hiểu chuyển động ném ngang, SGK bố trí thí nghiệm với hai viên bi A và B cùng ở độ cao H. Khi búa gạt đập vào thanh đàn hồi, bi A bị đẩy bay theo phương ngang với vận tốc ban đầu v0, còn bi B đồng thời rơi tự do thẳng đứng. Kết quả bất ngờ: cả hai viên bi đều chạm sàn cùng một lúc!"',
+                    "hud_elements": [
+                        "Trục Oy: Bi B rơi tự do thẳng đứng (v0y = 0)",
+                        "Trục Ox: Bi A ném ngang (v0x = v0)",
+                        "Điểm chạm đất đồng thời: t_A = t_B"
+                    ]
+                },
+                {
+                    "scene_idx": 3,
+                    "scene_id": "B12_S03",
+                    "title": "Phân tích & Công thức ném ngang (Oy rơi tự do, Ox thẳng đều)",
+                    "duration_sec": 16.5,
+                    "keyframe_file": "s3.png",
+                    "keyframe_path": "keyframes/B12_ChuyenDongNem/s3.png",
+                    "flow_clip_path": "flow_clips/B12_ChuyenDongNem/B12_S03.mp4",
+                    "voiceover": "Chuyển động ném ngang được phân tích thành hai chuyển động độc lập: theo trục thẳng đứng Oy là chuyển động rơi tự do với gia tốc g, thời gian rơi là t bằng căn bậc hai của 2H chia g; còn theo trục nằm ngang Ox là chuyển động thẳng đều với vận tốc v0. Tầm xa L chính bằng v0 nhân căn bậc hai của 2H chia g!",
+                    "keyframe_prompt": "Medium shot of an articulate Vietnamese female physics teacher on the left side of a deep blue high-tech optics and mechanics studio. Soft ambient glow, 70% clean dark negative space on the right for coordinate system Oxy, vector vx, vy and mathematical formula overlays. 16:9, no text, no numbers, no watermark.",
+                    "flow_i2v_prompt": "Presenter gestures thoughtfully towards the right side of the frame with smooth educational hand motions, explaining the physics breakdown. Ambient blue laboratory lighting, steady camera tripod shot, natural facial cadence, 4k.",
+                    "omni_prompt": 'A teacher in a futuristic mechanics laboratory gesturing towards a clean presentation zone on the right, explaining with confident and clear articulation. Dialogue: "Chuyển động ném ngang được phân tích thành hai chuyển động độc lập: theo trục thẳng đứng Oy là chuyển động rơi tự do với gia tốc g, thời gian rơi là t bằng căn bậc hai của 2H chia g; còn theo trục nằm ngang Ox là chuyển động thẳng đều với vận tốc v0. Tầm xa L chính bằng v0 nhân căn bậc hai của 2H chia g!"',
+                    "hud_elements": [
+                        "Trục Oy (rơi tự do): y = 0.5*g*t^2 => t = sqrt(2H/g)",
+                        "Trục Ox (thẳng đều): x = v0*t",
+                        "Tầm xa L: L = v0 * sqrt(2H/g)",
+                        "Phương trình quỹ đạo: y = (g / (2*v0^2)) * x^2 (Nhánh Parabol)"
+                    ]
+                },
+                {
+                    "scene_idx": 4,
+                    "scene_id": "B12_S04",
+                    "title": "Chuyển động ném xiên & Quỹ đạo Parabol",
+                    "duration_sec": 14.0,
+                    "keyframe_file": "s4.png",
+                    "keyframe_path": "keyframes/B12_ChuyenDongNem/s4.png",
+                    "flow_clip_path": "flow_clips/B12_ChuyenDongNem/B12_S04.mp4",
+                    "voiceover": "Tiếp theo là chuyển động ném xiên: vật được ném với vận tốc ban đầu v0 hợp với phương ngang một góc alpha. Vận tốc ban đầu được phân tích thành: v0x bằng v0 nhân cos alpha, và v0y bằng v0 nhân sin alpha. Dưới tác dụng của trọng lực, vật đạt đến đỉnh cao nhất rồi rơi xuống, vẽ nên một đường cong parabol tuyệt đẹp!",
+                    "keyframe_prompt": "Cinematic wide shot of an outdoor physics projectile testing range. At the lower left, an angled mechanical launcher points upwards at 45 degrees toward an expansive twilight cyan sky. Wide 70% open clear space across the center and upper right for glowing parabolic trajectory. 16:9, no text, no numbers, no watermark.",
+                    "flow_i2v_prompt": "Slow camera push-in towards the projectile launcher, golden hour dust motes drifting subtly in the twilight breeze, expansive atmospheric sky, pristine unobstructed framing, 4k.",
+                    "omni_prompt": 'Wide shot of a physics testing range with an angled launcher pointing toward the sky, cinematic lighting, dramatic atmosphere. Dialogue: "Tiếp theo là chuyển động ném xiên: vật được ném với vận tốc ban đầu v0 hợp với phương ngang một góc alpha. Vận tốc ban đầu được phân tích thành: v0x bằng v0 nhân cos alpha, và v0y bằng v0 nhân sin alpha. Dưới tác dụng của trọng lực, vật đạt đến đỉnh cao nhất rồi rơi xuống, vẽ nên một đường cong parabol tuyệt đẹp!"',
+                    "hud_elements": [
+                        "Góc ném: alpha",
+                        "Phân tích vector: v0x = v0*cos(alpha), v0y = v0*sin(alpha)",
+                        "Gia tốc: ax = 0, ay = -g",
+                        "Đỉnh quỹ đạo: vy = 0 tại tầm cao H"
+                    ]
+                },
+                {
+                    "scene_idx": 5,
+                    "scene_id": "B12_S05",
+                    "title": "Công thức Tầm cao H, Tầm xa L, Góc ném cực đại 45° & Tổng kết",
+                    "duration_sec": 14.0,
+                    "keyframe_file": "s5.png",
+                    "keyframe_path": "keyframes/B12_ChuyenDongNem/s5.png",
+                    "flow_clip_path": "flow_clips/B12_ChuyenDongNem/B12_S05.mp4",
+                    "voiceover": "Từ phương trình chuyển động ném xiên, ta tính được tầm cao cực đại H bằng v0 bình phương nhân sin bình phương alpha chia 2g; và tầm bay xa L bằng v0 bình phương nhân sin 2 alpha chia g. Khi góc ném alpha bằng 45 độ, sin 2 alpha đạt giá trị lớn nhất bằng 1, giúp vật bay xa nhất! Hãy ghi nhớ quy luật này nhé!",
+                    "keyframe_prompt": "Medium close-up of Vietnamese female teacher smiling warmly and giving an encouraging presentation gesture on the left side of a modern physics classroom. Warm ambient lighting, uncluttered dark navy right side with 65% negative space for summary formulas and 45-degree angle diagram. 16:9, no text, no numbers, no watermark.",
+                    "flow_i2v_prompt": "Presenter smiles brightly, delivers concluding educational remarks with expressive hand gestures and friendly nods. Smooth tripod framing, studio lighting, clean background, 4k.",
+                    "omni_prompt": 'Vietnamese female teacher smiling warmly and delivering concluding remarks with clear articulation and gentle nods in a modern physics classroom. Dialogue: "Từ phương trình chuyển động ném xiên, ta tính được tầm cao cực đại H bằng v0 bình phương nhân sin bình phương alpha chia 2g; và tầm bay xa L bằng v0 bình phương nhân sin 2 alpha chia g. Khi góc ném alpha bằng 45 độ, sin 2 alpha đạt giá trị lớn nhất bằng 1, giúp vật bay xa nhất! Hãy ghi nhớ quy luật này nhé!"',
+                    "hud_elements": [
+                        "Tầm cao cực đại: H = (v0^2 * sin^2(alpha)) / (2g)",
+                        "Tầm xa cực đại: L = (v0^2 * sin(2*alpha)) / g",
+                        "Góc ném xa nhất: alpha = 45° => sin(2*alpha) = 1 => L_max = v0^2 / g"
+                    ]
+                }
+            ]
+        },
+        {
+            "video_id": "V9_B14_DinhLuat1Newton",
+            "folder_name": "B14_DinhLuat1Newton",
+            "title": "Bài 14: Định luật 1 Newton (Quán tính & Cân bằng lực)",
+            "lesson": "Bài 14: Định luật 1 Newton",
+            "part": 1,
+            "clip_count": 5,
+            "credits": 100,
+            "total_estimated_duration_sec": 78.0,
+            "scenes": [
+                {
+                    "scene_idx": 1,
+                    "scene_id": "B14_S01",
+                    "title": "Intro: Lịch sử & Đặt vấn đề: Quan niệm Aristotle vs Thí nghiệm máng nghiêng Galilei",
+                    "duration_sec": 17.0,
+                    "keyframe_file": "s1.png",
+                    "keyframe_path": "keyframes/B14_DinhLuat1Newton/s1.png",
+                    "flow_clip_path": "flow_clips/B14_DinhLuat1Newton/B14_S01.mp4",
+                    "voiceover": "Chào mừng các em đến với Bài 14: Định luật 1 Newton! Suốt gần hai nghìn năm, người ta tin theo triết gia Aristotle rằng: muốn một vật tiếp tục chuyển động thì phải có lực tác dụng vào nó. Nhưng đến thế kỷ 17, Galileo Galilei đã thực hiện thí nghiệm máng nghiêng nổi tiếng, chứng minh rằng: nếu không có ma sát, hòn bi sẽ lăn mãi mãi mà không cần bất kỳ lực nào duy trì!",
+                    "keyframe_prompt": "Cinematic shot of Galileo Galilei's historical double-inclined wooden plane apparatus from Museo Galileo. Rich polished wood with brass sphere on the left, warm classical studio lighting fading gracefully into dark negative space on the right (65% clean space for Aristotle vs Galilei comparison HUD). 16:9, no text, no numbers, no watermark.",
+                    "flow_i2v_prompt": "Cinematic slow camera pan along the polished wooden inclined plane apparatus, warm museum workshop lighting, smooth glint on the brass sphere, peaceful academic ambiance, 4k.",
+                    "omni_prompt": 'A charismatic presenter standing beside an authentic replica of Galileo\'s inclined plane experiment in an ambiently lit physics lecture hall, speaking expressively. Dialogue: "Chào mừng các em đến với Bài 14: Định luật 1 Newton! Suốt gần hai nghìn năm, người ta tin theo triết gia Aristotle rằng: muốn một vật tiếp tục chuyển động thì phải có lực tác dụng vào nó. Nhưng đến thế kỷ 17, Galileo Galilei đã thực hiện thí nghiệm máng nghiêng nổi tiếng, chứng minh rằng: nếu không có ma sát, hòn bi sẽ lăn mãi mãi mà không cần bất kỳ lực nào duy trì!"',
+                    "hud_elements": [
+                        "Aristotle (-384 -> -322): Muốn chuyển động phải có lực",
+                        "Galileo Galilei (1564 - 1642): Thí nghiệm máng nghiêng",
+                        "Kết luận Galilei: Không ma sát => Vật chuyển động thẳng đều mãi mãi"
+                    ]
+                },
+                {
+                    "scene_idx": 2,
+                    "scene_id": "B14_S02",
+                    "title": "Nội dung Định luật 1 Newton (1687): Hợp lực = 0",
+                    "duration_sec": 16.5,
+                    "keyframe_file": "s2.png",
+                    "keyframe_path": "keyframes/B14_DinhLuat1Newton/s2.png",
+                    "flow_clip_path": "flow_clips/B14_DinhLuat1Newton/B14_S02.mp4",
+                    "voiceover": "Kế thừa tư tưởng của Galilei, năm 1687, Isaac Newton phát biểu Định luật 1: Nếu một vật không chịu tác dụng của lực nào, hoặc chịu tác dụng của các lực có hợp lực bằng không, thì vật đang đứng yên sẽ tiếp tục đứng yên, đang chuyển động sẽ tiếp tục chuyển động thẳng đều! Lực không phải là nguyên nhân duy trì chuyển động, mà là nguyên nhân làm thay đổi vận tốc của vật!",
+                    "keyframe_prompt": "Medium shot of Vietnamese female teacher standing on the left side of a modern physics lecture studio with deep cobalt blue ambient lighting. Professional and articulate demeanor, 70% clean uncluttered space on the right for Newton's First Law theorem text and vector formulas. 16:9, no text, no numbers, no watermark.",
+                    "flow_i2v_prompt": "Teacher gestures with authority and pedagogical clarity towards the right, explaining Newton's First Law. Ambient cobalt rim lighting, tripod shot, natural speech cadence, 4k.",
+                    "omni_prompt": 'Presenter speaking with authoritative yet engaging expression, clear lip movement and natural hand gestures explaining Newton\'s First Law. Dialogue: "Kế thừa tư tưởng của Galilei, năm 1687, Isaac Newton phát biểu Định luật 1: Nếu một vật không chịu tác dụng của lực nào, hoặc chịu tác dụng của các lực có hợp lực bằng không, thì vật đang đứng yên sẽ tiếp tục đứng yên, đang chuyển động sẽ tiếp tục chuyển động thẳng đều! Lực không phải là nguyên nhân duy trì chuyển động, mà là nguyên nhân làm thay đổi vận tốc của vật!"',
+                    "hud_elements": [
+                        "ĐỊNH LUẬT 1 NEWTON (1687)",
+                        "Điều kiện: F_hl = 0 (hoặc không chịu lực)",
+                        "Hệ quả 1: Đang đứng yên => Tiếp tục đứng yên",
+                        "Hệ quả 2: Đang chuyển động => Tiếp tục chuyển động thẳng đều (v = const)",
+                        "Bản chất: Lực làm THAY ĐỔI vận tốc (gia tốc a), KHÔNG duy trì vận tốc!"
+                    ]
+                },
+                {
+                    "scene_idx": 3,
+                    "scene_id": "B14_S03",
+                    "title": "Minh họa 2 ví dụ SGK: Quả cầu treo dây (P + T = 0) và Người trượt ván",
+                    "duration_sec": 15.0,
+                    "keyframe_file": "s3.png",
+                    "keyframe_path": "keyframes/B14_DinhLuat1Newton/s3.png",
+                    "flow_clip_path": "flow_clips/B14_DinhLuat1Newton/B14_S03.mp4",
+                    "voiceover": "Chúng ta hãy xem hai ví dụ tiêu biểu trong SGK: Thứ nhất, quả cầu treo cân bằng trên sợi dây đứng yên vì trọng lực P cân bằng hoàn toàn với lực căng dây T, hợp lực bằng không. Thứ hai, người lướt trên ván trượt trên mặt sàn phẳng không ma sát: sau khi đẩy một lần, ván trượt và người sẽ tiếp tục lướt thẳng đều mãi về phía trước!",
+                    "keyframe_prompt": "Physics laboratory environment showcasing equilibrium mechanics. On the left, a steel sphere hangs completely motionless from a delicate thread on a lab stand. Across the ground, a polished frictionless test surface extends to the right. 65% clean space for force balance vectors P, T and velocity vector v. 16:9, no text, no numbers, no watermark.",
+                    "flow_i2v_prompt": "Smooth slow dolly move showing the motionless suspended pendulum ball, transitioning into a dynamic view of a smooth surface glide, physics laboratory lighting, steady cinematic motion, 4k.",
+                    "omni_prompt": 'Presenter illustrating physical balance and motion with hand motions, smooth transition between a hanging sphere and a smooth glide surface. Dialogue: "Chúng ta hãy xem hai ví dụ tiêu biểu trong SGK: Thứ nhất, quả cầu treo cân bằng trên sợi dây đứng yên vì trọng lực P cân bằng hoàn toàn với lực căng dây T, hợp lực bằng không. Thứ hai, người lướt trên ván trượt trên mặt sàn phẳng không ma sát: sau khi đẩy một lần, ván trượt và người sẽ tiếp tục lướt thẳng đều mãi về phía trước!"',
+                    "hud_elements": [
+                        "Ví dụ 1: Quả cầu treo dây: P_vector + T_vector = 0 => v = 0 (Đứng yên)",
+                        "Ví dụ 2: Ván trượt không ma sát: F_hl = 0 => v = const (Thẳng đều)"
+                    ]
+                },
+                {
+                    "scene_idx": 4,
+                    "scene_id": "B14_S04",
+                    "title": "Khái niệm Quán tính & Tàu không gian Voyager trong vũ trụ",
+                    "duration_sec": 16.0,
+                    "keyframe_file": "s4.png",
+                    "keyframe_path": "keyframes/B14_DinhLuat1Newton/s4.png",
+                    "flow_clip_path": "flow_clips/B14_DinhLuat1Newton/B14_S04.mp4",
+                    "voiceover": "Tính chất bảo toàn vận tốc của vật được gọi là Quán tính. Khi xe buýt đột ngột phanh gấp, theo quán tính cơ thể bạn bị chúi về phía trước; khi xe tăng tốc đột ngột, bạn bị ngả về phía sau. Đặc biệt nhất, tàu thám hiểm không gian Voyager 1 sau khi tắt động cơ vẫn bay thẳng đều hàng tỷ kilomet xuyên qua vũ trụ bao la suốt hơn bốn mươi năm qua!",
+                    "keyframe_prompt": "Cinematic visual of deep outer space featuring the NASA Voyager spacecraft on the left with its iconic golden high-gain antenna reflecting starlight. In the background, majestic Hubble nebula glows softly in deep crimson and cyan. 70% deep dark cosmic starfield on the right for inertia HUD vectors. 16:9, no text, no numbers, no watermark.",
+                    "flow_i2v_prompt": "Cinematic slow graceful glide of the Voyager spacecraft through a luminous starfield and celestial nebula, peaceful infinite cosmos, golden antenna gleaming faintly, 4k.",
+                    "omni_prompt": 'Cinematic visual of deep outer space with the iconic Voyager spacecraft gliding smoothly forward through starfields and nebulae. Dialogue: "Tính chất bảo toàn vận tốc của vật được gọi là Quán tính. Khi xe buýt đột ngột phanh gấp, theo quán tính cơ thể bạn bị chúi về phía trước; khi xe tăng tốc đột ngột, bạn bị ngả về phía sau. Đặc biệt nhất, tàu thám hiểm không gian Voyager 1 sau khi tắt động cơ vẫn bay thẳng đều hàng tỷ kilomet xuyên qua vũ trụ bao la suốt hơn bốn mươi năm qua!"',
+                    "hud_elements": [
+                        "Khái niệm: Quán tính là tính chất bảo toàn vận tốc của vật",
+                        "Thực tế: Xe phanh gấp => ngả trước | Tăng ga => ngả sau",
+                        "Vũ trụ: Tàu Voyager 1 (1977 -> nay): v = 17 km/s không cần động cơ!"
+                    ]
+                },
+                {
+                    "scene_idx": 5,
+                    "scene_id": "B14_S05",
+                    "title": "Trắc nghiệm củng cố (v = 3 m/s) & Tổng kết",
+                    "duration_sec": 13.5,
+                    "keyframe_file": "s5.png",
+                    "keyframe_path": "keyframes/B14_DinhLuat1Newton/s5.png",
+                    "flow_clip_path": "flow_clips/B14_DinhLuat1Newton/B14_S05.mp4",
+                    "voiceover": "Để củng cố bài học, các em hãy trả lời câu hỏi: Một vật đang chuyển động thẳng đều với vận tốc 3 mét trên giây. Nếu đột nhiên mọi lực tác dụng lên vật đồng thời biến mất hoàn toàn, thì vật sẽ như thế nào? Đáp án chính xác là: vật sẽ tiếp tục chuyển động thẳng đều với vận tốc không đổi đúng 3 mét trên giây! Chúc các em học tốt và hẹn gặp lại!",
+                    "keyframe_prompt": "Medium close-up of Vietnamese female teacher smiling cheerfully and gesturing interactively towards the audience on the left side of a modern physics studio. Warm educational lighting, 70% uncluttered negative space on the right for multiple-choice quiz options A, B, C, D and conclusion banner. 16:9, no text, no numbers, no watermark.",
+                    "flow_i2v_prompt": "Presenter smiles warmly, asks quiz question with friendly eye contact and nods encouragingly towards the viewers, smooth tripod framing, professional studio lighting, 4k.",
+                    "omni_prompt": 'Vietnamese presenter smiling warmly, engaging the audience with an upbeat concluding quiz question and friendly waving farewell. Dialogue: "Để củng cố bài học, các em hãy trả lời câu hỏi: Một vật đang chuyển động thẳng đều với vận tốc 3 mét trên giây. Nếu đột nhiên mọi lực tác dụng lên vật đồng thời biến mất hoàn toàn, thì vật sẽ như thế nào? Đáp án chính xác là: vật sẽ tiếp tục chuyển động thẳng đều với vận tốc không đổi đúng 3 mét trên giây! Chúc các em học tốt và hẹn gặp lại!"',
+                    "hud_elements": [
+                        "CÂU HỎI CỦNG CỐ:",
+                        "Vật đang bay thẳng đều v = 3 m/s, lực triệt tiêu hết?",
+                        "A. Dừng lại ngay | B. Chuyển động chậm dần",
+                        "C. Tiếp tục chuyển động thẳng đều v = 3 m/s (CHÍNH XÁC)",
+                        "D. Đổi hướng chuyển động"
+                    ]
+                }
+            ]
+        }
+    ]
+}
+
+with open(PLAN_FILE, "w", encoding="utf-8") as f:
+    json.dump(plan_data, f, ensure_ascii=False, indent=2)
+
+print(f"Saved master plan to {PLAN_FILE}")
+print(f"Total videos: {len(plan_data['videos'])}, Total scenes: {sum(len(v['scenes']) for v in plan_data['videos'])}")

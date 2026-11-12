@@ -1,0 +1,4150 @@
+{
+  "project_name": "Google Flow Hybrid Full Animation - Physics Grade 10",
+  "style_reference": "Cô Nhung Cute / Hologram HUD Cyan Glow / Clean Keyframe + Python HUD Engine",
+  "budget_summary": {
+    "total_pro_accounts": 2,
+    "credits_per_account": 1000,
+    "total_flow_credits": 2000,
+    "cost_per_veo_fast_clip": 20,
+    "max_total_clips": 100,
+    "allocated_main_clips": 48,
+    "allocated_main_credits": 960,
+    "reserve_broll_reroll_credits": 1040,
+    "account_1": {
+      "account_name": "Account 1 (Bài 4)",
+      "assigned_lesson": "Bài 4: Độ dịch chuyển và quãng đường đi được",
+      "video_ids": [
+        "V1_B4_ViTri_HeQuyChieu",
+        "V2_B4_DoDichChuyen_QuangDuong",
+        "V3_B4_TongHop_DoDichChuyen"
+      ],
+      "total_credits": 1000,
+      "main_clips": 27,
+      "main_credits": 540,
+      "reserve_broll_reroll_credits": 460
+    },
+    "account_2": {
+      "account_name": "Account 2 (Bài 5)",
+      "assigned_lesson": "Bài 5: Tốc độ và vận tốc (Nhóm 1 & Nhóm 2)",
+      "video_ids": [
+        "V4_B5_Nhom1_TocDo_VanToc",
+        "V5_B5_Nhom1_TongHop_VanToc",
+        "V6_B5_Nhom2_TocDo_VanToc",
+        "V7_B5_Nhom2_TongHop_VanToc"
+      ],
+      "total_credits": 1000,
+      "main_clips": 21,
+      "main_credits": 420,
+      "reserve_broll_reroll_credits": 580
+    }
+  },
+  "curriculum_scope": [
+    "Bài 4: Độ dịch chuyển và quãng đường đi được (Kết nối tri thức)",
+    "Bài 5: Tốc độ và vận tốc (Kết nối tri thức)"
+  ],
+  "videos": [
+    {
+      "video_id": "V1_B4_ViTri_HeQuyChieu",
+      "title": "Bài 4 (Phần 1): Vị trí của vật & Hệ quy chiếu",
+      "lesson": "Bài 4: Độ dịch chuyển và quãng đường đi được",
+      "part": 1,
+      "group_assignment": "Nhóm 1: Thế Mỹ • ĐP.Hoàng Bách • Văn Hoàng • Thanh Tùng • Gia Nguyên",
+      "theme": "Thực tế giao thông ngã tư, hệ tọa độ địa lí Oxy, vật mốc & chất điểm",
+      "mc_character": {
+        "name": "Người thuyết trình",
+        "gender": "female",
+        "age": 16,
+        "role": "Lead Presenter - Friendly, energetic Vietnamese high school student",
+        "appearance_prompt_en": "A 16-year-old Vietnamese female high school student with smooth black hair tied in an elegant high ponytail, warm bright smile, clear skin, wearing a crisp modern white school uniform shirt with navy blue collar piping and embroidered school crest. Expressive friendly eyes and articulate presenter posture.",
+        "voice_name": "vi-VN-HoaiMyNeural"
+      },
+      "clip_count": 9,
+      "total_estimated_duration_sec": 65.0,
+      "scenes": [
+        {
+          "scene_idx": 1,
+          "scene_id": "V1_S01",
+          "title": "Mở đầu & Tiêu đề bài học",
+          "duration_sec": 9.86,
+          "keyframe_prompt": "Cinematic medium shot of a 16-year-old Vietnamese female high school student with black ponytail hair and a friendly warm smile, wearing a crisp white high school uniform shirt with navy collar trim. She stands on the left side of a sleek, bright high-tech physics classroom studio with soft ambient lighting. The right 60% of the frame is completely clean, uncluttered open space with gentle bokeh background, perfect for floating holographic graphics. 16:9 aspect ratio, 8k, photorealistic, no text, no numbers, no symbols.",
+          "flow_i2v_prompt": "The Vietnamese female student smiles warmly, waves gently with her right hand in greeting, and speaks naturally with expressive lip movement. Tripod medium camera shot, gentle studio lighting, realistic human micro-expressions, clean background remains static, 4k.",
+          "hud_type": "title_banner",
+          "hud_data": {
+            "banner_title": "BÀI 4: ĐỘ DỊCH CHUYỂN & QUÃNG ĐƯỜNG",
+            "badge": "NHÓM 1 - VẬT LÍ 10",
+            "subtitle": "Phần 1: Vị trí của vật & Hệ quy chiếu",
+            "presenters": "Nhóm 1: Thế Mỹ • ĐP.Hoàng Bách • Văn Hoàng • Thanh Tùng • Gia Nguyên",
+            "theme_color": "cyan_glow"
+          },
+          "speaker": "Anh Thư",
+          "voiceover_text": "Chào mừng thầy cô và các bạn! Hôm nay, nhóm mình xin đồng hành cùng các bạn khám phá Bài 4: Vị trí của vật và Hệ quy chiếu trong môn Vật lí 10.",
+          "subtitles": [
+            {
+              "start": 0.0,
+              "end": 2.07,
+              "text": "Chào mừng thầy cô và các bạn!"
+            },
+            {
+              "start": 2.07,
+              "end": 2.64,
+              "text": "Hôm nay,"
+            },
+            {
+              "start": 2.64,
+              "end": 4.64,
+              "text": "nhóm mình xin đồng hành cùng"
+            },
+            {
+              "start": 4.64,
+              "end": 6.29,
+              "text": "các bạn khám phá Bài 4:"
+            },
+            {
+              "start": 6.29,
+              "end": 8.0,
+              "text": "Vị trí của vật và Hệ quy"
+            },
+            {
+              "start": 8.0,
+              "end": 9.86,
+              "text": "chiếu trong môn Vật lí 10."
+            }
+          ],
+          "audio_duration": 9.86,
+          "subtitle_chunks": [
+            "Chào mừng thầy cô và các bạn!",
+            "Hôm nay,",
+            "nhóm mình xin đồng hành cùng",
+            "các bạn khám phá Bài 4:",
+            "Vị trí của vật và Hệ quy",
+            "chiếu trong môn Vật lí 10."
+          ],
+          "broll_prompt": "Extreme close-up macro pan across a high-precision brass compass and drafting ruler on a sleek dark desk, glowing digital coordinates reflecting softly on polished metal, 16:9 cinematic 8k, photorealistic."
+        },
+        {
+          "scene_idx": 2,
+          "scene_id": "V1_S02",
+          "title": "Tình huống thực tế: Ô tô qua ngã tư",
+          "duration_sec": 11.09,
+          "keyframe_prompt": "Cinematic aerial top-down 90-degree drone shot of a modern clean urban four-way intersection with smooth asphalt roads, crosswalk markings, and surrounding lush green trees. A bright red sedan car is paused precisely at the center junction point. Surrounding lanes are clean. Ample open asphalt road space left, right, top, and bottom for overlay graphics. Crisp daylight, 8k resolution, 16:9 aspect ratio, absolutely no text, no letters, no HUD.",
+          "flow_i2v_prompt": "Smooth aerial drone hover shot. The red car accelerates gently straight forward northward through the intersection at a realistic city speed. Trees sway gently in the breeze. Static clean camera perspective, fluid realistic vehicle motion, photorealistic 4k.",
+          "hud_type": "speed_gauge",
+          "hud_data": {
+            "gauge_title": "THÔNG SỐ XE Ô TÔ",
+            "speed": "v = 36 km/h (10 m/s)",
+            "time": "t = 10 s",
+            "distance": "s = 100 m",
+            "origin_marker": "Gốc O (Tâm ngã tư)",
+            "align": "left"
+          },
+          "speaker": "Anh Thư",
+          "voiceover_text": "Hãy bắt đầu với một câu hỏi thực tế: Một chiếc ô tô chạy qua ngã tư O với tốc độ đều 36 km trên giờ. Sau đúng 10 giây, xe đi được quãng đường 100 mét.",
+          "subtitles": [
+            {
+              "start": 0.0,
+              "end": 2.08,
+              "text": "Hãy bắt đầu với một câu hỏi"
+            },
+            {
+              "start": 2.08,
+              "end": 2.7,
+              "text": "thực tế:"
+            },
+            {
+              "start": 2.7,
+              "end": 4.77,
+              "text": "Một chiếc ô tô chạy qua ngã"
+            },
+            {
+              "start": 4.77,
+              "end": 6.47,
+              "text": "tư O với tốc độ đều 36"
+            },
+            {
+              "start": 6.47,
+              "end": 7.39,
+              "text": "km trên giờ."
+            },
+            {
+              "start": 7.39,
+              "end": 8.7,
+              "text": "Sau đúng 10 giây,"
+            },
+            {
+              "start": 8.7,
+              "end": 11.09,
+              "text": "xe đi được quãng đường 100 mét."
+            }
+          ],
+          "audio_duration": 11.09,
+          "subtitle_chunks": [
+            "Hãy bắt đầu với một câu hỏi",
+            "thực tế:",
+            "Một chiếc ô tô chạy qua ngã",
+            "tư O với tốc độ đều 36",
+            "km trên giờ.",
+            "Sau đúng 10 giây,",
+            "xe đi được quãng đường 100 mét."
+          ],
+          "broll_prompt": "Extreme low-angle close-up of car tires spinning through a bustling city intersection pavement, asphalt texture, reflections of traffic lights in rain puddles, 16:9 8k cinematic."
+        },
+        {
+          "scene_idx": 3,
+          "scene_id": "V1_S03",
+          "title": "Mâu thuẫn nhận thức: Ô tô đang ở đâu?",
+          "duration_sec": 9.55,
+          "keyframe_prompt": "Medium shot of the same Vietnamese female high school student with ponytail in crisp white uniform, standing on the left side of the modern classroom. She has an inquisitive, questioning expression with slightly raised eyebrows and open hand gesture. The right side of the screen is empty clean studio space with subtle blue ambient lighting. Photorealistic, 8k, 16:9 aspect ratio, no text, no graphics.",
+          "flow_i2v_prompt": "The female student tilts her head slightly in thought, speaking engagingly with natural mouth movements, gesturing toward the empty space on her right as if presenting an intriguing puzzle to the audience. Realistic eye blinks and subtle shoulder movements, 4k.",
+          "hud_type": "hud_boxes",
+          "hud_data": {
+            "box_1": {
+              "title": "Dữ kiện đã biết",
+              "content": "Quãng đường s = 100 m"
+            },
+            "box_2": {
+              "title": "Câu hỏi đặt ra",
+              "content": "Ô tô đang ở đâu trên bản đồ?",
+              "status": "warning"
+            },
+            "dilemma": "Chỉ biết quãng đường s => CHƯA ĐỦ để xác định vị trí!"
+          },
+          "speaker": "Anh Thư",
+          "voiceover_text": "Câu hỏi đặt ra là: Liệu chỉ biết quãng đường 100 mét, chúng mình có thể chỉ ra chính xác ô tô đang ở vị trí nào không? Chắc chắn là chưa thể!",
+          "subtitles": [
+            {
+              "start": 0.0,
+              "end": 1.26,
+              "text": "Câu hỏi đặt ra là:"
+            },
+            {
+              "start": 1.26,
+              "end": 3.65,
+              "text": "Liệu chỉ biết quãng đường 100 mét,"
+            },
+            {
+              "start": 3.65,
+              "end": 5.34,
+              "text": "chúng mình có thể chỉ ra"
+            },
+            {
+              "start": 5.34,
+              "end": 6.81,
+              "text": "chính xác ô tô đang ở"
+            },
+            {
+              "start": 6.81,
+              "end": 8.01,
+              "text": "vị trí nào không?"
+            },
+            {
+              "start": 8.01,
+              "end": 9.55,
+              "text": "Chắc chắn là chưa thể!"
+            }
+          ],
+          "audio_duration": 9.55,
+          "subtitle_chunks": [
+            "Câu hỏi đặt ra là:",
+            "Liệu chỉ biết quãng đường 100 mét,",
+            "chúng mình có thể chỉ ra",
+            "chính xác ô tô đang ở",
+            "vị trí nào không?",
+            "Chắc chắn là chưa thể!"
+          ],
+          "broll_prompt": "Over-the-shoulder close-up of the Vietnamese male student presenter tilting his head in curiosity with an intrigued thoughtful smile, warm studio backlight, 16:9 8k."
+        },
+        {
+          "scene_idx": 4,
+          "scene_id": "V1_S04",
+          "title": "Vật mốc & Hệ tọa độ 1 chiều (Ox)",
+          "duration_sec": 9.12,
+          "keyframe_prompt": "Cinematic street-level perspective of a long straight modern city avenue with smooth asphalt road and sidewalks lined with neat trees and modern lampposts on a sunny day. Clean negative space across the middle road surface and upper sky for vector graphics. Sharp depth of field, 16:9, photorealistic, no text, no symbols.",
+          "flow_i2v_prompt": "Subtle forward camera dolly along the straight avenue. Distant leaves flutter gently. Clear, stable road surface perfect for overlaid coordinate axis. High quality 4k render.",
+          "hud_type": "animated_axes",
+          "hud_data": {
+            "axis_mode": "1D_Ox",
+            "origin_label": "Gốc O (Cột đèn / Ngã tư)",
+            "axis_direction": "Trục Ox trùng hướng đường đi",
+            "coordinate_point": "x = +100 m",
+            "scale": "Mỗi vạch = 20 m"
+          },
+          "speaker": "Anh Thư",
+          "voiceover_text": "Nếu ô tô chỉ chạy thẳng trên một con đường thẳng, ta chỉ cần chọn một vật mốc O và trục Ox trùng với đường đi, vị trí xe sẽ được xác định bởi tọa độ x.",
+          "subtitles": [
+            {
+              "start": 0.0,
+              "end": 1.45,
+              "text": "Nếu ô tô chỉ chạy thẳng"
+            },
+            {
+              "start": 1.45,
+              "end": 3.02,
+              "text": "trên một con đường thẳng,"
+            },
+            {
+              "start": 3.02,
+              "end": 4.47,
+              "text": "ta chỉ cần chọn một vật"
+            },
+            {
+              "start": 4.47,
+              "end": 5.85,
+              "text": "mốc O và trục Ox trùng"
+            },
+            {
+              "start": 5.85,
+              "end": 6.67,
+              "text": "với đường đi,"
+            },
+            {
+              "start": 6.67,
+              "end": 7.99,
+              "text": "vị trí xe sẽ được xác"
+            },
+            {
+              "start": 7.99,
+              "end": 9.12,
+              "text": "định bởi tọa độ x."
+            }
+          ],
+          "audio_duration": 9.12,
+          "subtitle_chunks": [
+            "Nếu ô tô chỉ chạy thẳng",
+            "trên một con đường thẳng,",
+            "ta chỉ cần chọn một vật",
+            "mốc O và trục Ox trùng",
+            "với đường đi,",
+            "vị trí xe sẽ được xác",
+            "định bởi tọa độ x."
+          ],
+          "broll_prompt": "Macro cinematic shot of a glowing digital speedometer and GPS compass on a futuristic vehicle dashboard, numbers shifting smoothly, 16:9 8k."
+        },
+        {
+          "scene_idx": 5,
+          "scene_id": "V1_S05",
+          "title": "Hệ tọa độ địa lí 2 chiều Oxy (Đông - Tây - Nam - Bắc)",
+          "duration_sec": 9.98,
+          "keyframe_prompt": "Medium shot of the Vietnamese female student in white uniform standing on the left side of the high-tech classroom, smiling confidently and pointing her right index finger toward the right open space. Bright, clean minimalist classroom environment with a hint of tech glass. Crisp studio lighting, 16:9, 8k, no text, no numbers, no diagrams.",
+          "flow_i2v_prompt": "The student speaks articulately, her right arm extending smoothly to trace an imaginary vertical and horizontal axis in the air to her right. Natural eye contact with camera, fluid arm motion, realistic facial animation.",
+          "hud_type": "animated_axes",
+          "hud_data": {
+            "axis_mode": "2D_Geographic_Oxy",
+            "x_axis": "Ox: Hướng Tây - Đông",
+            "y_axis": "Oy: Hướng Nam - Bắc",
+            "point_A": "Điểm A (20 m, 45° Đông - Bắc)",
+            "vector_OA": "Vectơ OA vẽ sáng từ O đến A"
+          },
+          "speaker": "Anh Thư",
+          "voiceover_text": "Nhưng khi xe có thể rẽ nhiều hướng, ta cần Hệ tọa độ địa lí Oxy: Trục Ox theo hướng Tây, Đông và trục Oy theo hướng Nam, Bắc, gắn chặt với vật mốc.",
+          "subtitles": [
+            {
+              "start": 0.0,
+              "end": 2.44,
+              "text": "Nhưng khi xe có thể rẽ nhiều hướng,"
+            },
+            {
+              "start": 2.44,
+              "end": 4.4,
+              "text": "ta cần Hệ tọa độ địa lí Oxy:"
+            },
+            {
+              "start": 4.4,
+              "end": 6.0,
+              "text": "Trục Ox theo hướng Tây,"
+            },
+            {
+              "start": 6.0,
+              "end": 8.51,
+              "text": "Đông và trục Oy theo hướng Nam, Bắc,"
+            },
+            {
+              "start": 8.51,
+              "end": 9.98,
+              "text": "gắn chặt với vật mốc."
+            }
+          ],
+          "audio_duration": 9.98,
+          "subtitle_chunks": [
+            "Nhưng khi xe có thể rẽ nhiều hướng,",
+            "ta cần Hệ tọa độ địa lí Oxy:",
+            "Trục Ox theo hướng Tây,",
+            "Đông và trục Oy theo hướng Nam, Bắc,",
+            "gắn chặt với vật mốc."
+          ],
+          "broll_prompt": "Aerial top-down 90-degree drone shot slowly rotating over a four-way intersection, traffic moving in orthogonal directions along clean road markings, 16:9 8k."
+        },
+        {
+          "scene_idx": 6,
+          "scene_id": "V1_S06",
+          "title": "Khái niệm Hệ quy chiếu hoàn chỉnh",
+          "duration_sec": 9.14,
+          "keyframe_prompt": "Medium wide shot of the Vietnamese female student standing elegantly in the high-tech classroom laboratory, with modern sleek laboratory benches in the background. The upper half and right side of the frame are softly lit empty spaces with dark blue atmospheric gradient. 16:9, 8k, photorealistic, no text, no letters.",
+          "flow_i2v_prompt": "The presenter nods encouragingly and gestures with both hands in a counting motion, speaking clearly with synchronized mouth animation. Cinematic studio lighting, subtle camera zoom-in.",
+          "hud_type": "hud_boxes",
+          "hud_data": {
+            "title": "HỆ QUY CHIẾU HOÀN CHỈNH",
+            "elements": [
+              "1. Hệ tọa độ gắn với vật mốc",
+              "2. Mốc thời gian (t0 = 0)",
+              "3. Đồng hồ đo thời gian"
+            ],
+            "formula": "HỆ QUY CHIẾU = HỆ TỌA ĐỘ + MỐC THỜI GIAN & ĐỒNG HỒ"
+          },
+          "speaker": "Anh Thư",
+          "voiceover_text": "Để mô tả trọn vẹn chuyển động, các bạn nhớ công thức vàng: Hệ quy chiếu bao gồm Hệ tọa độ gắn với vật mốc, kết hợp cùng mốc thời gian và đồng hồ đo.",
+          "subtitles": [
+            {
+              "start": 0.0,
+              "end": 1.92,
+              "text": "Để mô tả trọn vẹn chuyển động,"
+            },
+            {
+              "start": 1.92,
+              "end": 3.64,
+              "text": "các bạn nhớ công thức vàng:"
+            },
+            {
+              "start": 3.64,
+              "end": 5.11,
+              "text": "Hệ quy chiếu bao gồm Hệ"
+            },
+            {
+              "start": 5.11,
+              "end": 6.58,
+              "text": "tọa độ gắn với vật mốc,"
+            },
+            {
+              "start": 6.58,
+              "end": 8.25,
+              "text": "kết hợp cùng mốc thời gian"
+            },
+            {
+              "start": 8.25,
+              "end": 9.14,
+              "text": "và đồng hồ đo."
+            }
+          ],
+          "audio_duration": 9.14,
+          "subtitle_chunks": [
+            "Để mô tả trọn vẹn chuyển động,",
+            "các bạn nhớ công thức vàng:",
+            "Hệ quy chiếu bao gồm Hệ",
+            "tọa độ gắn với vật mốc,",
+            "kết hợp cùng mốc thời gian",
+            "và đồng hồ đo."
+          ],
+          "broll_prompt": "Cinematic close-up of an analog pocket stopwatch clicking into motion with crisp mechanical gear reflections, shallow depth of field, 16:9."
+        },
+        {
+          "scene_idx": 7,
+          "scene_id": "V1_S07",
+          "title": "Khái niệm Chất điểm",
+          "duration_sec": 8.69,
+          "keyframe_prompt": "Cinematic ultra-wide landscape shot of an expansive modern highway spanning across rolling green hills under a bright clear sky. In the vast distance, a tiny red car travels along the road. Vast negative sky and landscape space for holographic scaling graphics. 16:9 aspect ratio, 8k, photorealistic, no text.",
+          "flow_i2v_prompt": "Cinematic slow aerial drone glide following the tiny car moving along the massive highway. Realistic atmospheric haze and natural light, stable smooth cinematic movement.",
+          "hud_type": "hud_boxes",
+          "hud_data": {
+            "title": "KHÁI NIỆM CHẤT ĐIỂM",
+            "condition": "Kích thước của vật << Chiều dài quãng đường",
+            "example": "Ô tô (4 m) << Quãng đường (100 m - 10 km)",
+            "rule": "Bỏ qua kích thước hình dạng, coi vật là một điểm mang khối lượng!"
+          },
+          "speaker": "Anh Thư",
+          "voiceover_text": "Khi kích thước của vật rất nhỏ so với quãng đường di chuyển, ví dụ chiếc ô tô 4 mét chạy hàng trăm mét, ta hoàn toàn có thể coi nó là một chất điểm!",
+          "subtitles": [
+            {
+              "start": 0.0,
+              "end": 1.59,
+              "text": "Khi kích thước của vật rất"
+            },
+            {
+              "start": 1.59,
+              "end": 3.12,
+              "text": "nhỏ so với quãng đường di"
+            },
+            {
+              "start": 3.12,
+              "end": 3.55,
+              "text": "chuyển,"
+            },
+            {
+              "start": 3.55,
+              "end": 4.65,
+              "text": "ví dụ chiếc ô tô 4"
+            },
+            {
+              "start": 4.65,
+              "end": 6.06,
+              "text": "mét chạy hàng trăm mét,"
+            },
+            {
+              "start": 6.06,
+              "end": 7.47,
+              "text": "ta hoàn toàn có thể coi"
+            },
+            {
+              "start": 7.47,
+              "end": 8.69,
+              "text": "nó là một chất điểm!"
+            }
+          ],
+          "audio_duration": 8.69,
+          "subtitle_chunks": [
+            "Khi kích thước của vật rất",
+            "nhỏ so với quãng đường di",
+            "chuyển,",
+            "ví dụ chiếc ô tô 4",
+            "mét chạy hàng trăm mét,",
+            "ta hoàn toàn có thể coi",
+            "nó là một chất điểm!"
+          ],
+          "broll_prompt": "Cinematic wide tracking shot of a sleek modern high-speed train seen from across a vast open landscape, appearing as a miniature point moving swiftly along the horizon, 16:9 8k."
+        },
+        {
+          "scene_idx": 8,
+          "scene_id": "V1_S08",
+          "title": "Câu hỏi tương tác Pop-up",
+          "duration_sec": 10.56,
+          "keyframe_prompt": "Medium close-up of the Vietnamese female student in white school uniform, looking directly at the camera with an engaging, friendly smile and a quizzical expression, tilting head slightly. The right half of the frame has clean dark slate background with gentle bokeh. 16:9, 8k, photorealistic, no text.",
+          "flow_i2v_prompt": "The student smiles warmly, blinks naturally, raises an inviting hand toward the right side, and speaks cheerfully. Fluid breathing motion and engaging presence.",
+          "hud_type": "quiz_popup",
+          "hud_data": {
+            "question": "Khi nào một vật chuyển động được coi là CHẤT ĐIỂM?",
+            "options": [
+              "A. Khi khối lượng của vật rất nhỏ",
+              "B. Khi kích thước của vật rất nhỏ so với quãng đường đi",
+              "C. Khi vật chuyển động rất nhanh"
+            ],
+            "correct_answer": "B",
+            "hint": "Quy tắc: Kích thước vật << Chiều dài đường đi."
+          },
+          "speaker": "Anh Thư",
+          "voiceover_text": "Bây giờ, mời các bạn cùng thử tài với một câu hỏi tương tác thú vị: Trong trường hợp thực tế nào thì một vật chuyển động được coi là một chất điểm? Hãy suy nghĩ thật kỹ nhé!",
+          "subtitles": [
+            {
+              "start": 0.0,
+              "end": 0.51,
+              "text": "Bây giờ,"
+            },
+            {
+              "start": 0.51,
+              "end": 2.04,
+              "text": "mời các bạn cùng thử tài"
+            },
+            {
+              "start": 2.04,
+              "end": 3.63,
+              "text": "với một câu hỏi tương tác"
+            },
+            {
+              "start": 3.63,
+              "end": 4.07,
+              "text": "thú vị:"
+            },
+            {
+              "start": 4.07,
+              "end": 6.11,
+              "text": "Trong trường hợp thực tế nào thì"
+            },
+            {
+              "start": 6.11,
+              "end": 8.08,
+              "text": "một vật chuyển động được coi là"
+            },
+            {
+              "start": 8.08,
+              "end": 8.97,
+              "text": "một chất điểm?"
+            },
+            {
+              "start": 8.97,
+              "end": 10.56,
+              "text": "Hãy suy nghĩ thật kỹ nhé!"
+            }
+          ],
+          "audio_duration": 10.56,
+          "subtitle_chunks": [
+            "Bây giờ,",
+            "mời các bạn cùng thử tài",
+            "với một câu hỏi tương tác",
+            "thú vị:",
+            "Trong trường hợp thực tế nào thì",
+            "một vật chuyển động được coi là",
+            "một chất điểm?",
+            "Hãy suy nghĩ thật kỹ nhé!"
+          ],
+          "broll_prompt": "Close-up reaction shot of the student presenter with an engaging questioning gaze, raising one eyebrow with a friendly inquisitive expression, 16:9."
+        },
+        {
+          "scene_idx": 9,
+          "scene_id": "V1_S09",
+          "title": "Tổng kết & Chào kết Video 1",
+          "duration_sec": 10.2,
+          "keyframe_prompt": "Medium shot of the Vietnamese female student standing center-left in the modern classroom, smiling brightly with a warm gesture of gratitude, hands neatly clasped. Clean modern classroom aesthetics, soft warm lighting, 16:9, 8k, photorealistic, no text.",
+          "flow_i2v_prompt": "The student speaks enthusiastically, nods respectfully, and gives a cheerful hand wave to the camera. Warm studio atmosphere, natural smooth movement.",
+          "hud_type": "hud_boxes",
+          "hud_data": {
+            "title": "TỔNG KẾT BÀI 4 (PHẦN 1)",
+            "recap": [
+              "✓ Vị trí cần: Vật mốc + Hệ tọa độ Oxy",
+              "✓ Hệ quy chiếu = Hệ tọa độ + Mốc thời gian & Đồng hồ",
+              "✓ Chất điểm khi kích thước << quãng đường"
+            ],
+            "next_teaser": "Đón xem Video 2: Phân biệt Quãng đường & Độ dịch chuyển!"
+          },
+          "speaker": "Anh Thư",
+          "voiceover_text": "Vậy là chúng ta đã nắm chắc cách xác định vị trí và thiết lập hệ quy chiếu rồi! Hẹn gặp lại thầy cô và các bạn ở Video 2 với khái niệm Độ dịch chuyển nhé!",
+          "subtitles": [
+            {
+              "start": 0.0,
+              "end": 1.85,
+              "text": "Vậy là chúng ta đã nắm chắc"
+            },
+            {
+              "start": 1.85,
+              "end": 3.83,
+              "text": "cách xác định vị trí và thiết"
+            },
+            {
+              "start": 3.83,
+              "end": 5.27,
+              "text": "lập hệ quy chiếu rồi!"
+            },
+            {
+              "start": 5.27,
+              "end": 7.05,
+              "text": "Hẹn gặp lại thầy cô và các"
+            },
+            {
+              "start": 7.05,
+              "end": 8.9,
+              "text": "bạn ở Video 2 với khái niệm"
+            },
+            {
+              "start": 8.9,
+              "end": 10.2,
+              "text": "Độ dịch chuyển nhé!"
+            }
+          ],
+          "audio_duration": 10.2,
+          "subtitle_chunks": [
+            "Vậy là chúng ta đã nắm chắc",
+            "cách xác định vị trí và thiết",
+            "lập hệ quy chiếu rồi!",
+            "Hẹn gặp lại thầy cô và các",
+            "bạn ở Video 2 với khái niệm",
+            "Độ dịch chuyển nhé!"
+          ],
+          "broll_prompt": "Medium tracking shot of the male student presenter giving a respectful closing bow and confident warm smile, studio lights dimming gracefully behind him, 16:9."
+        }
+      ],
+      "voice_actor": "vi-VN-HoaiMyNeural",
+      "actual_duration_sec": 88.19,
+      "estimated_duration": "1m 28s",
+      "account_target": "Account 1 (Bài 4)",
+      "account_id": "acc_1",
+      "account_cap_credits": 1000,
+      "account_lesson": "Bài 4: Độ dịch chuyển và quãng đường đi được",
+      "presenters": "Nhóm 1: Thế Mỹ • ĐP.Hoàng Bách • Văn Hoàng • Thanh Tùng • Gia Nguyên",
+      "assigned_lesson": "Nhóm 1: Thế Mỹ • ĐP.Hoàng Bách • Văn Hoàng • Thanh Tùng • Gia Nguyên"
+    },
+    {
+      "video_id": "V2_B4_DoDichChuyen_QuangDuong",
+      "title": "Bài 4 (Phần 2): Độ dịch chuyển & Phân biệt Quãng đường",
+      "lesson": "Bài 4: Độ dịch chuyển và quãng đường đi được",
+      "part": 2,
+      "group_assignment": "Nhóm 1: Thế Mỹ • ĐP.Hoàng Bách • Văn Hoàng • Thanh Tùng • Gia Nguyên",
+      "theme": "Mô hình siêu thị - bưu điện, vectơ độ dịch chuyển d, so sánh s và d, điều kiện |d| = s",
+      "mc_character": {
+        "name": "Người thuyết trình",
+        "gender": "male",
+        "age": 16,
+        "role": "Lead Presenter - Smart, articulate Vietnamese male high school student",
+        "appearance_prompt_en": "A 16-year-old Vietnamese male high school student with short neat black hair, black-rimmed spectacles, warm confident smile, wearing a crisp white high school uniform shirt with navy blue collar trim and button placket. Intellectual, articulate and energetic demeanor.",
+        "voice_name": "vi-VN-NamMinhNeural"
+      },
+      "clip_count": 9,
+      "total_estimated_duration_sec": 66.5,
+      "scenes": [
+        {
+          "scene_idx": 1,
+          "scene_id": "V2_S01",
+          "title": "Mở đầu & Tiêu đề Video 2",
+          "duration_sec": 9.72,
+          "keyframe_prompt": "Cinematic medium shot of a 16-year-old Vietnamese male high school student with neat short black hair and black-rimmed glasses, warm confident smile, wearing a crisp white school uniform shirt with navy blue trim. He stands on the left of an open modern bright science studio. The right 65% is clean open space with soft architectural blur. 16:9, 8k, photorealistic, no text, no symbols.",
+          "flow_i2v_prompt": "The male student smiles, nods in greeting, and speaks naturally with expressive gestures. Clear natural mouth movement, realistic posture adjustment, smooth 4k cinematic presentation.",
+          "hud_type": "title_banner",
+          "hud_data": {
+            "banner_title": "BÀI 4: ĐỘ DỊCH CHUYỂN & QUÃNG ĐƯỜNG",
+            "badge": "NHÓM 1 - VẬT LÍ 10",
+            "subtitle": "Phần 2: Phân biệt Quãng đường (s) và Độ dịch chuyển (d)",
+            "presenters": "Nhóm 1: Thế Mỹ • ĐP.Hoàng Bách • Văn Hoàng • Thanh Tùng • Gia Nguyên",
+            "theme_color": "cyan_glow"
+          },
+          "speaker": "Hữu Trọng",
+          "voiceover_text": "Chào các bạn! Trong phần 2 của Bài 4, nhóm mình sẽ cùng các bạn làm rõ một trong những khái niệm nền tảng dễ nhầm lẫn nhất: Quãng đường và Độ dịch chuyển!",
+          "subtitles": [
+            {
+              "start": 0.0,
+              "end": 0.85,
+              "text": "Chào các bạn!"
+            },
+            {
+              "start": 0.85,
+              "end": 2.36,
+              "text": "Trong phần 2 của Bài 4,"
+            },
+            {
+              "start": 2.36,
+              "end": 4.01,
+              "text": "nhóm mình sẽ cùng các bạn"
+            },
+            {
+              "start": 4.01,
+              "end": 5.78,
+              "text": "làm rõ một trong những khái"
+            },
+            {
+              "start": 5.78,
+              "end": 7.42,
+              "text": "niệm nền tảng dễ nhầm lẫn"
+            },
+            {
+              "start": 7.42,
+              "end": 7.75,
+              "text": "nhất:"
+            },
+            {
+              "start": 7.75,
+              "end": 9.72,
+              "text": "Quãng đường và Độ dịch chuyển!"
+            }
+          ],
+          "audio_duration": 9.72,
+          "subtitle_chunks": [
+            "Chào các bạn!",
+            "Trong phần 2 của Bài 4,",
+            "nhóm mình sẽ cùng các bạn",
+            "làm rõ một trong những khái",
+            "niệm nền tảng dễ nhầm lẫn",
+            "nhất:",
+            "Quãng đường và Độ dịch chuyển!"
+          ],
+          "broll_prompt": "Cinematic close-up of student presenter adjusting his glasses thoughtfully before stepping into frame with enthusiasm, soft blue studio lighting, 16:9."
+        },
+        {
+          "scene_idx": 2,
+          "scene_id": "V2_S02",
+          "title": "Quay lại ngã tư: Xác định rõ hướng Bắc",
+          "duration_sec": 8.76,
+          "keyframe_prompt": "Aerial top-down view of the urban four-way intersection. Origin point at center junction. Crisp asphalt road surface, pedestrian crosswalks, surrounding modern city buildings and sidewalks. Large clear asphalt surface ready for vector graphics overlay. 16:9, 8k, photorealistic, no text, no numbers.",
+          "flow_i2v_prompt": "Smooth high-angle drone shot. The red car smoothly moves north along the central lane, coming to a steady stop at point B. Clean realistic urban vehicle motion, 4k.",
+          "hud_type": "animated_vector_road",
+          "hud_data": {
+            "origin": "Gốc O (Ngã tư)",
+            "destination": "Điểm B (Hướng Bắc)",
+            "vector_d": "Vectơ d_OB: 100 m hướng Bắc",
+            "highlight": "Biết cả ĐỘ DÀI (100 m) và HƯỚNG (Bắc) => Xác định chính xác vị trí!"
+          },
+          "speaker": "Hữu Trọng",
+          "voiceover_text": "Quay lại ví dụ ngã tư ban nãy: Nếu bây giờ mình nói rõ xe chạy 100 mét về hướng Bắc, các bạn sẽ chỉ ra ngay vị trí của xe tại điểm B trên bản đồ!",
+          "subtitles": [
+            {
+              "start": 0.0,
+              "end": 1.89,
+              "text": "Quay lại ví dụ ngã tư ban nãy:"
+            },
+            {
+              "start": 1.89,
+              "end": 3.34,
+              "text": "Nếu bây giờ mình nói rõ"
+            },
+            {
+              "start": 3.34,
+              "end": 4.85,
+              "text": "xe chạy 100 mét về hướng"
+            },
+            {
+              "start": 4.85,
+              "end": 5.1,
+              "text": "Bắc,"
+            },
+            {
+              "start": 5.1,
+              "end": 6.49,
+              "text": "các bạn sẽ chỉ ra ngay"
+            },
+            {
+              "start": 6.49,
+              "end": 7.88,
+              "text": "vị trí của xe tại điểm"
+            },
+            {
+              "start": 7.88,
+              "end": 8.76,
+              "text": "B trên bản đồ!"
+            }
+          ],
+          "audio_duration": 8.76,
+          "subtitle_chunks": [
+            "Quay lại ví dụ ngã tư ban nãy:",
+            "Nếu bây giờ mình nói rõ",
+            "xe chạy 100 mét về hướng",
+            "Bắc,",
+            "các bạn sẽ chỉ ra ngay",
+            "vị trí của xe tại điểm",
+            "B trên bản đồ!"
+          ],
+          "broll_prompt": "Dynamic low-angle tracking shot of a modern car's front bumper and glowing LED headlights turning sharply North at a street crossing, 16:9 8k."
+        },
+        {
+          "scene_idx": 3,
+          "scene_id": "V2_S03",
+          "title": "Định nghĩa Độ dịch chuyển (Đại lượng Vectơ)",
+          "duration_sec": 8.09,
+          "keyframe_prompt": "Medium shot of the Vietnamese male student with glasses in white uniform standing on the left side of the science studio, right hand open in a demonstrative gesture pointing horizontally. Crisp soft lighting, negative space across the right two-thirds. 16:9, 8k, photorealistic, no text.",
+          "flow_i2v_prompt": "The student speaks articulately, his right hand moving smoothly in a straight line from left to right as if tracing a glowing arrow. Natural facial animation and confident posture.",
+          "hud_type": "hud_boxes",
+          "hud_data": {
+            "title": "ĐỘ DỊCH CHUYỂN (d)",
+            "symbol": "Vectơ d (có mũi tên)",
+            "definition": "Đại lượng vectơ cho biết ĐỘ DÀI và HƯỚNG thay đổi vị trí của vật",
+            "vector_elements": "Gốc tại vị trí đầu • Ngọn tại vị trí cuối • Độ dài tỉ lệ khoảng cách"
+          },
+          "speaker": "Hữu Trọng",
+          "voiceover_text": "Đại lượng vừa cho biết độ dài, vừa cho biết hướng thay đổi vị trí đó chính là Độ dịch chuyển, ký hiệu là vectơ d có dấu mũi tên trên đầu!",
+          "subtitles": [
+            {
+              "start": 0.0,
+              "end": 1.84,
+              "text": "Đại lượng vừa cho biết độ dài,"
+            },
+            {
+              "start": 1.84,
+              "end": 3.49,
+              "text": "vừa cho biết hướng thay đổi"
+            },
+            {
+              "start": 3.49,
+              "end": 4.78,
+              "text": "vị trí đó chính là Độ"
+            },
+            {
+              "start": 4.78,
+              "end": 5.52,
+              "text": "dịch chuyển,"
+            },
+            {
+              "start": 5.52,
+              "end": 6.8,
+              "text": "ký hiệu là vectơ d có"
+            },
+            {
+              "start": 6.8,
+              "end": 8.09,
+              "text": "dấu mũi tên trên đầu!"
+            }
+          ],
+          "audio_duration": 8.09,
+          "subtitle_chunks": [
+            "Đại lượng vừa cho biết độ dài,",
+            "vừa cho biết hướng thay đổi",
+            "vị trí đó chính là Độ",
+            "dịch chuyển,",
+            "ký hiệu là vectơ d có",
+            "dấu mũi tên trên đầu!"
+          ],
+          "broll_prompt": "Close-up profile of the student presenter gesturing with focused intensity, eyes bright, right hand sweeping gracefully horizontally, warm rim lighting, 16:9."
+        },
+        {
+          "scene_idx": 4,
+          "scene_id": "V2_S04",
+          "title": "Mô hình 3 tuyến đường: Siêu thị A đến Bưu điện B",
+          "duration_sec": 9.38,
+          "keyframe_prompt": "Cinematic high-angle bird's-eye view of a modern European-style city district with two distinct landmarks: a modern glass supermarket building on the left and an iconic post office building with clock tower on the right, separated by green city squares and asphalt streets. 16:9, 8k, photorealistic, no text, no labels.",
+          "flow_i2v_prompt": "Slow gentle cinematic zoom-in towards the city area between the supermarket and the post office. Light traffic and pedestrians moving naturally. Perfect clean base for path overlays.",
+          "hud_type": "animated_vector_road",
+          "hud_data": {
+            "start_point": "Siêu thị A",
+            "end_point": "Bưu điện B",
+            "paths": [
+              {
+                "id": "path1",
+                "label": "Đường 1: Xe máy (s1 = 1200 m)",
+                "type": "curve_orange"
+              },
+              {
+                "id": "path2",
+                "label": "Đường 2: Đi bộ (s2 = 800 m)",
+                "type": "straight_blue"
+              },
+              {
+                "id": "path3",
+                "label": "Đường 3: Ô tô (s3 = 1500 m)",
+                "type": "curve_green"
+              }
+            ],
+            "vector_d": "Vectơ d chung: Mũi tên thẳng A -> B (|d| = 800 m)"
+          },
+          "speaker": "Hữu Trọng",
+          "voiceover_text": "Quan sát 3 người cùng đi từ Siêu thị A đến Bưu điện B: Người đi xe máy theo đường vòng, người đi bộ đi đường thẳng xuyên công viên, và người lái ô tô đi đường tránh.",
+          "subtitles": [
+            {
+              "start": 0.0,
+              "end": 1.58,
+              "text": "Quan sát 3 người cùng đi từ"
+            },
+            {
+              "start": 1.58,
+              "end": 3.11,
+              "text": "Siêu thị A đến Bưu điện B:"
+            },
+            {
+              "start": 3.11,
+              "end": 4.98,
+              "text": "Người đi xe máy theo đường vòng,"
+            },
+            {
+              "start": 4.98,
+              "end": 6.51,
+              "text": "người đi bộ đi đường thẳng"
+            },
+            {
+              "start": 6.51,
+              "end": 7.45,
+              "text": "xuyên công viên,"
+            },
+            {
+              "start": 7.45,
+              "end": 9.38,
+              "text": "và người lái ô tô đi đường tránh."
+            }
+          ],
+          "audio_duration": 9.38,
+          "subtitle_chunks": [
+            "Quan sát 3 người cùng đi từ",
+            "Siêu thị A đến Bưu điện B:",
+            "Người đi xe máy theo đường vòng,",
+            "người đi bộ đi đường thẳng",
+            "xuyên công viên,",
+            "và người lái ô tô đi đường tránh."
+          ],
+          "broll_prompt": "Tilt-shift miniature bird's-eye view of winding city roads between building blocks, with glowing golden trail lights simulating multiple routes, 16:9 8k."
+        },
+        {
+          "scene_idx": 5,
+          "scene_id": "V2_S05",
+          "title": "Bản chất Quãng đường (s)",
+          "duration_sec": 10.06,
+          "keyframe_prompt": "Medium shot of the Vietnamese male student in glasses, speaking with an expressive explanatory hand gesture, standing on the left side of the modern studio. Right side empty with modern dark navy backdrop. 16:9, 8k, photorealistic, no text.",
+          "flow_i2v_prompt": "The presenter traces curving paths with his finger in the air, speaking clearly with lively facial expressions and head nods. Natural lighting and fluid movement.",
+          "hud_type": "hud_boxes",
+          "hud_data": {
+            "title": "QUÃNG ĐƯỜNG ĐI ĐƯỢC (s)",
+            "nature": "Đại lượng vô hướng, luôn dương (s > 0)",
+            "definition": "Độ dài toàn bộ quỹ đạo thực tế vật đã vạch ra",
+            "comparison": "s1 ≠ s2 ≠ s3 (Phụ thuộc vào lộ trình mỗi người)"
+          },
+          "speaker": "Hữu Trọng",
+          "voiceover_text": "Quãng đường s là độ dài thực tế của đường đi. Ba người chọn ba lộ trình khác nhau nên quãng đường của họ chắc chắn khác nhau: s một khác s hai và khác s ba!",
+          "subtitles": [
+            {
+              "start": 0.0,
+              "end": 1.88,
+              "text": "Quãng đường s là độ dài thực"
+            },
+            {
+              "start": 1.88,
+              "end": 2.95,
+              "text": "tế của đường đi."
+            },
+            {
+              "start": 2.95,
+              "end": 4.96,
+              "text": "Ba người chọn ba lộ trình khác"
+            },
+            {
+              "start": 4.96,
+              "end": 7.11,
+              "text": "nhau nên quãng đường của họ chắc"
+            },
+            {
+              "start": 7.11,
+              "end": 8.12,
+              "text": "chắn khác nhau:"
+            },
+            {
+              "start": 8.12,
+              "end": 9.72,
+              "text": "s một khác s hai và khác"
+            },
+            {
+              "start": 9.72,
+              "end": 10.06,
+              "text": "s ba!"
+            }
+          ],
+          "audio_duration": 10.06,
+          "subtitle_chunks": [
+            "Quãng đường s là độ dài thực",
+            "tế của đường đi.",
+            "Ba người chọn ba lộ trình khác",
+            "nhau nên quãng đường của họ chắc",
+            "chắn khác nhau:",
+            "s một khác s hai và khác",
+            "s ba!"
+          ],
+          "broll_prompt": "Macro tracking shot of an odometer and bicycle wheel spinning along a winding gravel path, measuring curved path distance, 16:9."
+        },
+        {
+          "scene_idx": 6,
+          "scene_id": "V2_S06",
+          "title": "Bản chất Độ dịch chuyển (d)",
+          "duration_sec": 9.12,
+          "keyframe_prompt": "Medium shot of the Vietnamese male student with glasses in white uniform, smiling broadly and pointing both index fingers decisively forward-right. Clean bright high-tech background, ample open area on the right. 16:9, 8k, photorealistic, no text.",
+          "flow_i2v_prompt": "The student delivers a key takeaway, pointing firmly to the right, nodding with certainty, speaking with upbeat energetic cadence. High quality human motion.",
+          "hud_type": "hud_boxes",
+          "hud_data": {
+            "title": "ĐỘ DỊCH CHUYỂN (d)",
+            "core_fact": "Chỉ quan tâm VỊ TRÍ ĐẦU (A) và VỊ TRÍ CUỐI (B)",
+            "result": "d1 = d2 = d3 = Vectơ AB",
+            "conclusion": "Độ dịch chuyển của cả 3 người là HOÀN TOÀN NHƯ NHAU!"
+          },
+          "speaker": "Hữu Trọng",
+          "voiceover_text": "Thế nhưng độ dịch chuyển d chỉ quan tâm đúng điểm đầu là siêu thị A và điểm cuối là bưu điện B. Vì cùng đi từ A đến B, độ dịch chuyển của cả ba người là như nhau!",
+          "subtitles": [
+            {
+              "start": 0.0,
+              "end": 1.75,
+              "text": "Thế nhưng độ dịch chuyển d chỉ"
+            },
+            {
+              "start": 1.75,
+              "end": 3.51,
+              "text": "quan tâm đúng điểm đầu là siêu"
+            },
+            {
+              "start": 3.51,
+              "end": 4.97,
+              "text": "thị A và điểm cuối là bưu"
+            },
+            {
+              "start": 4.97,
+              "end": 5.38,
+              "text": "điện B."
+            },
+            {
+              "start": 5.38,
+              "end": 6.66,
+              "text": "Vì cùng đi từ A đến B,"
+            },
+            {
+              "start": 6.66,
+              "end": 8.07,
+              "text": "độ dịch chuyển của cả ba"
+            },
+            {
+              "start": 8.07,
+              "end": 9.12,
+              "text": "người là như nhau!"
+            }
+          ],
+          "audio_duration": 9.12,
+          "subtitle_chunks": [
+            "Thế nhưng độ dịch chuyển d chỉ",
+            "quan tâm đúng điểm đầu là siêu",
+            "thị A và điểm cuối là bưu",
+            "điện B.",
+            "Vì cùng đi từ A đến B,",
+            "độ dịch chuyển của cả ba",
+            "người là như nhau!"
+          ],
+          "broll_prompt": "Macro high-speed tracking shot of a surveyor's laser beam shooting straight across an open field, creating a crisp red line connecting two posts, 16:9."
+        },
+        {
+          "scene_idx": 7,
+          "scene_id": "V2_S07",
+          "title": "Bảng so sánh trực quan s vs d",
+          "duration_sec": 9.48,
+          "keyframe_prompt": "Medium wide shot of the Vietnamese male student standing respectfully to the far left of the modern studio, gesturing with an open palm toward the large open central and right space. Elegant dark navy tech background with subtle vertical light beams. 16:9, 8k, photorealistic, no text.",
+          "flow_i2v_prompt": "The presenter stands poised, gesturing sequentially from top to bottom as each row of the virtual comparison table illuminates. Natural breathing and friendly demeanor.",
+          "hud_type": "comparison_table",
+          "hud_data": {
+            "columns": [
+              "Tiêu chí",
+              "Quãng đường (s)",
+              "Độ dịch chuyển (d)"
+            ],
+            "rows": [
+              [
+                "Bản chất",
+                "Đại lượng vô hướng",
+                "Đại lượng vectơ (có hướng)"
+              ],
+              [
+                "Dấu giá trị",
+                "Luôn không âm (s ≥ 0)",
+                "Có thể dương, âm hoặc bằng 0"
+              ],
+              [
+                "Quỹ đạo",
+                "Phụ thuộc hình dạng đường đi",
+                "Chỉ phụ thuộc điểm đầu & cuối"
+              ]
+            ]
+          },
+          "speaker": "Hữu Trọng",
+          "voiceover_text": "Bảng so sánh này giúp các bạn nhớ ngay: Quãng đường là đại lượng vô hướng luôn dương và phụ thuộc quỹ đạo; còn độ dịch chuyển là đại lượng vectơ có thể âm, dương hoặc bằng 0!",
+          "subtitles": [
+            {
+              "start": 0.0,
+              "end": 1.64,
+              "text": "Bảng so sánh này giúp các bạn"
+            },
+            {
+              "start": 1.64,
+              "end": 2.14,
+              "text": "nhớ ngay:"
+            },
+            {
+              "start": 2.14,
+              "end": 4.01,
+              "text": "Quãng đường là đại lượng vô hướng"
+            },
+            {
+              "start": 4.01,
+              "end": 5.81,
+              "text": "luôn dương và phụ thuộc quỹ đạo;"
+            },
+            {
+              "start": 5.81,
+              "end": 7.22,
+              "text": "còn độ dịch chuyển là đại"
+            },
+            {
+              "start": 7.22,
+              "end": 8.46,
+              "text": "lượng vectơ có thể âm,"
+            },
+            {
+              "start": 8.46,
+              "end": 9.48,
+              "text": "dương hoặc bằng 0!"
+            }
+          ],
+          "audio_duration": 9.48,
+          "subtitle_chunks": [
+            "Bảng so sánh này giúp các bạn",
+            "nhớ ngay:",
+            "Quãng đường là đại lượng vô hướng",
+            "luôn dương và phụ thuộc quỹ đạo;",
+            "còn độ dịch chuyển là đại",
+            "lượng vectơ có thể âm,",
+            "dương hoặc bằng 0!"
+          ],
+          "broll_prompt": "Slow slider shot across the high-tech studio showing the presenter standing beside a glowing dual-column comparative glass screen, 16:9."
+        },
+        {
+          "scene_idx": 8,
+          "scene_id": "V2_S08",
+          "title": "Điều kiện cốt lõi: Khi nào |d| = s?",
+          "duration_sec": 8.66,
+          "keyframe_prompt": "Cinematic straight highway vanishing toward the horizon at sunset. A lone white sedan drives smoothly along a single lane. Large open sky and roadside space for formula callouts. 16:9, 8k, photorealistic, no text.",
+          "flow_i2v_prompt": "Smooth tracking shot behind the car cruising straight forward along the road. Clean stable motion, sunset glow reflecting on road surface.",
+          "hud_type": "hud_boxes",
+          "hud_data": {
+            "title": "QUY TẮC CỐT LÕI: KHI NÀO |d| = s?",
+            "condition": "Chuyển động THẲNG và KHÔNG ĐỔI CHIỀU",
+            "counter_case_1": "Đổi chiều / đường cong: |d| < s",
+            "counter_case_2": "Đi vòng khép kín về chỗ cũ: d = 0 dù s > 0"
+          },
+          "speaker": "Hữu Trọng",
+          "voiceover_text": "Một quy tắc vàng cần khắc sâu khi làm bài thi: Độ lớn của độ dịch chuyển chỉ bằng quãng đường đi được khi và chỉ khi vật chuyển động thẳng và tuyệt đối không đổi chiều!",
+          "subtitles": [
+            {
+              "start": 0.0,
+              "end": 1.54,
+              "text": "Một quy tắc vàng cần khắc sâu"
+            },
+            {
+              "start": 1.54,
+              "end": 2.39,
+              "text": "khi làm bài thi:"
+            },
+            {
+              "start": 2.39,
+              "end": 3.93,
+              "text": "Độ lớn của độ dịch chuyển chỉ"
+            },
+            {
+              "start": 3.93,
+              "end": 5.58,
+              "text": "bằng quãng đường đi được khi và"
+            },
+            {
+              "start": 5.58,
+              "end": 7.28,
+              "text": "chỉ khi vật chuyển động thẳng và"
+            },
+            {
+              "start": 7.28,
+              "end": 8.66,
+              "text": "tuyệt đối không đổi chiều!"
+            }
+          ],
+          "audio_duration": 8.66,
+          "subtitle_chunks": [
+            "Một quy tắc vàng cần khắc sâu",
+            "khi làm bài thi:",
+            "Độ lớn của độ dịch chuyển chỉ",
+            "bằng quãng đường đi được khi và",
+            "chỉ khi vật chuyển động thẳng và",
+            "tuyệt đối không đổi chiều!"
+          ],
+          "broll_prompt": "Cinematic smooth tracking shot alongside a car driving strictly straight down a desert highway disappearing into the vanishing point at sunrise, 16:9."
+        },
+        {
+          "scene_idx": 9,
+          "scene_id": "V2_S09",
+          "title": "Câu hỏi củng cố & Chào kết Video 2",
+          "duration_sec": 11.78,
+          "keyframe_prompt": "Medium close-up of the Vietnamese male student with glasses in white uniform, smiling warmly, holding up one finger playfully, posing a thought-provoking question. Soft blurred modern studio background. 16:9, 8k, photorealistic, no text.",
+          "flow_i2v_prompt": "The student smiles, asks the quiz question with natural pauses, tilts head slightly waiting for the viewer's answer, then gives a friendly thumbs up and nod.",
+          "hud_type": "quiz_popup",
+          "hud_data": {
+            "question": "Bạn chạy 1 vòng sân vận động 400 m rồi về vạch xuất phát. Độ dịch chuyển d bằng bao nhiêu?",
+            "options": [
+              "A. d = 400 m",
+              "B. d = 0 m",
+              "C. d = 200 m"
+            ],
+            "correct_answer": "B",
+            "explanation": "Vị trí đầu trùng vị trí cuối nên vectơ d = 0 m dù s = 400 m."
+          },
+          "speaker": "Hữu Trọng",
+          "voiceover_text": "Thử tài nhanh: Nếu bạn chạy một vòng sân vận động 400 mét rồi về đúng vạch xuất phát, độ dịch chuyển bằng bao nhiêu? Chính là bằng không mét! Hẹn gặp lại các bạn ở Video 3!",
+          "subtitles": [
+            {
+              "start": 0.0,
+              "end": 0.99,
+              "text": "Thử tài nhanh:"
+            },
+            {
+              "start": 0.99,
+              "end": 2.77,
+              "text": "Nếu bạn chạy một vòng sân"
+            },
+            {
+              "start": 2.77,
+              "end": 4.4,
+              "text": "vận động 400 mét rồi về"
+            },
+            {
+              "start": 4.4,
+              "end": 5.82,
+              "text": "đúng vạch xuất phát,"
+            },
+            {
+              "start": 5.82,
+              "end": 7.95,
+              "text": "độ dịch chuyển bằng bao nhiêu?"
+            },
+            {
+              "start": 7.95,
+              "end": 9.65,
+              "text": "Chính là bằng không mét!"
+            },
+            {
+              "start": 9.65,
+              "end": 11.78,
+              "text": "Hẹn gặp lại các bạn ở Video 3!"
+            }
+          ],
+          "audio_duration": 11.78,
+          "subtitle_chunks": [
+            "Thử tài nhanh:",
+            "Nếu bạn chạy một vòng sân",
+            "vận động 400 mét rồi về",
+            "đúng vạch xuất phát,",
+            "độ dịch chuyển bằng bao nhiêu?",
+            "Chính là bằng không mét!",
+            "Hẹn gặp lại các bạn ở Video 3!"
+          ],
+          "broll_prompt": "Warm close-up of the student presenter tapping his temple playfully and smiling, encouraging the viewers to think about the question, 16:9."
+        }
+      ],
+      "voice_actor": "vi-VN-NamMinhNeural",
+      "actual_duration_sec": 85.05,
+      "estimated_duration": "1m 25s",
+      "account_target": "Account 1 (Bài 4)",
+      "account_id": "acc_1",
+      "account_cap_credits": 1000,
+      "account_lesson": "Bài 4: Độ dịch chuyển và quãng đường đi được",
+      "presenters": "Nhóm 1: Thế Mỹ • ĐP.Hoàng Bách • Văn Hoàng • Thanh Tùng • Gia Nguyên",
+      "assigned_lesson": "Nhóm 1: Thế Mỹ • ĐP.Hoàng Bách • Văn Hoàng • Thanh Tùng • Gia Nguyên"
+    },
+    {
+      "video_id": "V3_B4_TongHop_DoDichChuyen",
+      "title": "Bài 4 (Phần 3): Tổng hợp Độ dịch chuyển",
+      "lesson": "Bài 4: Độ dịch chuyển và quãng đường đi được",
+      "part": 3,
+      "group_assignment": "Nhóm 1: Thế Mỹ • ĐP.Hoàng Bách • Văn Hoàng • Thanh Tùng • Gia Nguyên",
+      "theme": "Cộng vectơ độ dịch chuyển, ví dụ tam giác vuông Pitago (4km Đông + 4km Bắc), 3 trường hợp góc",
+      "mc_character": {
+        "name": "Người thuyết trình",
+        "gender": "male",
+        "age": 16,
+        "role": "Lead Presenter - Dynamic, confident Vietnamese male high school student",
+        "appearance_prompt_en": "A 16-year-old Vietnamese male high school student with clean modern side-part black hair, confident and enthusiastic expression, wearing a crisp white high school uniform shirt with neat buttoned collar. Sharp presenter posture, lively hand gestures and charismatic voice.",
+        "voice_name": "vi-VN-NamMinhNeural"
+      },
+      "clip_count": 9,
+      "total_estimated_duration_sec": 65.5,
+      "scenes": [
+        {
+          "scene_idx": 1,
+          "scene_id": "V3_S01",
+          "title": "Mở đầu & Tiêu đề Video 3",
+          "duration_sec": 11.35,
+          "keyframe_prompt": "Cinematic medium shot of a 16-year-old Vietnamese male high school student with clean modern side-part black hair and a confident, enthusiastic expression, wearing a crisp white high school uniform shirt. He stands on the left of a high-tech physics simulation laboratory with sleek glass equipment in soft background blur. The right 65% is clean open space. 16:9, 8k, photorealistic, no text, no symbols.",
+          "flow_i2v_prompt": "The male student steps forward slightly with a friendly smile, extends an inviting hand gesture toward the audience, and introduces the video topic with animated, natural speech. High fidelity facial animation, 4k.",
+          "hud_type": "title_banner",
+          "hud_data": {
+            "banner_title": "BÀI 4: ĐỘ DỊCH CHUYỂN & QUÃNG ĐƯỜNG",
+            "badge": "NHÓM 1 - VẬT LÍ 10",
+            "subtitle": "Phần 3: Tổng hợp Độ dịch chuyển bằng phương pháp Vectơ",
+            "presenters": "Nhóm 1: Thế Mỹ • ĐP.Hoàng Bách • Văn Hoàng • Thanh Tùng • Gia Nguyên",
+            "theme_color": "cyan_glow",
+            "rect": [
+              1040,
+              130,
+              1860,
+              430
+            ]
+          },
+          "speaker": "Thế Mỹ",
+          "voiceover_text": "Chào mừng thầy cô và các bạn đến với phần 3 của Bài 4! Khi một vật di chuyển qua nhiều chặng liên tiếp, làm sao tính được độ dịch chuyển chung cuộc? Cùng nhóm mình tìm hiểu nhé!",
+          "subtitles": [
+            {
+              "start": 0.0,
+              "end": 1.86,
+              "text": "Chào mừng thầy cô và các bạn"
+            },
+            {
+              "start": 1.86,
+              "end": 3.52,
+              "text": "đến với phần 3 của Bài 4!"
+            },
+            {
+              "start": 3.52,
+              "end": 5.18,
+              "text": "Khi một vật di chuyển qua"
+            },
+            {
+              "start": 5.18,
+              "end": 6.64,
+              "text": "nhiều chặng liên tiếp,"
+            },
+            {
+              "start": 6.64,
+              "end": 8.3,
+              "text": "làm sao tính được độ dịch"
+            },
+            {
+              "start": 8.3,
+              "end": 9.49,
+              "text": "chuyển chung cuộc?"
+            },
+            {
+              "start": 9.49,
+              "end": 11.35,
+              "text": "Cùng nhóm mình tìm hiểu nhé!"
+            }
+          ],
+          "audio_duration": 11.35,
+          "subtitle_chunks": [
+            "Chào mừng thầy cô và các bạn",
+            "đến với phần 3 của Bài 4!",
+            "Khi một vật di chuyển qua",
+            "nhiều chặng liên tiếp,",
+            "làm sao tính được độ dịch",
+            "chuyển chung cuộc?",
+            "Cùng nhóm mình tìm hiểu nhé!"
+          ],
+          "broll_prompt": "Slow dramatic pull-back wide shot of the modern science laboratory, ambient blue LED accents glowing softly along the walls, 16:9.",
+          "hud_rect": [
+            1040,
+            130,
+            1860,
+            430
+          ]
+        },
+        {
+          "scene_idx": 2,
+          "scene_id": "V3_S02",
+          "title": "Quy tắc cộng vectơ tổng quát",
+          "duration_sec": 10.37,
+          "keyframe_prompt": "Medium shot of the Vietnamese male student standing on the left side of the lab, gesturing with both hands outward to frame a virtual graphic area on his right. Soft studio lighting with cool cyan rim light, 16:9, 8k, photorealistic, no text.",
+          "flow_i2v_prompt": "The student speaks with clear diction and confidence, his hands gesturing to connect two conceptual points in space. Subtle eye blinks, natural shoulder breathing.",
+          "hud_type": "hud_boxes",
+          "hud_data": {
+            "title": "QUY TẮC CỘNG VECTƠ TỔNG HỢP",
+            "formula": "Vectơ d = Vectơ d1 + Vectơ d2",
+            "rule": "Độ dịch chuyển tổng hợp là vectơ nối từ điểm xuất phát đầu tiên đến điểm kết thúc cuối cùng",
+            "rect": [
+              1060,
+              130,
+              1860,
+              870
+            ],
+            "solid_card": true
+          },
+          "speaker": "Thế Mỹ",
+          "voiceover_text": "Trong Vật lí, nếu vật thực hiện liên tiếp các độ dịch chuyển d một và d hai, thì độ dịch chuyển tổng hợp d được tính bằng quy tắc cộng vectơ: vectơ d bằng vectơ d một cộng vectơ d hai!",
+          "subtitles": [
+            {
+              "start": 0.0,
+              "end": 0.77,
+              "text": "Trong Vật lí,"
+            },
+            {
+              "start": 0.77,
+              "end": 2.36,
+              "text": "nếu vật thực hiện liên tiếp"
+            },
+            {
+              "start": 2.36,
+              "end": 3.77,
+              "text": "các độ dịch chuyển d một"
+            },
+            {
+              "start": 3.77,
+              "end": 4.3,
+              "text": "và d hai,"
+            },
+            {
+              "start": 4.3,
+              "end": 5.89,
+              "text": "thì độ dịch chuyển tổng hợp"
+            },
+            {
+              "start": 5.89,
+              "end": 7.31,
+              "text": "d được tính bằng quy tắc"
+            },
+            {
+              "start": 7.31,
+              "end": 7.95,
+              "text": "cộng vectơ:"
+            },
+            {
+              "start": 7.95,
+              "end": 9.66,
+              "text": "vectơ d bằng vectơ d một cộng"
+            },
+            {
+              "start": 9.66,
+              "end": 10.37,
+              "text": "vectơ d hai!"
+            }
+          ],
+          "audio_duration": 10.37,
+          "subtitle_chunks": [
+            "Trong Vật lí,",
+            "nếu vật thực hiện liên tiếp",
+            "các độ dịch chuyển d một",
+            "và d hai,",
+            "thì độ dịch chuyển tổng hợp",
+            "d được tính bằng quy tắc",
+            "cộng vectơ:",
+            "vectơ d bằng vectơ d một cộng",
+            "vectơ d hai!"
+          ],
+          "broll_prompt": "Close-up of student presenter's hands gracefully demonstrating vector tail-to-tip addition with open palms in the air, soft rim lighting, 16:9.",
+          "hud_rect": [
+            1060,
+            130,
+            1860,
+            870
+          ]
+        },
+        {
+          "scene_idx": 3,
+          "scene_id": "V3_S03",
+          "title": "Ví dụ thực tế: Đi 4 km Đông rồi 4 km Bắc",
+          "duration_sec": 8.86,
+          "keyframe_prompt": "Aerial high-angle bird's-eye view of a modern landscaped city park with square walking paths, green lawns, and rectangular flowerbeds. Crisp sunlight, clear pathways. Completely clean open landscape free of text or labels. 16:9, 8k, photorealistic.",
+          "flow_i2v_prompt": "Smooth aerial camera hover over the park. Subtle breeze moving treetop foliage. Stable ground plane, ideal for overlaying animated vector paths.",
+          "hud_type": "animated_vector_road",
+          "hud_data": {
+            "origin_A": "Điểm xuất phát A",
+            "segment_1": "A -> B: d1 = 4 km (Hướng Đông)",
+            "segment_2": "B -> C: d2 = 4 km (Hướng Bắc, góc 90°)",
+            "vector_d": "Vectơ d = Vectơ AC (Đường chéo)",
+            "rect": [
+              1060,
+              130,
+              1860,
+              870
+            ],
+            "solid_card": true
+          },
+          "speaker": "Thế Mỹ",
+          "voiceover_text": "Hãy xét ví dụ này: Một bạn học sinh đi từ điểm A sang B 4 km về hướng Đông, sau đó rẽ vuông góc từ B lên C 4 km về hướng Bắc.",
+          "subtitles": [
+            {
+              "start": 0.0,
+              "end": 1.34,
+              "text": "Hãy xét ví dụ này:"
+            },
+            {
+              "start": 1.34,
+              "end": 2.98,
+              "text": "Một bạn học sinh đi từ"
+            },
+            {
+              "start": 2.98,
+              "end": 4.32,
+              "text": "điểm A sang B 4 km"
+            },
+            {
+              "start": 4.32,
+              "end": 5.36,
+              "text": "về hướng Đông,"
+            },
+            {
+              "start": 5.36,
+              "end": 7.0,
+              "text": "sau đó rẽ vuông góc từ"
+            },
+            {
+              "start": 7.0,
+              "end": 8.12,
+              "text": "B lên C 4 km về"
+            },
+            {
+              "start": 8.12,
+              "end": 8.86,
+              "text": "hướng Bắc."
+            }
+          ],
+          "audio_duration": 8.86,
+          "subtitle_chunks": [
+            "Hãy xét ví dụ này:",
+            "Một bạn học sinh đi từ",
+            "điểm A sang B 4 km",
+            "về hướng Đông,",
+            "sau đó rẽ vuông góc từ",
+            "B lên C 4 km về",
+            "hướng Bắc."
+          ],
+          "broll_prompt": "Aerial drone shot tracking a courier scooter driving 4 km straight East along a wide avenue, then making a crisp 90-degree left turn heading North, 16:9.",
+          "hud_rect": [
+            1060,
+            130,
+            1860,
+            870
+          ]
+        },
+        {
+          "scene_idx": 4,
+          "scene_id": "V3_S04",
+          "title": "Tính Quãng đường (s)",
+          "duration_sec": 11.4,
+          "keyframe_prompt": "Medium shot of the Vietnamese male student in white uniform, pointing toward the right space with a light smile, explaining a simple math concept. High-tech lab backdrop with subtle cyan glow. 16:9, 8k, photorealistic, no text.",
+          "flow_i2v_prompt": "The student raises two fingers to indicate addition, speaking energetically with expressive eyes and friendly smile. Natural motion.",
+          "hud_type": "hud_boxes",
+          "hud_data": {
+            "step": "BƯỚC 1: TÍNH QUÃNG ĐƯỜNG (s)",
+            "calculation": "s = s1 + s2 = 4 km + 4 km = 8 km",
+            "note": "Quãng đường là tổng đại số chiều dài các đoạn đường thực tế",
+            "rect": [
+              60,
+              120,
+              760,
+              870
+            ],
+            "layout": "left_side"
+          },
+          "speaker": "Thế Mỹ",
+          "voiceover_text": "Về quãng đường, bạn ấy đã bước đi thực tế 4 km đoạn đầu rồi thêm 4 km đoạn sau, tổng cộng quãng đường s bằng 8 km. Quá trực quan và đơn giản phải không nào?",
+          "subtitles": [
+            {
+              "start": 0.0,
+              "end": 1.14,
+              "text": "Về quãng đường,"
+            },
+            {
+              "start": 1.14,
+              "end": 2.81,
+              "text": "bạn ấy đã bước đi thực"
+            },
+            {
+              "start": 2.81,
+              "end": 4.33,
+              "text": "tế 4 km đoạn đầu rồi"
+            },
+            {
+              "start": 4.33,
+              "end": 5.78,
+              "text": "thêm 4 km đoạn sau,"
+            },
+            {
+              "start": 5.78,
+              "end": 8.36,
+              "text": "tổng cộng quãng đường s bằng 8 km."
+            },
+            {
+              "start": 8.36,
+              "end": 10.64,
+              "text": "Quá trực quan và đơn giản phải"
+            },
+            {
+              "start": 10.64,
+              "end": 11.4,
+              "text": "không nào?"
+            }
+          ],
+          "audio_duration": 11.4,
+          "subtitle_chunks": [
+            "Về quãng đường,",
+            "bạn ấy đã bước đi thực",
+            "tế 4 km đoạn đầu rồi",
+            "thêm 4 km đoạn sau,",
+            "tổng cộng quãng đường s bằng 8 km.",
+            "Quá trực quan và đơn giản phải",
+            "không nào?"
+          ],
+          "broll_prompt": "Top-down macro shot of a pencil drawing an 8 km segmented route along a grid notebook with neat numerical steps, 16:9.",
+          "hud_layout": "left_side",
+          "hud_rect": [
+            60,
+            120,
+            760,
+            870
+          ]
+        },
+        {
+          "scene_idx": 5,
+          "scene_id": "V3_S05",
+          "title": "Tính Độ dịch chuyển (d) bằng Định lý Pythagoras",
+          "duration_sec": 12.05,
+          "keyframe_prompt": "Cinematic high-angle view of a sleek futuristic digital laboratory floor with dark reflective tiles and soft grid lines. Deep blue and slate atmosphere, ample clear central space for a glowing 3D holographic triangle. 16:9, 8k, photorealistic, no text.",
+          "flow_i2v_prompt": "Slow smooth pedestal camera move up. The reflective floor catches subtle neon reflections. High-tech educational laboratory setting.",
+          "hud_type": "hud_boxes",
+          "hud_data": {
+            "step": "BƯỚC 2: TÍNH ĐỘ DỊCH CHUYỂN (d)",
+            "method": "Áp dụng định lý Pythagoras cho tam giác vuông ABC:",
+            "formula": "d = √(d1² + d2²) = √(4² + 4²) = √32 ≈ 5,66 km",
+            "direction": "Hướng Đông - Bắc (Góc 45°)",
+            "rect": [
+              1050,
+              130,
+              1860,
+              870
+            ],
+            "solid_card": true
+          },
+          "speaker": "Thế Mỹ",
+          "voiceover_text": "Nhưng độ dịch chuyển tổng hợp lại là đường chéo nối thẳng từ A đến C. Vì hai chặng vuông góc, ta dùng định lý Pitago: d bằng căn của 4 bình cộng 4 bình, ra khoảng 5,7 km theo hướng Đông Bắc!",
+          "subtitles": [
+            {
+              "start": 0.0,
+              "end": 2.17,
+              "text": "Nhưng độ dịch chuyển tổng hợp lại"
+            },
+            {
+              "start": 2.17,
+              "end": 4.02,
+              "text": "là đường chéo nối thẳng từ A"
+            },
+            {
+              "start": 4.02,
+              "end": 4.41,
+              "text": "đến C."
+            },
+            {
+              "start": 4.41,
+              "end": 5.93,
+              "text": "Vì hai chặng vuông góc,"
+            },
+            {
+              "start": 5.93,
+              "end": 7.44,
+              "text": "ta dùng định lý Pitago:"
+            },
+            {
+              "start": 7.44,
+              "end": 8.82,
+              "text": "d bằng căn của 4 bình"
+            },
+            {
+              "start": 8.82,
+              "end": 9.61,
+              "text": "cộng 4 bình,"
+            },
+            {
+              "start": 9.61,
+              "end": 10.4,
+              "text": "ra khoảng 5,"
+            },
+            {
+              "start": 10.4,
+              "end": 12.05,
+              "text": "7 km theo hướng Đông Bắc!"
+            }
+          ],
+          "audio_duration": 12.05,
+          "subtitle_chunks": [
+            "Nhưng độ dịch chuyển tổng hợp lại",
+            "là đường chéo nối thẳng từ A",
+            "đến C.",
+            "Vì hai chặng vuông góc,",
+            "ta dùng định lý Pitago:",
+            "d bằng căn của 4 bình",
+            "cộng 4 bình,",
+            "ra khoảng 5,",
+            "7 km theo hướng Đông Bắc!"
+          ],
+          "broll_prompt": "Macro shot of a glowing digital drafting compass opening precisely to form the hypotenuse of a right-angled triangle on glass, 16:9.",
+          "hud_rect": [
+            1050,
+            130,
+            1860,
+            870
+          ]
+        },
+        {
+          "scene_idx": 6,
+          "scene_id": "V3_S06",
+          "title": "So sánh s (8 km) vs |d| (5,7 km)",
+          "duration_sec": 10.66,
+          "keyframe_prompt": "Cinematic high-angle aerial drone tracking shot overlooking a scenic curved asphalt road and walking path winding around a calm sparkling city lake with lush green park lawns under bright morning sunlight. On the lower left side, an athletic runner in vibrant sports attire jogs along the curving pathway. The entire right and center-right 65% of the frame is vast, pristine open green lawn, calm lake water, and clean open ground in crisp natural light, providing expansive, uncluttered negative space for educational holographic HUD overlays. 16:9 aspect ratio, 8k, photorealistic, completely blank ground, no text, no numbers, no lane markings, no logos, no watermarks.",
+          "flow_i2v_prompt": "Cinematic smooth drone camera gliding slowly forward and tilting down gently. The runner paces smoothly along the curved lakefront path on the left, while subtle morning light ripples across the calm lake surface on the right. Smooth, steady motion, clear and stable negative space for HUD data.",
+          "hud_type": "hud_boxes",
+          "hud_data": {
+            "title": "SO SÁNH KẾT QUẢ",
+            "distance": "Quãng đường: s = 8 km",
+            "displacement": "Độ lớn độ dịch chuyển: |d| ≈ 5,7 km",
+            "rule": "|d| < s do đường đi bị gãy khúc đổi hướng!",
+            "rect": [
+              60,
+              120,
+              780,
+              870
+            ],
+            "layout": "left_side"
+          },
+          "speaker": "Thế Mỹ",
+          "voiceover_text": "Rõ ràng quãng đường 8 km lớn hơn hẳn độ lớn độ dịch chuyển 5,7 km. Một lần nữa chứng minh: cứ đổi hướng là độ dịch chuyển sẽ nhỏ hơn quãng đường!",
+          "subtitles": [
+            {
+              "start": 0.0,
+              "end": 1.83,
+              "text": "Rõ ràng quãng đường 8 km"
+            },
+            {
+              "start": 1.83,
+              "end": 3.43,
+              "text": "lớn hơn hẳn độ lớn độ"
+            },
+            {
+              "start": 3.43,
+              "end": 4.49,
+              "text": "dịch chuyển 5,"
+            },
+            {
+              "start": 4.49,
+              "end": 4.87,
+              "text": "7 km."
+            },
+            {
+              "start": 4.87,
+              "end": 6.62,
+              "text": "Một lần nữa chứng minh:"
+            },
+            {
+              "start": 6.62,
+              "end": 8.91,
+              "text": "cứ đổi hướng là độ dịch chuyển"
+            },
+            {
+              "start": 8.91,
+              "end": 10.66,
+              "text": "sẽ nhỏ hơn quãng đường!"
+            }
+          ],
+          "audio_duration": 10.66,
+          "subtitle_chunks": [
+            "Rõ ràng quãng đường 8 km",
+            "lớn hơn hẳn độ lớn độ",
+            "dịch chuyển 5,",
+            "7 km.",
+            "Một lần nữa chứng minh:",
+            "cứ đổi hướng là độ dịch chuyển",
+            "sẽ nhỏ hơn quãng đường!"
+          ],
+          "broll_prompt": "Aerial drone tracking shot of athlete running along curving park lakefront path, morning sunlight, calm turquoise water reflections.",
+          "hud_layout": "left_side",
+          "hud_rect": [
+            60,
+            120,
+            780,
+            870
+          ]
+        },
+        {
+          "scene_idx": 7,
+          "scene_id": "V3_S07",
+          "title": "3 Trường hợp tổng hợp vectơ đặc biệt",
+          "duration_sec": 9.41,
+          "keyframe_prompt": "Cinematic high-angle wide aerial drone shot of a wide, tranquil blue river flowing through a scenic modern landscape under clear daylight. In the lower-left foreground, a sleek modern white recreational motorboat moves smoothly across the water, leaving a gentle trailing wake behind it. The expansive, calm, deep turquoise and sapphire water surface stretches across the entire center and right 70% of the frame with soft natural ripples, providing a vast, clean, pristine open negative space canvas for educational vector physics diagram overlays. 16:9 aspect ratio, 8k, photorealistic, completely blank boat hull, no text, no numbers, no boat registration labels, no logos, no watermarks.",
+          "flow_i2v_prompt": "Smooth aerial drone slow pan tracking the boat as it glides steadily across the flowing river, trailing a crisp white wake through the deep turquoise water. The expansive water surface on the right remains clear and stable for three vector diagram overlays.",
+          "hud_type": "hud_boxes",
+          "hud_data": {
+            "title": "3 TRƯỜNG HỢP VECTƠ ĐẶC BIỆT",
+            "case_1": "1. Cùng phương, cùng chiều: d = d1 + d2",
+            "case_2": "2. Cùng phương, ngược chiều: d = |d1 - d2|",
+            "case_3": "3. Vuông góc nhau: d = √(d1² + d2²)",
+            "rect": [
+              60,
+              120,
+              780,
+              870
+            ],
+            "layout": "left_side",
+            "solid_card": true
+          },
+          "speaker": "Thế Mỹ",
+          "voiceover_text": "Để giải nhanh mọi bài tập tổng hợp: hai độ dịch chuyển cùng chiều thì cộng, ngược chiều thì lấy hiệu trị tuyệt đối, còn vuông góc nhau thì áp dụng ngay định lý Pitago!",
+          "subtitles": [
+            {
+              "start": 0.0,
+              "end": 2.02,
+              "text": "Để giải nhanh mọi bài tập tổng hợp:"
+            },
+            {
+              "start": 2.02,
+              "end": 4.27,
+              "text": "hai độ dịch chuyển cùng chiều thì cộng,"
+            },
+            {
+              "start": 4.27,
+              "end": 6.52,
+              "text": "ngược chiều thì lấy hiệu trị tuyệt đối,"
+            },
+            {
+              "start": 6.52,
+              "end": 7.97,
+              "text": "còn vuông góc nhau thì áp"
+            },
+            {
+              "start": 7.97,
+              "end": 9.41,
+              "text": "dụng ngay định lý Pitago!"
+            }
+          ],
+          "audio_duration": 9.41,
+          "subtitle_chunks": [
+            "Để giải nhanh mọi bài tập tổng hợp:",
+            "hai độ dịch chuyển cùng chiều thì cộng,",
+            "ngược chiều thì lấy hiệu trị tuyệt đối,",
+            "còn vuông góc nhau thì áp",
+            "dụng ngay định lý Pitago!"
+          ],
+          "broll_prompt": "Aerial view of modern white speed boat cruising on deep turquoise river leaving soft trailing wake, pristine water surface.",
+          "hud_layout": "left_side",
+          "hud_rect": [
+            60,
+            120,
+            780,
+            870
+          ]
+        },
+        {
+          "scene_idx": 8,
+          "scene_id": "V3_S08",
+          "title": "Câu hỏi tương tác Pop-up Bài 4",
+          "duration_sec": 9.82,
+          "keyframe_prompt": "Cinematic medium shot of 16-year-old Vietnamese male high school student (Thế Mỹ) with neat modern side-part black hair, warm engaging expression, wearing a crisp white high school uniform shirt, standing outdoors on the edge of a modern school running track and green athletic field under clear daytime sunlight. He is positioned on the left 35% of the frame, holding a navigational field compass/GPS telemetry device in one hand, looking directly at the camera with an encouraging, friendly smile as if asking a quiz question. The right 65% of the frame is vast, clean open green turf and running track curving into soft blurred background bokeh, providing ample pristine negative space for an educational quiz popup card. 16:9 aspect ratio, 8k, photorealistic, no text, no numbers, no shirt logos, no markings on compass, no watermarks.",
+          "flow_i2v_prompt": "The student smiles engagingly at the camera, raises the handheld compass slightly while nodding with a playful challenging expression, inviting the audience to solve the 3-4-5 Pythagoras vector puzzle before the timer runs out.",
+          "hud_type": "quiz_popup",
+          "hud_data": {
+            "question": "Hai độ dịch chuyển d1 = 3 m và d2 = 4 m vuông góc nhau. Độ dịch chuyển tổng hợp bằng?",
+            "options": [
+              "A. 7 m",
+              "B. 1 m",
+              "C. 5 m"
+            ],
+            "correct_answer": "C",
+            "explanation": "d = √(3² + 4²) = √25 = 5 m (bộ ba Pitago kinh điển).",
+            "rect": [
+              1060,
+              130,
+              1860,
+              870
+            ]
+          },
+          "speaker": "Thế Mỹ",
+          "voiceover_text": "Câu hỏi nhanh cho các bạn: Nếu d một bằng 3 mét và d hai bằng 4 mét vuông góc nhau, độ dịch chuyển tổng hợp là bao nhiêu? Rất nhanh, chính là 5 mét!",
+          "subtitles": [
+            {
+              "start": 0.0,
+              "end": 1.79,
+              "text": "Câu hỏi nhanh cho các bạn:"
+            },
+            {
+              "start": 1.79,
+              "end": 3.16,
+              "text": "Nếu d một bằng 3 mét"
+            },
+            {
+              "start": 3.16,
+              "end": 4.46,
+              "text": "và d hai bằng 4 mét"
+            },
+            {
+              "start": 4.46,
+              "end": 5.49,
+              "text": "vuông góc nhau,"
+            },
+            {
+              "start": 5.49,
+              "end": 8.03,
+              "text": "độ dịch chuyển tổng hợp là bao nhiêu?"
+            },
+            {
+              "start": 8.03,
+              "end": 9.82,
+              "text": "Rất nhanh, chính là 5 mét!"
+            }
+          ],
+          "audio_duration": 9.82,
+          "subtitle_chunks": [
+            "Câu hỏi nhanh cho các bạn:",
+            "Nếu d một bằng 3 mét",
+            "và d hai bằng 4 mét",
+            "vuông góc nhau,",
+            "độ dịch chuyển tổng hợp là bao nhiêu?",
+            "Rất nhanh, chính là 5 mét!"
+          ],
+          "broll_prompt": "Engaging close-up of the student presenter with an enthusiastic, encouraging smile, pointing gently towards the viewer, 16:9.",
+          "hud_rect": [
+            1060,
+            130,
+            1860,
+            870
+          ]
+        },
+        {
+          "scene_idx": 9,
+          "scene_id": "V3_S09",
+          "title": "Tổng kết toàn bộ Bài 4 & Lời cảm ơn",
+          "duration_sec": 9.29,
+          "keyframe_prompt": "Cinematic medium shot of 16-year-old Vietnamese male high school student (Thế Mỹ) with neat modern side-part black hair, smiling proudly and warmly, wearing a crisp white high school uniform shirt. He stands on the left 35% of an ultra-modern drone aviation and geospatial navigation command center. Next to him on the table is a glowing sleek digital holographic terrain map table emitting soft cyan and blue volumetric contours. The presenter places one hand gently on his chest in a respectful gesture of gratitude and farewell toward the audience. The entire right 65% of the frame consists of clean, elegant dark-toned architectural background with soft cyan and blue ambient rim light bokeh, providing pristine, open negative space for a summary recap card. 16:9 aspect ratio, 8k, photorealistic, no text, no numbers, no computer screen text, no logos, no watermarks.",
+          "flow_i2v_prompt": "The presenter smiles warmly with sincere appreciation, places his hand over his heart with a polite closing bow, and gestures gracefully toward the holographic terrain table before waving goodbye to conclude Lesson 4.",
+          "hud_type": "hud_boxes",
+          "hud_data": {
+            "title": "HOÀN THÀNH BÀI 4 - ĐỘ DỊCH CHUYỂN",
+            "recap": [
+              "✓ Phần 1: Vị trí & Hệ quy chiếu",
+              "✓ Phần 2: Phân biệt Quãng đường (s) & Độ dịch chuyển (d)",
+              "✓ Phần 3: Tổng hợp vectơ độ dịch chuyển"
+            ],
+            "presenters": "Nhóm 1: Thế Mỹ • ĐP.Hoàng Bách • Văn Hoàng • Thanh Tùng • Gia Nguyên",
+            "thanks": "Cảm ơn thầy cô và các bạn đã theo dõi!",
+            "rect": [
+              60,
+              120,
+              660,
+              870
+            ],
+            "layout": "left_side"
+          },
+          "speaker": "Thế Mỹ",
+          "voiceover_text": "Như vậy nhóm mình đã đồng hành trọn vẹn cùng các bạn qua 3 phần của Bài 4. Cảm ơn thầy cô và các bạn đã chú ý lắng nghe bài thuyết trình của nhóm mình!",
+          "subtitles": [
+            {
+              "start": 0.0,
+              "end": 1.91,
+              "text": "Như vậy nhóm mình đã đồng hành"
+            },
+            {
+              "start": 1.91,
+              "end": 3.63,
+              "text": "trọn vẹn cùng các bạn qua 3"
+            },
+            {
+              "start": 3.63,
+              "end": 4.58,
+              "text": "phần của Bài 4."
+            },
+            {
+              "start": 4.58,
+              "end": 6.17,
+              "text": "Cảm ơn thầy cô và các bạn"
+            },
+            {
+              "start": 6.17,
+              "end": 8.02,
+              "text": "đã chú ý lắng nghe bài thuyết"
+            },
+            {
+              "start": 8.02,
+              "end": 9.29,
+              "text": "trình của nhóm mình!"
+            }
+          ],
+          "audio_duration": 9.29,
+          "subtitle_chunks": [
+            "Như vậy nhóm mình đã đồng hành",
+            "trọn vẹn cùng các bạn qua 3",
+            "phần của Bài 4.",
+            "Cảm ơn thầy cô và các bạn",
+            "đã chú ý lắng nghe bài thuyết",
+            "trình của nhóm mình!"
+          ],
+          "broll_prompt": "Wide cinematic dolly shot of the Vietnamese student presenter in white uniform standing proudly in the center of the illuminated studio, giving a full friendly bow and wave, 16:9.",
+          "hud_layout": "left_side",
+          "hud_rect": [
+            60,
+            120,
+            660,
+            870
+          ]
+        }
+      ],
+      "voice_actor": "vi-VN-NamMinhNeural",
+      "actual_duration_sec": 93.21,
+      "estimated_duration": "1m 33s",
+      "account_target": "Account 1 (Bài 4)",
+      "account_id": "acc_1",
+      "account_cap_credits": 1000,
+      "account_lesson": "Bài 4: Độ dịch chuyển và quãng đường đi được",
+      "presenters": "Nhóm 1: Thế Mỹ • ĐP.Hoàng Bách • Văn Hoàng • Thanh Tùng • Gia Nguyên",
+      "assigned_lesson": "Nhóm 1: Thế Mỹ • ĐP.Hoàng Bách • Văn Hoàng • Thanh Tùng • Gia Nguyên"
+    },
+    {
+      "video_id": "V4_B5_Nhom1_TocDo_VanToc",
+      "title": "Bài 5 (Nhóm 2 - Phần 1): Tốc độ & Vận tốc",
+      "lesson": "Bài 5: Tốc độ và vận tốc",
+      "part": 1,
+      "group_assignment": "Nhóm 2",
+      "idea_theme": "Đường đua điền kinh 100m, đồng hồ tốc kế xe máy, phân biệt đại lượng vô hướng vs vectơ",
+      "mc_character": {
+        "name": "Người thuyết trình",
+        "gender": "female",
+        "age": 16,
+        "role": "Lead Presenter (Nhóm 1) - Sporty, energetic Vietnamese female high school student",
+        "appearance_prompt_en": "A 16-year-old Vietnamese female high school student with an athletic build and neat high ponytail tied with a subtle royal-blue ribbon, radiant bright smile, wearing a modern royal-blue collared school sports polo shirt with white side stripes. Energetic, lively and articulate.",
+        "voice_name": "vi-VN-HoaiMyNeural"
+      },
+      "clip_count": 6,
+      "total_estimated_duration_sec": 44.5,
+      "scenes": [
+        {
+          "scene_idx": 1,
+          "scene_id": "V4_S01",
+          "title": "Mở đầu & Tiêu đề Bài 5 Nhóm 1",
+          "duration_sec": 15.1,
+          "keyframe_prompt": "Cinematic medium shot of a 16-year-old Vietnamese female high school student with athletic posture and neat high ponytail tied with a subtle blue ribbon, bright friendly smile, wearing a modern royal-blue collared school sports polo shirt. She stands on the left of an indoor athletic science studio overlooking an Olympic running track. Ample clean negative space on the right 60%. 16:9, 8k, photorealistic, no text, no logos.",
+          "flow_i2v_prompt": "The female student smiles energetically, gestures warmly toward the camera, speaking with vibrant cadence. The sports stadium background remains soft and steady, 4k.",
+          "hud_type": "title_banner",
+          "hud_data": {
+            "banner_title": "BÀI 5: TỐC ĐỘ VÀ VẬN TỐC",
+            "badge": "NHÓM 2 - VẬT LÍ 10",
+            "subtitle": "Phần 1: Phân biệt Tốc độ và Vận tốc",
+            "presenters": "",
+            "theme_color": "cyan_glow",
+            "rect": [
+              1080,
+              130,
+              1860,
+              360
+            ]
+          },
+          "speaker": "Tú Châu",
+          "voiceover_text": "Chào mừng thầy cô và các bạn! Nhóm 1 xin đồng hành cùng cả lớp khám phá Bài 5: Tốc độ và Vận tốc. Trong đời sống chúng ta hay dùng lẫn lộn, nhưng trong Vật lí 10, đây là hai đại lượng mang bản chất khoa học hoàn toàn khác nhau đấy!",
+          "subtitles": [
+            {
+              "start": 0.0,
+              "end": 1.97,
+              "text": "Chào mừng thầy cô và các bạn!"
+            },
+            {
+              "start": 1.97,
+              "end": 3.88,
+              "text": "Nhóm 1 xin đồng hành cùng cả"
+            },
+            {
+              "start": 3.88,
+              "end": 5.17,
+              "text": "lớp khám phá Bài 5:"
+            },
+            {
+              "start": 5.17,
+              "end": 6.39,
+              "text": "Tốc độ và Vận tốc."
+            },
+            {
+              "start": 6.39,
+              "end": 8.23,
+              "text": "Trong đời sống chúng ta hay"
+            },
+            {
+              "start": 8.23,
+              "end": 9.11,
+              "text": "dùng lẫn lộn,"
+            },
+            {
+              "start": 9.11,
+              "end": 10.61,
+              "text": "nhưng trong Vật lí 10,"
+            },
+            {
+              "start": 10.61,
+              "end": 12.31,
+              "text": "đây là hai đại lượng mang"
+            },
+            {
+              "start": 12.31,
+              "end": 14.15,
+              "text": "bản chất khoa học hoàn toàn"
+            },
+            {
+              "start": 14.15,
+              "end": 15.1,
+              "text": "khác nhau đấy!"
+            }
+          ],
+          "audio_duration": 15.1,
+          "subtitle_chunks": [
+            "Chào mừng thầy cô và các bạn!",
+            "Nhóm 1 xin đồng hành cùng cả",
+            "lớp khám phá Bài 5:",
+            "Tốc độ và Vận tốc.",
+            "Trong đời sống chúng ta hay",
+            "dùng lẫn lộn,",
+            "nhưng trong Vật lí 10,",
+            "đây là hai đại lượng mang",
+            "bản chất khoa học hoàn toàn",
+            "khác nhau đấy!"
+          ],
+          "broll_prompt": "Cinematic slow pan across the female student presenter standing poised and confident in a bright, futuristic physics studio, soft warm lighting, 16:9.",
+          "hud_rect": [
+            1080,
+            130,
+            1860,
+            360
+          ]
+        },
+        {
+          "scene_idx": 2,
+          "scene_id": "V4_S02",
+          "title": "Vận động viên 100m: Tốc độ trung bình",
+          "duration_sec": 14.66,
+          "keyframe_prompt": "Cinematic side-angle tracking shot of an athletic sprinter in dynamic motion sprinting along a crimson running track under bright stadium floodlights. Crisp motion blur in background, sharp focus on the runner. Clean upper sky and open track lanes for holographic speedometer and timer. 16:9, 8k, photorealistic, no text, no numbers.",
+          "flow_i2v_prompt": "Dynamic slow-motion tracking shot gliding smoothly alongside the sprinter as they power toward the finish line. Athletic vigor, stadium breeze, cinematic 4k.",
+          "hud_type": "speed_gauge",
+          "hud_data": {
+            "distance": "s = 100 m",
+            "time": "t = 9,98 s",
+            "formula": "TỐC ĐỘ TRUNG BÌNH: v = s / t",
+            "result": "v = 100 / 9,98 ≈ 10,02 m/s (36,1 km/h)",
+            "rect": [
+              1220,
+              120,
+              1860,
+              870
+            ]
+          },
+          "speaker": "Tú Châu",
+          "voiceover_text": "Hãy quan sát vận động viên điền kinh bứt tốc trên đường chạy 100 mét hết đúng 9,98 giây. Để biết mức độ nhanh chậm trung bình trên cả chặng đua, ta lấy quãng đường chia thời gian: v bằng s chia t, đạt con số ấn tượng xấp xỉ 10 mét trên giây!",
+          "subtitles": [
+            {
+              "start": 0.0,
+              "end": 1.64,
+              "text": "Hãy quan sát vận động viên"
+            },
+            {
+              "start": 1.64,
+              "end": 3.4,
+              "text": "điền kinh bứt tốc trên đường"
+            },
+            {
+              "start": 3.4,
+              "end": 4.91,
+              "text": "chạy 100 mét hết đúng 9,"
+            },
+            {
+              "start": 4.91,
+              "end": 5.41,
+              "text": "98 giây."
+            },
+            {
+              "start": 5.41,
+              "end": 6.98,
+              "text": "Để biết mức độ nhanh chậm"
+            },
+            {
+              "start": 6.98,
+              "end": 8.81,
+              "text": "trung bình trên cả chặng đua,"
+            },
+            {
+              "start": 8.81,
+              "end": 10.95,
+              "text": "ta lấy quãng đường chia thời gian:"
+            },
+            {
+              "start": 10.95,
+              "end": 11.95,
+              "text": "v bằng s chia t,"
+            },
+            {
+              "start": 11.95,
+              "end": 13.4,
+              "text": "đạt con số ấn tượng xấp"
+            },
+            {
+              "start": 13.4,
+              "end": 14.66,
+              "text": "xỉ 10 mét trên giây!"
+            }
+          ],
+          "audio_duration": 14.66,
+          "subtitle_chunks": [
+            "Hãy quan sát vận động viên",
+            "điền kinh bứt tốc trên đường",
+            "chạy 100 mét hết đúng 9,",
+            "98 giây.",
+            "Để biết mức độ nhanh chậm",
+            "trung bình trên cả chặng đua,",
+            "ta lấy quãng đường chia thời gian:",
+            "v bằng s chia t,",
+            "đạt con số ấn tượng xấp",
+            "xỉ 10 mét trên giây!"
+          ],
+          "broll_prompt": "Extreme slow-motion low-angle close-up of a track athlete's spikes exploding off starting blocks, dust kicking up in golden sunlight, 16:9 8k.",
+          "hud_rect": [
+            1220,
+            120,
+            1860,
+            870
+          ]
+        },
+        {
+          "scene_idx": 3,
+          "scene_id": "V4_S03",
+          "title": "Đồng hồ xe máy: Tốc độ tức thời",
+          "duration_sec": 13.2,
+          "keyframe_prompt": "Cinematic close-up perspective from behind motorcycle handlebars riding smoothly along a twilight asphalt city boulevard. The circular mechanical speedometer dial is in center-left foreground. The upper right has soft blurred city bokeh with vast negative space for digital gauge overlays. 16:9, 8k, photorealistic, no pre-rendered numbers on dial.",
+          "flow_i2v_prompt": "Smooth driving camera movement as motorcycle glides along the street. Street lamps pass by rhythmically. Stable handlebar view, ideal for overlaying animated speedometer gauge needle and digital readouts.",
+          "hud_type": "speed_gauge",
+          "hud_data": {
+            "mode": "TỐC ĐỘ TỨC THỜI",
+            "speedometer": "Kim chỉ: 50 km/h",
+            "definition": "Đo độ nhanh chậm tại đúng thời điểm quan sát",
+            "device": "Tốc kế xe máy / ô tô",
+            "rect": [
+              1160,
+              120,
+              1860,
+              680
+            ]
+          },
+          "speaker": "Tú Châu",
+          "voiceover_text": "Còn khi chúng mình ngồi trên xe máy, con số nhảy liên tục trên đồng hồ tốc kế chính là Tốc độ tức thời. Nó cho biết chính xác độ nhanh chậm tại đúng thời điểm quan sát, giúp người lái xe kiểm soát an toàn giao thông trên từng mét đường.",
+          "subtitles": [
+            {
+              "start": 0.0,
+              "end": 2.09,
+              "text": "Còn khi chúng mình ngồi trên xe máy,"
+            },
+            {
+              "start": 2.09,
+              "end": 3.55,
+              "text": "con số nhảy liên tục trên"
+            },
+            {
+              "start": 3.55,
+              "end": 4.88,
+              "text": "đồng hồ tốc kế chính là"
+            },
+            {
+              "start": 4.88,
+              "end": 5.81,
+              "text": "Tốc độ tức thời."
+            },
+            {
+              "start": 5.81,
+              "end": 7.21,
+              "text": "Nó cho biết chính xác độ"
+            },
+            {
+              "start": 7.21,
+              "end": 8.9,
+              "text": "nhanh chậm tại đúng thời điểm"
+            },
+            {
+              "start": 8.9,
+              "end": 9.42,
+              "text": "quan sát,"
+            },
+            {
+              "start": 9.42,
+              "end": 10.99,
+              "text": "giúp người lái xe kiểm soát"
+            },
+            {
+              "start": 10.99,
+              "end": 12.62,
+              "text": "an toàn giao thông trên từng"
+            },
+            {
+              "start": 12.62,
+              "end": 13.2,
+              "text": "mét đường."
+            }
+          ],
+          "audio_duration": 13.2,
+          "subtitle_chunks": [
+            "Còn khi chúng mình ngồi trên xe máy,",
+            "con số nhảy liên tục trên",
+            "đồng hồ tốc kế chính là",
+            "Tốc độ tức thời.",
+            "Nó cho biết chính xác độ",
+            "nhanh chậm tại đúng thời điểm",
+            "quan sát,",
+            "giúp người lái xe kiểm soát",
+            "an toàn giao thông trên từng",
+            "mét đường."
+          ],
+          "broll_prompt": "Macro cinematic view of a motorcycle digital speedometer rapidly accelerating from 0 to 60 km/h with glowing numbers reflecting in rider's visor, 16:9.",
+          "hud_rect": [
+            1160,
+            120,
+            1860,
+            680
+          ]
+        },
+        {
+          "scene_idx": 4,
+          "scene_id": "V4_S04",
+          "title": "Tại sao cần Vận tốc? Hướng chuyển động",
+          "duration_sec": 13.9,
+          "keyframe_prompt": "Medium shot of the Vietnamese female student in sports polo, speaking expressively with hand gestures indicating two opposite directions, standing on the left side of the athletic studio. Right side dark slate background with subtle cyan lighting. 16:9, 8k, photorealistic, no text.",
+          "flow_i2v_prompt": "The student gestures with left and right hands pointing opposite ways, speaking with lively engaging expressions, explaining the dilemma of direction.",
+          "hud_type": "hud_boxes",
+          "hud_data": {
+            "issue": "HẠN CHẾ CỦA TỐC ĐỘ",
+            "description": "Tốc độ chỉ đo nhanh hay chậm, KHÔNG CHO BIẾT HƯỚNG!",
+            "solution": "Khái niệm VẬN TỐC (Velocity)",
+            "formula": "Vectơ v = Vectơ d / t",
+            "rect": [
+              1150,
+              130,
+              1860,
+              870
+            ]
+          },
+          "speaker": "Tú Châu",
+          "voiceover_text": "Tuy nhiên, tốc độ thuần túy không cho biết vật đang lao về hướng nào. Vì thế, các nhà vật lí xây dựng khái niệm Vận tốc: Vận tốc trung bình bằng độ dịch chuyển d chia cho khoảng thời gian t, là đại lượng vectơ chỉ rõ phương chiều chuyển động!",
+          "subtitles": [
+            {
+              "start": 0.0,
+              "end": 0.6,
+              "text": "Tuy nhiên,"
+            },
+            {
+              "start": 0.6,
+              "end": 2.17,
+              "text": "tốc độ thuần túy không cho"
+            },
+            {
+              "start": 2.17,
+              "end": 3.73,
+              "text": "biết vật đang lao về hướng"
+            },
+            {
+              "start": 3.73,
+              "end": 3.97,
+              "text": "nào."
+            },
+            {
+              "start": 3.97,
+              "end": 4.39,
+              "text": "Vì thế,"
+            },
+            {
+              "start": 4.39,
+              "end": 5.78,
+              "text": "các nhà vật lí xây dựng"
+            },
+            {
+              "start": 5.78,
+              "end": 6.86,
+              "text": "khái niệm Vận tốc:"
+            },
+            {
+              "start": 6.86,
+              "end": 8.42,
+              "text": "Vận tốc trung bình bằng độ"
+            },
+            {
+              "start": 8.42,
+              "end": 10.17,
+              "text": "dịch chuyển d chia cho khoảng"
+            },
+            {
+              "start": 10.17,
+              "end": 10.89,
+              "text": "thời gian t,"
+            },
+            {
+              "start": 10.89,
+              "end": 12.4,
+              "text": "là đại lượng vectơ chỉ rõ"
+            },
+            {
+              "start": 12.4,
+              "end": 13.9,
+              "text": "phương chiều chuyển động!"
+            }
+          ],
+          "audio_duration": 13.9,
+          "subtitle_chunks": [
+            "Tuy nhiên,",
+            "tốc độ thuần túy không cho",
+            "biết vật đang lao về hướng",
+            "nào.",
+            "Vì thế,",
+            "các nhà vật lí xây dựng",
+            "khái niệm Vận tốc:",
+            "Vận tốc trung bình bằng độ",
+            "dịch chuyển d chia cho khoảng",
+            "thời gian t,",
+            "là đại lượng vectơ chỉ rõ",
+            "phương chiều chuyển động!"
+          ],
+          "broll_prompt": "Close-up of female student presenter raising her hand to indicate a specific forward heading, expressive eyes and articulate delivery, 16:9.",
+          "hud_rect": [
+            1150,
+            130,
+            1860,
+            870
+          ]
+        },
+        {
+          "scene_idx": 5,
+          "scene_id": "V4_S05",
+          "title": "Bảng so sánh 2 cột: Tốc độ vs Vận tốc",
+          "duration_sec": 14.23,
+          "keyframe_prompt": "Medium wide shot of the Vietnamese female student in blue sports polo standing on the far left, gesturing toward the center-right presentation area. Studio atmosphere with blue lighting accents. 16:9, 8k, photorealistic, no text.",
+          "flow_i2v_prompt": "The student stands poised, gesturing cleanly to each row of the virtual comparison table as it lights up. Realistic subtle breathing and blinking.",
+          "hud_type": "comparison_table",
+          "hud_data": {
+            "columns": [
+              "Đặc điểm",
+              "Tốc độ (Speed)",
+              "Vận tốc (Velocity)"
+            ],
+            "rows": [
+              [
+                "Công thức",
+                "v = s / t",
+                "v = d / t (vectơ)"
+              ],
+              [
+                "Bản chất",
+                "Đại lượng vô hướng (v ≥ 0)",
+                "Đại lượng vectơ (có hướng)"
+              ],
+              [
+                "Dấu",
+                "Luôn không âm",
+                "Có thể âm, dương hoặc bằng 0"
+              ]
+            ],
+            "rect": [
+              1160,
+              130,
+              1860,
+              870
+            ],
+            "solid_card": true
+          },
+          "speaker": "Tú Châu",
+          "voiceover_text": "Nhìn vào bảng so sánh: Tốc độ bằng quãng đường chia thời gian, là đại lượng vô hướng luôn dương. Trong khi đó, vận tốc bằng độ dịch chuyển chia thời gian, là đại lượng vectơ có thể mang giá trị âm, dương hoặc bằng 0 tùy thuộc chiều dương đã chọn!",
+          "subtitles": [
+            {
+              "start": 0.0,
+              "end": 1.32,
+              "text": "Nhìn vào bảng so sánh:"
+            },
+            {
+              "start": 1.32,
+              "end": 3.66,
+              "text": "Tốc độ bằng quãng đường chia thời gian,"
+            },
+            {
+              "start": 3.66,
+              "end": 5.64,
+              "text": "là đại lượng vô hướng luôn dương."
+            },
+            {
+              "start": 5.64,
+              "end": 6.42,
+              "text": "Trong khi đó,"
+            },
+            {
+              "start": 6.42,
+              "end": 8.05,
+              "text": "vận tốc bằng độ dịch chuyển"
+            },
+            {
+              "start": 8.05,
+              "end": 8.95,
+              "text": "chia thời gian,"
+            },
+            {
+              "start": 8.95,
+              "end": 10.45,
+              "text": "là đại lượng vectơ có thể"
+            },
+            {
+              "start": 10.45,
+              "end": 11.41,
+              "text": "mang giá trị âm,"
+            },
+            {
+              "start": 11.41,
+              "end": 13.03,
+              "text": "dương hoặc bằng 0 tùy thuộc"
+            },
+            {
+              "start": 13.03,
+              "end": 14.23,
+              "text": "chiều dương đã chọn!"
+            }
+          ],
+          "audio_duration": 14.23,
+          "subtitle_chunks": [
+            "Nhìn vào bảng so sánh:",
+            "Tốc độ bằng quãng đường chia thời gian,",
+            "là đại lượng vô hướng luôn dương.",
+            "Trong khi đó,",
+            "vận tốc bằng độ dịch chuyển",
+            "chia thời gian,",
+            "là đại lượng vectơ có thể",
+            "mang giá trị âm,",
+            "dương hoặc bằng 0 tùy thuộc",
+            "chiều dương đã chọn!"
+          ],
+          "broll_prompt": "Medium two-shot perspective of the female student presenting beside a large illuminated dual-color comparison display, 16:9.",
+          "hud_rect": [
+            1160,
+            130,
+            1860,
+            870
+          ]
+        },
+        {
+          "scene_idx": 6,
+          "scene_id": "V4_S06",
+          "title": "Câu hỏi tương tác & Chào kết Video 4",
+          "duration_sec": 13.37,
+          "keyframe_prompt": "Medium close-up of the Vietnamese female student in sports polo, smiling warmly and confidently, holding an athletic digital stopwatch in her hand, looking into the lens. Soft blurred gym studio background. 16:9, 8k, photorealistic, no text on stopwatch.",
+          "flow_i2v_prompt": "The student raises the stopwatch slightly, clicks it cheerfully, smiles at the camera, and poses the quiz challenge with inviting hand motions.",
+          "hud_type": "quiz_popup",
+          "hud_data": {
+            "question": "Khi nào độ lớn của vận tốc bằng tốc độ?",
+            "options": [
+              "A. Khi vật chuyển động tròn đều",
+              "B. Khi vật chuyển động thẳng không đổi hướng",
+              "C. Khi vật chuyển động lùi"
+            ],
+            "correct_answer": "B",
+            "explanation": "Khi thẳng không đổi hướng thì |d| = s nên |v| = v_tocdo.",
+            "rect": [
+              1040,
+              130,
+              1860,
+              870
+            ]
+          },
+          "speaker": "Tú Châu",
+          "voiceover_text": "Khắc sâu quy tắc vàng: Khi vật chuyển động thẳng và không đổi chiều, độ lớn của vận tốc mới bằng tốc độ! Cảm ơn thầy cô và các bạn, hãy đón xem tiếp Video 5 để cùng nhóm mình khám phá bí quyết cộng vận tốc nhé!",
+          "subtitles": [
+            {
+              "start": 0.0,
+              "end": 1.46,
+              "text": "Khắc sâu quy tắc vàng:"
+            },
+            {
+              "start": 1.46,
+              "end": 3.31,
+              "text": "Khi vật chuyển động thẳng và"
+            },
+            {
+              "start": 3.31,
+              "end": 4.37,
+              "text": "không đổi chiều,"
+            },
+            {
+              "start": 4.37,
+              "end": 5.82,
+              "text": "độ lớn của vận tốc mới"
+            },
+            {
+              "start": 5.82,
+              "end": 6.62,
+              "text": "bằng tốc độ!"
+            },
+            {
+              "start": 6.62,
+              "end": 8.34,
+              "text": "Cảm ơn thầy cô và các bạn,"
+            },
+            {
+              "start": 8.34,
+              "end": 9.93,
+              "text": "hãy đón xem tiếp Video 5"
+            },
+            {
+              "start": 9.93,
+              "end": 11.65,
+              "text": "để cùng nhóm mình khám phá"
+            },
+            {
+              "start": 11.65,
+              "end": 13.37,
+              "text": "bí quyết cộng vận tốc nhé!"
+            }
+          ],
+          "audio_duration": 13.37,
+          "subtitle_chunks": [
+            "Khắc sâu quy tắc vàng:",
+            "Khi vật chuyển động thẳng và",
+            "không đổi chiều,",
+            "độ lớn của vận tốc mới",
+            "bằng tốc độ!",
+            "Cảm ơn thầy cô và các bạn,",
+            "hãy đón xem tiếp Video 5",
+            "để cùng nhóm mình khám phá",
+            "bí quyết cộng vận tốc nhé!"
+          ],
+          "broll_prompt": "Warm close-up of the female student presenter smiling with a welcoming head tilt, holding a marker pen, asking the audience to choose, 16:9.",
+          "hud_rect": [
+            1040,
+            130,
+            1860,
+            870
+          ]
+        }
+      ],
+      "voice_actor": "vi-VN-HoaiMyNeural",
+      "actual_duration_sec": 84.46,
+      "estimated_duration": "1m 24s",
+      "account_target": "Account 2 (Bài 5)",
+      "account_id": "acc_2",
+      "account_cap_credits": 1000,
+      "account_lesson": "Bài 5: Tốc độ và vận tốc",
+      "assigned_lesson": "Nhóm 2"
+    },
+    {
+      "video_id": "V5_B5_Nhom1_TongHop_VanToc",
+      "title": "Bài 5 (Nhóm 2 - Phần 2): Tổng hợp Vận tốc & Công thức cộng",
+      "lesson": "Bài 5: Tốc độ và vận tốc",
+      "part": 2,
+      "group_assignment": "Nhóm 2",
+      "idea_theme": "Hành khách trên tàu hỏa chạy, ca nô qua sông nước chảy xiết, quy ước 1-2-3",
+      "mc_character": {
+        "name": "Người thuyết trình",
+        "gender": "male",
+        "age": 16,
+        "role": "Lead Presenter (Nhóm 1) - Energetic, charismatic Vietnamese male high school student",
+        "appearance_prompt_en": "A 16-year-old Vietnamese male high school student with athletic build, modern short fade haircut, confident friendly smile, wearing a dark navy blue collared team polo shirt with white trim. Dynamic presenter with expressive gestures.",
+        "voice_name": "vi-VN-NamMinhNeural"
+      },
+      "clip_count": 5,
+      "total_estimated_duration_sec": 38.0,
+      "scenes": [
+        {
+          "scene_idx": 1,
+          "scene_id": "V5_S01",
+          "title": "Mở đầu & Tiêu đề Bài 5 Nhóm 1 (Phần 2)",
+          "duration_sec": 13.3,
+          "keyframe_prompt": "Cinematic medium shot of a 16-year-old Vietnamese male high school student with neat short fade haircut, confident friendly smile, wearing a navy blue collared school polo shirt. He stands on the left of a transportation science laboratory with sleek model tracks and displays in the soft background. The right 65% is clean open space. 16:9, 8k, photorealistic, no text.",
+          "flow_i2v_prompt": "The male student speaks with enthusiasm, gesturing smoothly toward the empty space on his right. Natural head movements, eye contact with camera, 4k cinematic presentation.",
+          "hud_type": "title_banner",
+          "hud_data": {
+            "banner_title": "BÀI 5: TỐC ĐỘ VÀ VẬN TỐC",
+            "badge": "NHÓM 2 - VẬT LÍ 10",
+            "subtitle": "Phần 2: Công thức cộng vận tốc & Tổng hợp vận tốc",
+            "presenters": "",
+            "theme_color": "cyan_glow",
+            "rect": [
+              1040,
+              130,
+              1860,
+              360
+            ]
+          },
+          "speaker": "Minh Dũng",
+          "voiceover_text": "Chào các bạn! Đã bao giờ bạn tự hỏi: Khi mình bước đi thong thả trên một toa tàu đang chạy hết tốc lực, thì vận tốc thực sự của mình đối với người đứng yên bên đường là bao nhiêu chưa? Nhóm 1 sẽ giải đáp ngay sau đây!",
+          "subtitles": [
+            {
+              "start": 0.0,
+              "end": 0.83,
+              "text": "Chào các bạn!"
+            },
+            {
+              "start": 0.83,
+              "end": 2.23,
+              "text": "Đã bao giờ bạn tự hỏi:"
+            },
+            {
+              "start": 2.23,
+              "end": 3.88,
+              "text": "Khi mình bước đi thong thả"
+            },
+            {
+              "start": 3.88,
+              "end": 5.54,
+              "text": "trên một toa tàu đang chạy"
+            },
+            {
+              "start": 5.54,
+              "end": 6.3,
+              "text": "hết tốc lực,"
+            },
+            {
+              "start": 6.3,
+              "end": 7.76,
+              "text": "thì vận tốc thực sự của"
+            },
+            {
+              "start": 7.76,
+              "end": 9.48,
+              "text": "mình đối với người đứng yên"
+            },
+            {
+              "start": 9.48,
+              "end": 11.26,
+              "text": "bên đường là bao nhiêu chưa?"
+            },
+            {
+              "start": 11.26,
+              "end": 13.3,
+              "text": "Nhóm 1 sẽ giải đáp ngay sau đây!"
+            }
+          ],
+          "audio_duration": 13.3,
+          "subtitle_chunks": [
+            "Chào các bạn!",
+            "Đã bao giờ bạn tự hỏi:",
+            "Khi mình bước đi thong thả",
+            "trên một toa tàu đang chạy",
+            "hết tốc lực,",
+            "thì vận tốc thực sự của",
+            "mình đối với người đứng yên",
+            "bên đường là bao nhiêu chưa?",
+            "Nhóm 1 sẽ giải đáp ngay sau đây!"
+          ],
+          "broll_prompt": "Establishing wide shot of the futuristic physics lab with glowing holographic vectors floating above a demonstration table, 16:9.",
+          "hud_rect": [
+            1040,
+            130,
+            1860,
+            360
+          ]
+        },
+        {
+          "scene_idx": 2,
+          "scene_id": "V5_S02",
+          "title": "Mô hình Tàu hỏa: Quy ước 3 vật thể (1 - 2 - 3)",
+          "duration_sec": 12.34,
+          "keyframe_prompt": "Cinematic side-profile shot of a sleek modern passenger train cruising smoothly along railway tracks through open green fields. Clear open sky above the train and spacious foreground for floating holographic diagrams. 16:9, 8k, photorealistic, no letters or numbers on train.",
+          "flow_i2v_prompt": "Smooth tracking camera pacing alongside the moving passenger train. Wheels roll realistically, distant countryside shifts with subtle parallax. Stable frame for vector overlays.",
+          "hud_type": "animated_vector_road",
+          "hud_data": {
+            "object_1": "(1) Người hành khách (Vật chuyển động)",
+            "object_2": "(2) Toa tàu hỏa (Hệ quy chiếu chuyển động)",
+            "object_3": "(3) Mặt đường ray (Hệ quy chiếu đứng yên)",
+            "vectors": [
+              "v12: Vận tốc tương đối (Người / Tàu)",
+              "v23: Vận tốc kéo theo (Tàu / Đất)",
+              "v13: Vận tốc tuyệt đối (Người / Đất)"
+            ],
+            "rect": [
+              60,
+              120,
+              780,
+              870
+            ],
+            "layout": "left_side"
+          },
+          "speaker": "Minh Dũng",
+          "voiceover_text": "Để không bao giờ nhầm lẫn, nhóm mình chia sẻ mẹo đánh số thứ tự cực chuẩn: Số 1 là vật chuyển động như người đi bộ, số 2 là hệ quy chiếu chuyển động gắn với toa tàu, và số 3 là hệ quy chiếu đứng yên gắn với mặt đất.",
+          "subtitles": [
+            {
+              "start": 0.0,
+              "end": 1.56,
+              "text": "Để không bao giờ nhầm lẫn,"
+            },
+            {
+              "start": 1.56,
+              "end": 3.11,
+              "text": "nhóm mình chia sẻ mẹo đánh"
+            },
+            {
+              "start": 3.11,
+              "end": 4.31,
+              "text": "số thứ tự cực chuẩn:"
+            },
+            {
+              "start": 4.31,
+              "end": 5.69,
+              "text": "Số 1 là vật chuyển động"
+            },
+            {
+              "start": 5.69,
+              "end": 6.65,
+              "text": "như người đi bộ,"
+            },
+            {
+              "start": 6.65,
+              "end": 7.85,
+              "text": "số 2 là hệ quy chiếu"
+            },
+            {
+              "start": 7.85,
+              "end": 9.52,
+              "text": "chuyển động gắn với toa tàu,"
+            },
+            {
+              "start": 9.52,
+              "end": 10.54,
+              "text": "và số 3 là hệ quy"
+            },
+            {
+              "start": 10.54,
+              "end": 12.1,
+              "text": "chiếu đứng yên gắn với mặt"
+            },
+            {
+              "start": 12.1,
+              "end": 12.34,
+              "text": "đất."
+            }
+          ],
+          "audio_duration": 12.34,
+          "subtitle_chunks": [
+            "Để không bao giờ nhầm lẫn,",
+            "nhóm mình chia sẻ mẹo đánh",
+            "số thứ tự cực chuẩn:",
+            "Số 1 là vật chuyển động",
+            "như người đi bộ,",
+            "số 2 là hệ quy chiếu",
+            "chuyển động gắn với toa tàu,",
+            "và số 3 là hệ quy",
+            "chiếu đứng yên gắn với mặt",
+            "đất."
+          ],
+          "broll_prompt": "Cinematic tracking shot inside a modern high-speed passenger train aisle, looking at a person walking forward while scenic mountains blur outside the windows, 16:9.",
+          "hud_layout": "left_side",
+          "hud_rect": [
+            60,
+            120,
+            780,
+            870
+          ]
+        },
+        {
+          "scene_idx": 3,
+          "scene_id": "V5_S03",
+          "title": "Công thức cộng vận tốc tổng quát",
+          "duration_sec": 14.09,
+          "keyframe_prompt": "Medium shot of the Vietnamese male student in navy polo, hands framing a central formula space with conviction. Modern lab interior with ambient blue glow. 16:9, 8k, photorealistic, no text.",
+          "flow_i2v_prompt": "The presenter explains the formula with animated hand gestures, nodding to emphasize the vector sum rule, fluid mouth movement and posture.",
+          "hud_type": "hud_boxes",
+          "hud_data": {
+            "formula": "Vectơ v_1,3 = Vectơ v_1,2 + Vectơ v_2,3",
+            "case_same": "Cùng chiều tàu: v_1,3 = v_1,2 + v_2,3 (Cộng dồn vận tốc)",
+            "case_opposite": "Ngược chiều tàu: v_1,3 = |v_1,2 - v_2,3| (Trừ bớt vận tốc)",
+            "rect": [
+              1040,
+              130,
+              1860,
+              870
+            ]
+          },
+          "speaker": "Minh Dũng",
+          "voiceover_text": "Công thức cộng vận tốc tổng quát phát biểu: vectơ v một ba bằng vectơ v một hai cộng vectơ v hai ba! Khi bạn đi cùng chiều tàu chạy thì vận tốc cộng dồn v một ba bằng v một hai cộng v hai ba; còn nếu đi ngược chiều lại thì ta lấy hiệu trừ bớt đi!",
+          "subtitles": [
+            {
+              "start": 0.0,
+              "end": 1.9,
+              "text": "Công thức cộng vận tốc tổng quát"
+            },
+            {
+              "start": 1.9,
+              "end": 2.5,
+              "text": "phát biểu:"
+            },
+            {
+              "start": 2.5,
+              "end": 4.1,
+              "text": "vectơ v một ba bằng vectơ v"
+            },
+            {
+              "start": 4.1,
+              "end": 5.77,
+              "text": "một hai cộng vectơ v hai ba!"
+            },
+            {
+              "start": 5.77,
+              "end": 7.55,
+              "text": "Khi bạn đi cùng chiều tàu chạy"
+            },
+            {
+              "start": 7.55,
+              "end": 9.1,
+              "text": "thì vận tốc cộng dồn v một"
+            },
+            {
+              "start": 9.1,
+              "end": 10.52,
+              "text": "ba bằng v một hai cộng v"
+            },
+            {
+              "start": 10.52,
+              "end": 10.94,
+              "text": "hai ba;"
+            },
+            {
+              "start": 10.94,
+              "end": 12.72,
+              "text": "còn nếu đi ngược chiều lại thì"
+            },
+            {
+              "start": 12.72,
+              "end": 14.09,
+              "text": "ta lấy hiệu trừ bớt đi!"
+            }
+          ],
+          "audio_duration": 14.09,
+          "subtitle_chunks": [
+            "Công thức cộng vận tốc tổng quát",
+            "phát biểu:",
+            "vectơ v một ba bằng vectơ v",
+            "một hai cộng vectơ v hai ba!",
+            "Khi bạn đi cùng chiều tàu chạy",
+            "thì vận tốc cộng dồn v một",
+            "ba bằng v một hai cộng v",
+            "hai ba;",
+            "còn nếu đi ngược chiều lại thì",
+            "ta lấy hiệu trừ bớt đi!"
+          ],
+          "broll_prompt": "Close-up of female student presenter's hands joining two glowing holographic vectors tip-to-tail, confident professional smile, 16:9.",
+          "hud_rect": [
+            1040,
+            130,
+            1860,
+            870
+          ]
+        },
+        {
+          "scene_idx": 4,
+          "scene_id": "V5_S04",
+          "title": "Mô hình Ca nô vượt sông vuông góc (Pitago)",
+          "duration_sec": 14.71,
+          "keyframe_prompt": "Cinematic high-angle drone shot looking down at a wide scenic river with rippling turquoise water between two lush green riverbanks. A small white motorboat moves across the water. Clear expansive water surface perfect for vector arrows. 16:9, 8k, photorealistic, no text, no symbols.",
+          "flow_i2v_prompt": "Smooth aerial drone hover shot over the river. The small boat moves diagonally across the flowing water, water ripples trail behind it. Natural flowing water dynamics.",
+          "hud_type": "animated_vector_road",
+          "hud_data": {
+            "bank": "Bờ sông (Vật 3)",
+            "current": "Nước chảy ngang (v23 = 3 m/s)",
+            "boat_speed": "Mũi thuyền thẳng qua sông (v12 = 4 m/s)",
+            "result_vector": "Thuyền trôi chéo v13",
+            "pythagoras": "v_1,3 = √(v_1,2² + v_2,3²) = √(4² + 3²) = 5 m/s",
+            "rect": [
+              60,
+              120,
+              780,
+              870
+            ],
+            "layout": "left_side"
+          },
+          "speaker": "Minh Dũng",
+          "voiceover_text": "Đặc biệt khi ca nô vượt sông có dòng nước chảy xiết: mũi thuyền hướng vuông góc bờ nhưng bị nước đẩy ngang. Ta ghép hai vectơ thành tam giác vuông và dùng định lý Pitago: vận tốc thực tế v một ba bằng căn bậc hai của v một hai bình phương cộng v hai ba bình phương!",
+          "subtitles": [
+            {
+              "start": 0.0,
+              "end": 1.61,
+              "text": "Đặc biệt khi ca nô vượt sông"
+            },
+            {
+              "start": 1.61,
+              "end": 2.93,
+              "text": "có dòng nước chảy xiết:"
+            },
+            {
+              "start": 2.93,
+              "end": 4.94,
+              "text": "mũi thuyền hướng vuông góc bờ nhưng"
+            },
+            {
+              "start": 4.94,
+              "end": 5.98,
+              "text": "bị nước đẩy ngang."
+            },
+            {
+              "start": 5.98,
+              "end": 7.81,
+              "text": "Ta ghép hai vectơ thành tam giác"
+            },
+            {
+              "start": 7.81,
+              "end": 9.48,
+              "text": "vuông và dùng định lý Pitago:"
+            },
+            {
+              "start": 9.48,
+              "end": 10.86,
+              "text": "vận tốc thực tế v một ba"
+            },
+            {
+              "start": 10.86,
+              "end": 12.35,
+              "text": "bằng căn bậc hai của v một"
+            },
+            {
+              "start": 12.35,
+              "end": 14.02,
+              "text": "hai bình phương cộng v hai ba"
+            },
+            {
+              "start": 14.02,
+              "end": 14.71,
+              "text": "bình phương!"
+            }
+          ],
+          "audio_duration": 14.71,
+          "subtitle_chunks": [
+            "Đặc biệt khi ca nô vượt sông",
+            "có dòng nước chảy xiết:",
+            "mũi thuyền hướng vuông góc bờ nhưng",
+            "bị nước đẩy ngang.",
+            "Ta ghép hai vectơ thành tam giác",
+            "vuông và dùng định lý Pitago:",
+            "vận tốc thực tế v một ba",
+            "bằng căn bậc hai của v một",
+            "hai bình phương cộng v hai ba",
+            "bình phương!"
+          ],
+          "broll_prompt": "High-angle drone shot of a white speed motorboat cutting diagonally across a wide sparkling river, white foam wake trailing against blue water, 16:9 8k.",
+          "hud_layout": "left_side",
+          "hud_rect": [
+            60,
+            120,
+            780,
+            870
+          ]
+        },
+        {
+          "scene_idx": 5,
+          "scene_id": "V5_S05",
+          "title": "Tổng kết Nhóm 1 & Chào kết thúc",
+          "duration_sec": 13.82,
+          "keyframe_prompt": "Medium shot of the Vietnamese male student in navy polo standing smiling warmly, hand raised in an appreciative salute gesture to the audience. Bright modern studio background, 16:9, 8k, photorealistic, no text.",
+          "flow_i2v_prompt": "The presenter smiles warmly, bows slightly with hands together, and waves to conclude the presentation. Natural friendly human motion.",
+          "hud_type": "hud_boxes",
+          "hud_data": {
+            "title": "TỔNG KẾT BÀI 5 - NHÓM 2",
+            "key_points": [
+              "✓ Tốc độ v = s/t (Vô hướng, nhanh chậm)",
+              "✓ Vận tốc v = d/t (Vectơ, có hướng)",
+              "✓ v_1,3 = v_1,2 + v_2,3 (Quy ước 1-2-3)"
+            ],
+            "thanks": "Cảm ơn thầy cô và các bạn đã lắng nghe!",
+            "rect": [
+              60,
+              120,
+              640,
+              870
+            ],
+            "layout": "left_side"
+          },
+          "speaker": "Minh Dũng",
+          "voiceover_text": "Chỉ cần nắm vững quy ước đánh số 1, 2, 3 và kết hợp quy tắc hình học vectơ, mọi bài toán cộng vận tốc đều trở nên vô cùng dễ dàng! Nhóm 1 xin chân thành cảm ơn quý thầy cô và các bạn đã chú ý lắng nghe bài thuyết trình!",
+          "subtitles": [
+            {
+              "start": 0.0,
+              "end": 1.59,
+              "text": "Chỉ cần nắm vững quy ước"
+            },
+            {
+              "start": 1.59,
+              "end": 2.25,
+              "text": "đánh số 1,"
+            },
+            {
+              "start": 2.25,
+              "end": 2.38,
+              "text": "2,"
+            },
+            {
+              "start": 2.38,
+              "end": 3.7,
+              "text": "3 và kết hợp quy tắc"
+            },
+            {
+              "start": 3.7,
+              "end": 4.69,
+              "text": "hình học vectơ,"
+            },
+            {
+              "start": 4.69,
+              "end": 6.35,
+              "text": "mọi bài toán cộng vận tốc"
+            },
+            {
+              "start": 6.35,
+              "end": 7.8,
+              "text": "đều trở nên vô cùng dễ"
+            },
+            {
+              "start": 7.8,
+              "end": 8.13,
+              "text": "dàng!"
+            },
+            {
+              "start": 8.13,
+              "end": 9.98,
+              "text": "Nhóm 1 xin chân thành cảm ơn"
+            },
+            {
+              "start": 9.98,
+              "end": 11.64,
+              "text": "quý thầy cô và các bạn đã"
+            },
+            {
+              "start": 11.64,
+              "end": 13.82,
+              "text": "chú ý lắng nghe bài thuyết trình!"
+            }
+          ],
+          "audio_duration": 13.82,
+          "subtitle_chunks": [
+            "Chỉ cần nắm vững quy ước",
+            "đánh số 1,",
+            "2,",
+            "3 và kết hợp quy tắc",
+            "hình học vectơ,",
+            "mọi bài toán cộng vận tốc",
+            "đều trở nên vô cùng dễ",
+            "dàng!",
+            "Nhóm 1 xin chân thành cảm ơn",
+            "quý thầy cô và các bạn đã",
+            "chú ý lắng nghe bài thuyết trình!"
+          ],
+          "broll_prompt": "Wide closing shot of the female student presenter smiling warmly with hands clasped politely, studio lights gently fading, 16:9.",
+          "hud_layout": "left_side",
+          "hud_rect": [
+            60,
+            120,
+            640,
+            870
+          ]
+        }
+      ],
+      "voice_actor": "vi-VN-NamMinhNeural",
+      "actual_duration_sec": 68.26,
+      "estimated_duration": "1m 8s",
+      "account_target": "Account 2 (Bài 5)",
+      "account_id": "acc_2",
+      "account_cap_credits": 1000,
+      "account_lesson": "Bài 5: Tốc độ và vận tốc",
+      "assigned_lesson": "Nhóm 2"
+    },
+    {
+      "video_id": "V6_B5_Nhom2_TocDo_VanToc",
+      "title": "Bài 5 (Nhóm 1 - Phần 1): Tốc độ & Vận tốc (Góc nhìn Công nghệ)",
+      "lesson": "Bài 5: Tốc độ và vận tốc",
+      "part": 1,
+      "group_assignment": "Nhóm 1: Thế Mỹ • ĐP.Hoàng Bách • Văn Hoàng • Thanh Tùng • Gia Nguyên",
+      "idea_theme": "Flycam/Drone công nghệ cao ghi hình xe đạp đua gắn GPS, băng chuyền sân bay vận tốc âm dương",
+      "mc_character": {
+        "name": "Người thuyết trình",
+        "gender": "male",
+        "age": 16,
+        "role": "Lead Presenter (Nhóm 2) - Tech-savvy, modern Vietnamese male student",
+        "appearance_prompt_en": "A 16-year-old tech-savvy Vietnamese male high school student with modern stylish glasses, neat haircut, wearing a sleek graphite-grey zip-up tech jacket over a crisp white tee. Modern, confident, tech-enthusiast demeanor.",
+        "voice_name": "vi-VN-NamMinhNeural"
+      },
+      "clip_count": 5,
+      "total_estimated_duration_sec": 38.0,
+      "scenes": [
+        {
+          "scene_idx": 1,
+          "scene_id": "V6_S01",
+          "title": "Mở đầu & Tiêu đề Bài 5 Nhóm 2",
+          "duration_sec": 12.91,
+          "keyframe_prompt": "Cinematic medium shot of a 16-year-old tech-savvy Vietnamese male high school student with stylish modern glasses, wearing a sleek graphite-grey zip-up tech jacket over a plain white t-shirt. He stands on the left of a high-tech drone robotics innovation laboratory with carbon fiber drone frames blurred in the background. Right 65% is clean open negative space. 16:9, 8k, photorealistic, no text.",
+          "flow_i2v_prompt": "The tech student speaks with crisp enthusiasm, holding a sleek compact drone controller, nodding and smiling warmly to the camera. High tech ambiance, 4k.",
+          "hud_type": "title_banner",
+          "hud_data": {
+            "banner_title": "BÀI 5: TỐC ĐỘ VÀ VẬN TỐC",
+            "badge": "NHÓM 1 - VẬT LÍ 10",
+            "subtitle": "Phần 1: Định vị GPS, Tốc kế số & Vectơ Vận tốc",
+            "presenters": "Nhóm 1: Thế Mỹ • ĐP.Hoàng Bách • Văn Hoàng • Thanh Tùng • Gia Nguyên",
+            "theme_color": "cyan_glow",
+            "rect": [
+              60,
+              130,
+              650,
+              520
+            ],
+            "layout": "left_side"
+          },
+          "speaker": "Hoàng Nam",
+          "voiceover_text": "Chào mừng thầy cô và các bạn đến với góc nhìn công nghệ hiện đại của Nhóm 2! Hôm nay tụi mình sẽ giúp các bạn giải mã bản chất của Tốc độ và Vận tốc thông qua thiết bị định vị vệ tinh GPS và thiết bị bay flycam thông minh!",
+          "subtitles": [
+            {
+              "start": 0.0,
+              "end": 1.68,
+              "text": "Chào mừng thầy cô và các bạn"
+            },
+            {
+              "start": 1.68,
+              "end": 3.54,
+              "text": "đến với góc nhìn công nghệ hiện"
+            },
+            {
+              "start": 3.54,
+              "end": 4.44,
+              "text": "đại của Nhóm 2!"
+            },
+            {
+              "start": 4.44,
+              "end": 6.12,
+              "text": "Hôm nay tụi mình sẽ giúp các"
+            },
+            {
+              "start": 6.12,
+              "end": 7.81,
+              "text": "bạn giải mã bản chất của Tốc"
+            },
+            {
+              "start": 7.81,
+              "end": 9.55,
+              "text": "độ và Vận tốc thông qua thiết"
+            },
+            {
+              "start": 9.55,
+              "end": 11.05,
+              "text": "bị định vị vệ tinh GPS và"
+            },
+            {
+              "start": 11.05,
+              "end": 12.91,
+              "text": "thiết bị bay flycam thông minh!"
+            }
+          ],
+          "audio_duration": 12.91,
+          "subtitle_chunks": [
+            "Chào mừng thầy cô và các bạn",
+            "đến với góc nhìn công nghệ hiện",
+            "đại của Nhóm 2!",
+            "Hôm nay tụi mình sẽ giúp các",
+            "bạn giải mã bản chất của Tốc",
+            "độ và Vận tốc thông qua thiết",
+            "bị định vị vệ tinh GPS và",
+            "thiết bị bay flycam thông minh!"
+          ],
+          "broll_prompt": "Dynamic tracking shot of male tech-enthusiast student presenter in casual school blazer standing next to high-tech digital gear, 16:9.",
+          "hud_layout": "left_side",
+          "hud_rect": [
+            60,
+            130,
+            650,
+            520
+          ]
+        },
+        {
+          "scene_idx": 2,
+          "scene_id": "V6_S02",
+          "title": "Drone bám đuổi xe đạp đua: Tốc kế GPS",
+          "duration_sec": 12.89,
+          "keyframe_prompt": "Cinematic high-angle drone tracking shot of a cyclist in aerodynamic cycling gear riding a sleek modern road bike along a scenic coastal asphalt road beside turquoise ocean waters. Expansive road and ocean space for holographic GPS telemetry graphics. 16:9, 8k, photorealistic, no text, no telemetry pre-rendered.",
+          "flow_i2v_prompt": "Smooth aerial drone tracking moving forward alongside the cyclist. Wheels spin, sea breeze ruffles jersey, smooth cinematic flight motion. Ideal for overlaying futuristic GPS HUD overlays.",
+          "hud_type": "speed_gauge",
+          "hud_data": {
+            "device": "GPS TELEMETRY ONBOARD",
+            "speed": "v_gps = 42,5 km/h",
+            "cadence": "Cadence: 90 rpm",
+            "sampling": "Tần số lấy mẫu: 10 Hz (0,1 s / lần)",
+            "formula": "v_instant = Δs / Δt",
+            "rect": [
+              60,
+              120,
+              760,
+              570
+            ]
+          },
+          "speaker": "Hoàng Nam",
+          "voiceover_text": "Quan sát từ ống kính flycam: Chiếc xe đạp gắn chíp cảm biến GPS đo quãng đường cực nhỏ sau mỗi một phần mười giây để cập nhật tức thời tốc độ 42,5 km trên giờ hiển thị sắc nét lên màn hình điều khiển theo thời gian thực.",
+          "subtitles": [
+            {
+              "start": 0.0,
+              "end": 1.69,
+              "text": "Quan sát từ ống kính flycam:"
+            },
+            {
+              "start": 1.69,
+              "end": 3.21,
+              "text": "Chiếc xe đạp gắn chíp cảm"
+            },
+            {
+              "start": 3.21,
+              "end": 4.84,
+              "text": "biến GPS đo quãng đường cực"
+            },
+            {
+              "start": 4.84,
+              "end": 6.35,
+              "text": "nhỏ sau mỗi một phần mười"
+            },
+            {
+              "start": 6.35,
+              "end": 7.87,
+              "text": "giây để cập nhật tức thời"
+            },
+            {
+              "start": 7.87,
+              "end": 8.47,
+              "text": "tốc độ 42,"
+            },
+            {
+              "start": 8.47,
+              "end": 9.8,
+              "text": "5 km trên giờ hiển thị"
+            },
+            {
+              "start": 9.8,
+              "end": 11.32,
+              "text": "sắc nét lên màn hình điều"
+            },
+            {
+              "start": 11.32,
+              "end": 12.89,
+              "text": "khiển theo thời gian thực."
+            }
+          ],
+          "audio_duration": 12.89,
+          "subtitle_chunks": [
+            "Quan sát từ ống kính flycam:",
+            "Chiếc xe đạp gắn chíp cảm",
+            "biến GPS đo quãng đường cực",
+            "nhỏ sau mỗi một phần mười",
+            "giây để cập nhật tức thời",
+            "tốc độ 42,",
+            "5 km trên giờ hiển thị",
+            "sắc nét lên màn hình điều",
+            "khiển theo thời gian thực."
+          ],
+          "broll_prompt": "FPV drone close pursuit shot flying just 2 meters behind a racing cyclist sprinting on smooth coastal tarmac, speedometer HUD overlay effect, 16:9.",
+          "hud_rect": [
+            60,
+            120,
+            760,
+            570
+          ]
+        },
+        {
+          "scene_idx": 3,
+          "scene_id": "V6_S03",
+          "title": "Xe đạp ôm cua: Tốc độ giữ nguyên nhưng Vận tốc đổi!",
+          "duration_sec": 15.34,
+          "keyframe_prompt": "High-angle view of an asphalt mountain road curving in a graceful S-curve bend. The cyclist leans smoothly into the curve. Vast clean road surface for vector trajectory arrows. 16:9, 8k, photorealistic, no text.",
+          "flow_i2v_prompt": "Cinematic drone shot tracking the bicycle carving through the curve at steady pace. Realistic leaning physics, smooth camera path.",
+          "hud_type": "animated_vector_road",
+          "hud_data": {
+            "curve_status": "XE ĐẠP ĐANG ÔM CUA TRÒN",
+            "speed_value": "Tốc độ: v = 30 km/h (KHÔNG ĐỔI)",
+            "vector_direction": "Hướng vectơ tiếp tuyến: ĐỔI LIÊN TỤC",
+            "conclusion": "VẬN TỐC THAY ĐỔI vì hướng thay đổi, dù tốc độ giữ nguyên!",
+            "rect": [
+              1250,
+              130,
+              1860,
+              870
+            ]
+          },
+          "speaker": "Hoàng Nam",
+          "voiceover_text": "Một phát hiện vật lí cực kỳ thú vị: Khi tay đua xe đạp ôm cua tròn với tốc độ đều 30 km trên giờ, độ lớn tốc độ không hề đổi, nhưng vận tốc lại liên tục thay đổi! Vì sao? Vì hướng của vectơ vận tốc đã liên tục đổi hướng!",
+          "subtitles": [
+            {
+              "start": 0.0,
+              "end": 1.96,
+              "text": "Một phát hiện vật lí cực kỳ"
+            },
+            {
+              "start": 1.96,
+              "end": 2.47,
+              "text": "thú vị:"
+            },
+            {
+              "start": 2.47,
+              "end": 4.0,
+              "text": "Khi tay đua xe đạp ôm"
+            },
+            {
+              "start": 4.0,
+              "end": 5.67,
+              "text": "cua tròn với tốc độ đều"
+            },
+            {
+              "start": 5.67,
+              "end": 6.76,
+              "text": "30 km trên giờ,"
+            },
+            {
+              "start": 6.76,
+              "end": 8.72,
+              "text": "độ lớn tốc độ không hề đổi,"
+            },
+            {
+              "start": 8.72,
+              "end": 11.34,
+              "text": "nhưng vận tốc lại liên tục thay đổi!"
+            },
+            {
+              "start": 11.34,
+              "end": 11.85,
+              "text": "Vì sao?"
+            },
+            {
+              "start": 11.85,
+              "end": 13.96,
+              "text": "Vì hướng của vectơ vận tốc đã"
+            },
+            {
+              "start": 13.96,
+              "end": 15.34,
+              "text": "liên tục đổi hướng!"
+            }
+          ],
+          "audio_duration": 15.34,
+          "subtitle_chunks": [
+            "Một phát hiện vật lí cực kỳ",
+            "thú vị:",
+            "Khi tay đua xe đạp ôm",
+            "cua tròn với tốc độ đều",
+            "30 km trên giờ,",
+            "độ lớn tốc độ không hề đổi,",
+            "nhưng vận tốc lại liên tục thay đổi!",
+            "Vì sao?",
+            "Vì hướng của vectơ vận tốc đã",
+            "liên tục đổi hướng!"
+          ],
+          "broll_prompt": "Ultra-low-angle slow-motion shot of a road bicycle tire leaning hard into a hairpin curve, rubber gripping wet pavement with water spray, 16:9.",
+          "hud_rect": [
+            1250,
+            130,
+            1860,
+            870
+          ]
+        },
+        {
+          "scene_idx": 4,
+          "scene_id": "V6_S04",
+          "title": "Băng chuyền sân bay: Vận tốc âm vs dương",
+          "duration_sec": 12.02,
+          "keyframe_prompt": "Cinematic interior shot of a brightly lit modern airport terminal concourse with a long flat moving walkway belt and polished floors. Soft ambient indoor lighting, clean negative space across upper ceiling and walkway for directional coordinate vectors. 16:9, 8k, photorealistic, no signage text, no airport logos.",
+          "flow_i2v_prompt": "Smooth slow tracking shot alongside the moving walkway gliding steadily. Reflections on polished airport floor, smooth mechanical motion.",
+          "hud_type": "animated_axes",
+          "hud_data": {
+            "axis": "Trục Ox theo hướng băng chuyền (+)",
+            "person_forward": "Người đi xuôi chiều: v1 = +1,5 m/s (dương)",
+            "person_backward": "Người quay đầu đi ngược: v2 = -0,5 m/s (âm)",
+            "speed_note": "Tốc độ cả hai người đều là số dương!",
+            "rect": [
+              980,
+              130,
+              1860,
+              870
+            ]
+          },
+          "speaker": "Hoàng Nam",
+          "voiceover_text": "Tại băng chuyền hành lý sân bay: Chọn chiều dương là chiều băng chuyền chuyển động, hành khách đi xuôi chiều sẽ có vận tốc mang dấu dương, người đi ngược chiều có vận tốc mang dấu âm, nhưng tốc độ của cả hai thì luôn là số dương!",
+          "subtitles": [
+            {
+              "start": 0.0,
+              "end": 1.74,
+              "text": "Tại băng chuyền hành lý sân bay:"
+            },
+            {
+              "start": 1.74,
+              "end": 3.37,
+              "text": "Chọn chiều dương là chiều băng"
+            },
+            {
+              "start": 3.37,
+              "end": 4.41,
+              "text": "chuyền chuyển động,"
+            },
+            {
+              "start": 4.41,
+              "end": 5.87,
+              "text": "hành khách đi xuôi chiều sẽ"
+            },
+            {
+              "start": 5.87,
+              "end": 7.29,
+              "text": "có vận tốc mang dấu dương,"
+            },
+            {
+              "start": 7.29,
+              "end": 8.76,
+              "text": "người đi ngược chiều có vận"
+            },
+            {
+              "start": 8.76,
+              "end": 9.63,
+              "text": "tốc mang dấu âm,"
+            },
+            {
+              "start": 9.63,
+              "end": 10.88,
+              "text": "nhưng tốc độ của cả hai"
+            },
+            {
+              "start": 10.88,
+              "end": 12.02,
+              "text": "thì luôn là số dương!"
+            }
+          ],
+          "audio_duration": 12.02,
+          "subtitle_chunks": [
+            "Tại băng chuyền hành lý sân bay:",
+            "Chọn chiều dương là chiều băng",
+            "chuyền chuyển động,",
+            "hành khách đi xuôi chiều sẽ",
+            "có vận tốc mang dấu dương,",
+            "người đi ngược chiều có vận",
+            "tốc mang dấu âm,",
+            "nhưng tốc độ của cả hai",
+            "thì luôn là số dương!"
+          ],
+          "broll_prompt": "Eye-level side-tracking shot of travelers walking briskly forward on an airport moving walkway with blurred luggage concourse in background, 16:9.",
+          "hud_rect": [
+            980,
+            130,
+            1860,
+            870
+          ]
+        },
+        {
+          "scene_idx": 5,
+          "scene_id": "V6_S05",
+          "title": "Câu hỏi tương tác công nghệ & Kết thúc Video 6",
+          "duration_sec": 14.5,
+          "keyframe_prompt": "Medium shot of the tech-savvy Vietnamese male student in grey jacket, holding a sleek digital tablet, looking up at the camera with an engaging smile. Innovation lab backdrop with soft bokeh. 16:9, 8k, photorealistic, no text on tablet.",
+          "flow_i2v_prompt": "The student taps the tablet screen lightly, looks into the lens, smiles and asks the interactive question with inviting tone.",
+          "hud_type": "quiz_popup",
+          "hud_data": {
+            "question": "Một flycam bay vòng tròn đều với tốc độ 10 m/s. Vận tốc của nó có đổi không?",
+            "options": [
+              "A. Không đổi vì tốc độ đều 10 m/s",
+              "B. Có đổi vì hướng chuyển động liên tục thay đổi",
+              "C. Vận tốc luôn bằng 0"
+            ],
+            "correct_answer": "B",
+            "explanation": "Vận tốc là vectơ, chỉ cần đổi hướng là vận tốc đã thay đổi.",
+            "rect": [
+              960,
+              520,
+              1860,
+              880
+            ],
+            "solid_card": true
+          },
+          "speaker": "Hoàng Nam",
+          "voiceover_text": "Thử tài nhanh cùng Nhóm 2: Khi chiếc flycam bay lượn tròn đều với tốc độ không đổi 10 mét trên giây, vectơ vận tốc của nó có thay đổi không? Đáp án là có, vì hướng bay đổi liên tục! Hẹn gặp lại các bạn ở Video 7 nhé!",
+          "subtitles": [
+            {
+              "start": 0.0,
+              "end": 1.82,
+              "text": "Thử tài nhanh cùng Nhóm 2:"
+            },
+            {
+              "start": 1.82,
+              "end": 3.92,
+              "text": "Khi chiếc flycam bay lượn tròn"
+            },
+            {
+              "start": 3.92,
+              "end": 5.6,
+              "text": "đều với tốc độ không đổi"
+            },
+            {
+              "start": 5.6,
+              "end": 6.79,
+              "text": "10 mét trên giây,"
+            },
+            {
+              "start": 6.79,
+              "end": 8.41,
+              "text": "vectơ vận tốc của nó có"
+            },
+            {
+              "start": 8.41,
+              "end": 9.46,
+              "text": "thay đổi không?"
+            },
+            {
+              "start": 9.46,
+              "end": 10.37,
+              "text": "Đáp án là có,"
+            },
+            {
+              "start": 10.37,
+              "end": 12.19,
+              "text": "vì hướng bay đổi liên tục!"
+            },
+            {
+              "start": 12.19,
+              "end": 14.08,
+              "text": "Hẹn gặp lại các bạn ở Video"
+            },
+            {
+              "start": 14.08,
+              "end": 14.5,
+              "text": "7 nhé!"
+            }
+          ],
+          "audio_duration": 14.5,
+          "subtitle_chunks": [
+            "Thử tài nhanh cùng Nhóm 2:",
+            "Khi chiếc flycam bay lượn tròn",
+            "đều với tốc độ không đổi",
+            "10 mét trên giây,",
+            "vectơ vận tốc của nó có",
+            "thay đổi không?",
+            "Đáp án là có,",
+            "vì hướng bay đổi liên tục!",
+            "Hẹn gặp lại các bạn ở Video",
+            "7 nhé!"
+          ],
+          "broll_prompt": "Medium shot of male student presenter pointing forward with an energetic high-tech gesture, inviting viewer to solve the riddle, 16:9.",
+          "hud_rect": [
+            960,
+            520,
+            1860,
+            880
+          ]
+        }
+      ],
+      "voice_actor": "vi-VN-NamMinhNeural",
+      "actual_duration_sec": 67.66,
+      "estimated_duration": "1m 7s",
+      "account_target": "Account 2 (Bài 5)",
+      "account_id": "acc_2",
+      "account_cap_credits": 1000,
+      "account_lesson": "Bài 5: Tốc độ và vận tốc",
+      "assigned_lesson": "Nhóm 1: Thế Mỹ • ĐP.Hoàng Bách • Văn Hoàng • Thanh Tùng • Gia Nguyên"
+    },
+    {
+      "video_id": "V7_B5_Nhom2_TongHop_VanToc",
+      "title": "Bài 5 (Nhóm 1 - Phần 2): Tổng hợp Vận tốc (Hàng không & Kayak)",
+      "lesson": "Bài 5: Tốc độ và vận tốc",
+      "part": 2,
+      "group_assignment": "Nhóm 1: Thế Mỹ • ĐP.Hoàng Bách • Văn Hoàng • Thanh Tùng • Gia Nguyên",
+      "idea_theme": "Máy bay xuôi gió và ngược gió bão, gió thổi tạt ngang, thuyền kayak vượt sóng thác",
+      "mc_character": {
+        "name": "Người thuyết trình",
+        "gender": "female",
+        "age": 16,
+        "role": "Lead Presenter (Nhóm 2) - Charismatic, elegant Vietnamese female student",
+        "appearance_prompt_en": "A 16-year-old Vietnamese female high school student with shoulder-length soft wavy black hair, radiant smart smile, wearing a stylish pastel-mint green cardigan over a white collared blouse. Articulate, charming and enthusiastic presenter style.",
+        "voice_name": "vi-VN-HoaiMyNeural"
+      },
+      "clip_count": 5,
+      "total_estimated_duration_sec": 38.0,
+      "scenes": [
+        {
+          "scene_idx": 1,
+          "scene_id": "V7_S01",
+          "title": "Mở đầu & Tiêu đề Bài 5 Nhóm 2 (Phần 2)",
+          "duration_sec": 12.24,
+          "keyframe_prompt": "Cinematic medium shot of an original, completely fictional 16-year-old Vietnamese female high school student presenter (original non-celebrity character) named . She wears delicate thin round spectacles/glasses, has natural black hair with gentle bangs, and a radiant smart smile, wearing a stylish pastel-mint green cardigan over a white blouse. She stands on the left 35% of a modern aerodynamics flight science exhibition gallery with sleek scale aircraft models blurred behind. Right 65% is clean open negative space. 16:9, 8k, photorealistic, no text, no numbers, no watermarks.",
+          "flow_i2v_prompt": "A fictional 16-year-old Vietnamese high school student presenter (original non-celebrity character) wearing round glasses and a pastel mint cardigan. She smiles warmly, waves gently in greeting, and speaks with clear expressive voice, gesturing toward the right negative space. Crisp lighting, 4k.",
+          "hud_type": "title_banner",
+          "hud_data": {
+            "banner_title": "BÀI 5: TỔNG HỢP VẬN TỐC (HÀNG KHÔNG & SÓNG NƯỚC)",
+            "badge": "NHÓM 1 - VẬT LÍ 10",
+            "subtitle": "Phần 2: Ứng dụng Khí động học, Máy bay & Thuyền Kayak",
+            "presenters": "Nhóm 1: Thế Mỹ • ĐP.Hoàng Bách • Văn Hoàng • Thanh Tùng • Gia Nguyên",
+            "theme_color": "cyan_glow",
+            "rect": [
+              960,
+              130,
+              1860,
+              430
+            ]
+          },
+          "speaker": "Cẩm Nhung",
+          "voiceover_text": "Chào các bạn! Trong phần kết của chuỗi video, Nhóm 2 sẽ đưa các bạn bay lượn trên bầu trời cao và lướt sóng trên sông lớn để khám phá cách các phi công hàng không và tay chèo kayak làm chủ công thức cộng vận tốc!",
+          "subtitles": [
+            {
+              "start": 0.0,
+              "end": 0.78,
+              "text": "Chào các bạn!"
+            },
+            {
+              "start": 0.78,
+              "end": 2.64,
+              "text": "Trong phần kết của chuỗi video,"
+            },
+            {
+              "start": 2.64,
+              "end": 3.9,
+              "text": "Nhóm 2 sẽ đưa các bạn"
+            },
+            {
+              "start": 3.9,
+              "end": 5.46,
+              "text": "bay lượn trên bầu trời cao"
+            },
+            {
+              "start": 5.46,
+              "end": 7.02,
+              "text": "và lướt sóng trên sông lớn"
+            },
+            {
+              "start": 7.02,
+              "end": 8.46,
+              "text": "để khám phá cách các phi"
+            },
+            {
+              "start": 8.46,
+              "end": 10.08,
+              "text": "công hàng không và tay chèo"
+            },
+            {
+              "start": 10.08,
+              "end": 11.76,
+              "text": "kayak làm chủ công thức cộng"
+            },
+            {
+              "start": 11.76,
+              "end": 12.24,
+              "text": "vận tốc!"
+            }
+          ],
+          "audio_duration": 12.24,
+          "subtitle_chunks": [
+            "Chào các bạn!",
+            "Trong phần kết của chuỗi video,",
+            "Nhóm 2 sẽ đưa các bạn",
+            "bay lượn trên bầu trời cao",
+            "và lướt sóng trên sông lớn",
+            "để khám phá cách các phi",
+            "công hàng không và tay chèo",
+            "kayak làm chủ công thức cộng",
+            "vận tốc!"
+          ],
+          "broll_prompt": "Dramatic wide shot of a flight navigation room with large screens displaying real-time global wind maps and flight paths, 16:9.",
+          "hud_rect": [
+            960,
+            130,
+            1860,
+            430
+          ]
+        },
+        {
+          "scene_idx": 2,
+          "scene_id": "V7_S02",
+          "title": "Máy bay xuôi gió & ngược gió bão",
+          "duration_sec": 13.49,
+          "keyframe_prompt": "Cinematic aerial shot of a modern passenger jet airliner cruising steadily at high altitude above a vast field of sunlit white cumulus clouds under a deep blue sky. Ample sky space around the aircraft for wind vectors and speed telemetry. 16:9, 8k, photorealistic, no airline logos, no letters.",
+          "flow_i2v_prompt": "Slow majestic aerial tracking of the airplane cruising through the sky. Subtle wing condensation, clouds drift slowly below. Stable cinematic composition.",
+          "hud_type": "hud_boxes",
+          "hud_data": {
+            "system": "HỆ THỐNG: (1) Máy bay • (2) Không khí • (3) Mặt đất",
+            "tailwind": "Xuôi gió: v_1,3 = v_maybay + v_gio = 800 + 100 = 900 km/h (Bay nhanh hơn)",
+            "headwind": "Ngược gió: v_1,3 = v_maybay - v_gio = 800 - 100 = 700 km/h (Bay chậm hơn)",
+            "rect": [
+              60,
+              120,
+              760,
+              460
+            ]
+          },
+          "speaker": "Cẩm Nhung",
+          "voiceover_text": "Khi máy bay chở khách bay ở tầng bình lưu độ cao 10 nghìn mét, luồng gió xuôi chiều 100 km trên giờ cùng hướng bay sẽ cộng dồn trực tiếp, giúp phi cơ đạt vận tốc thực tế 900 km trên giờ so với mặt đất, tiết kiệm hàng tấn nhiên liệu quý giá!",
+          "subtitles": [
+            {
+              "start": 0.0,
+              "end": 1.46,
+              "text": "Khi máy bay chở khách bay"
+            },
+            {
+              "start": 1.46,
+              "end": 2.74,
+              "text": "ở tầng bình lưu độ cao"
+            },
+            {
+              "start": 2.74,
+              "end": 3.5,
+              "text": "10 nghìn mét,"
+            },
+            {
+              "start": 3.5,
+              "end": 5.08,
+              "text": "luồng gió xuôi chiều 100 km"
+            },
+            {
+              "start": 5.08,
+              "end": 6.6,
+              "text": "trên giờ cùng hướng bay sẽ"
+            },
+            {
+              "start": 6.6,
+              "end": 7.71,
+              "text": "cộng dồn trực tiếp,"
+            },
+            {
+              "start": 7.71,
+              "end": 9.05,
+              "text": "giúp phi cơ đạt vận tốc"
+            },
+            {
+              "start": 9.05,
+              "end": 10.39,
+              "text": "thực tế 900 km trên giờ"
+            },
+            {
+              "start": 10.39,
+              "end": 11.27,
+              "text": "so với mặt đất,"
+            },
+            {
+              "start": 11.27,
+              "end": 13.49,
+              "text": "tiết kiệm hàng tấn nhiên liệu quý giá!"
+            }
+          ],
+          "audio_duration": 13.49,
+          "subtitle_chunks": [
+            "Khi máy bay chở khách bay",
+            "ở tầng bình lưu độ cao",
+            "10 nghìn mét,",
+            "luồng gió xuôi chiều 100 km",
+            "trên giờ cùng hướng bay sẽ",
+            "cộng dồn trực tiếp,",
+            "giúp phi cơ đạt vận tốc",
+            "thực tế 900 km trên giờ",
+            "so với mặt đất,",
+            "tiết kiệm hàng tấn nhiên liệu quý giá!"
+          ],
+          "broll_prompt": "Exterior cinematic shot of a commercial airliner jet flying through dramatic sunset storm clouds, jet engines roaring with visible vapor trails, 16:9 8k.",
+          "hud_rect": [
+            60,
+            120,
+            760,
+            460
+          ]
+        },
+        {
+          "scene_idx": 3,
+          "scene_id": "V7_S03",
+          "title": "Gió thổi tạt ngang: Tam giác vectơ hướng bay",
+          "duration_sec": 13.34,
+          "keyframe_prompt": "High-angle aerial shot from behind a modern aircraft flying through high-altitude misty skies. Vast open sky and misty cloudscape for overlaying vector triangle diagrams. 16:9, 8k, photorealistic, no text.",
+          "flow_i2v_prompt": "Gentle cinematic tracking behind the aircraft. The plane banks subtly to compensate for wind drift. Smooth photorealistic atmospheric flight.",
+          "hud_type": "animated_vector_road",
+          "hud_data": {
+            "vector_v12": "v12: Hướng mũi máy bay",
+            "vector_v23": "v23: Gió thổi tạt ngang vuông góc",
+            "vector_v13": "v13: Đường bay thực tế nối đến sân bay",
+            "action": "Phi công phải bẻ mũi máy bay nghiêng góc θ để bù gió trôi!",
+            "rect": [
+              60,
+              120,
+              800,
+              870
+            ],
+            "layout": "left_side"
+          },
+          "speaker": "Cẩm Nhung",
+          "voiceover_text": "Nhưng khi gặp gió thổi ngang vuông góc thân máy bay, vectơ vận tốc thực tế bị trôi dạt theo hướng chéo. Các phi công buộc phải dùng định lý Pitago và tính toán góc lệch để bẻ mũi phi cơ ngược lại, giữ đường bay an toàn tuyệt đối!",
+          "subtitles": [
+            {
+              "start": 0.0,
+              "end": 1.69,
+              "text": "Nhưng khi gặp gió thổi ngang"
+            },
+            {
+              "start": 1.69,
+              "end": 3.08,
+              "text": "vuông góc thân máy bay,"
+            },
+            {
+              "start": 3.08,
+              "end": 4.53,
+              "text": "vectơ vận tốc thực tế bị"
+            },
+            {
+              "start": 4.53,
+              "end": 6.04,
+              "text": "trôi dạt theo hướng chéo."
+            },
+            {
+              "start": 6.04,
+              "end": 7.67,
+              "text": "Các phi công buộc phải dùng"
+            },
+            {
+              "start": 7.67,
+              "end": 9.3,
+              "text": "định lý Pitago và tính toán"
+            },
+            {
+              "start": 9.3,
+              "end": 10.62,
+              "text": "góc lệch để bẻ mũi phi"
+            },
+            {
+              "start": 10.62,
+              "end": 11.41,
+              "text": "cơ ngược lại,"
+            },
+            {
+              "start": 11.41,
+              "end": 13.34,
+              "text": "giữ đường bay an toàn tuyệt đối!"
+            }
+          ],
+          "audio_duration": 13.34,
+          "subtitle_chunks": [
+            "Nhưng khi gặp gió thổi ngang",
+            "vuông góc thân máy bay,",
+            "vectơ vận tốc thực tế bị",
+            "trôi dạt theo hướng chéo.",
+            "Các phi công buộc phải dùng",
+            "định lý Pitago và tính toán",
+            "góc lệch để bẻ mũi phi",
+            "cơ ngược lại,",
+            "giữ đường bay an toàn tuyệt đối!"
+          ],
+          "broll_prompt": "Telephoto runway tracking shot of an airliner executing a crosswind crab landing, airplane nose angled sideways while landing gear touches down smoothly, 16:9 8k.",
+          "hud_layout": "left_side",
+          "hud_rect": [
+            60,
+            120,
+            800,
+            870
+          ]
+        },
+        {
+          "scene_idx": 4,
+          "scene_id": "V7_S04",
+          "title": "Thuyền Kayak chèo trên sông: 3 Trường hợp tổng kết",
+          "duration_sec": 11.93,
+          "keyframe_prompt": "Cinematic aerial drone shot of an athletic person paddling a sleek modern kayak on an emerald river winding through a lush pine forest canyon. Pristine clear water ripples, clean surface for vector annotations. 16:9, 8k, photorealistic, no text.",
+          "flow_i2v_prompt": "Smooth aerial drone tracking moving alongside the kayak as the paddle strokes cut through the glistening water. Natural water dynamics, cinematic outdoor light.",
+          "hud_type": "hud_boxes",
+          "hud_data": {
+            "kayak_rule": "3 QUY TẮC CỘNG VẬN TỐC KHI CHÈO THUYỀN",
+            "case_downstream": "Xuôi dòng: v_thực = v_thuyền + v_dòng",
+            "case_upstream": "Ngược dòng: v_thực = |v_thuyền - v_dòng|",
+            "case_across": "Chèo ngang dòng: v_thực = √(v_thuyền² + v_dòng²)",
+            "rect": [
+              60,
+              120,
+              760,
+              540
+            ]
+          },
+          "speaker": "Cẩm Nhung",
+          "voiceover_text": "Trên sông nước, tay chèo kayak cũng áp dụng nguyên lí này: Chèo xuôi dòng thì nước đẩy nhanh hơn, chèo ngược dòng thì triệt tiêu sức thuyền, và muốn sang đúng bờ đối diện phải chèo chếch hướng lên thượng nguồn để bù dòng nước chảy!",
+          "subtitles": [
+            {
+              "start": 0.0,
+              "end": 0.8,
+              "text": "Trên sông nước,"
+            },
+            {
+              "start": 0.8,
+              "end": 2.25,
+              "text": "tay chèo kayak cũng áp dụng"
+            },
+            {
+              "start": 2.25,
+              "end": 3.0,
+              "text": "nguyên lí này:"
+            },
+            {
+              "start": 3.0,
+              "end": 5.03,
+              "text": "Chèo xuôi dòng thì nước đẩy nhanh hơn,"
+            },
+            {
+              "start": 5.03,
+              "end": 7.28,
+              "text": "chèo ngược dòng thì triệt tiêu sức thuyền,"
+            },
+            {
+              "start": 7.28,
+              "end": 8.56,
+              "text": "và muốn sang đúng bờ đối"
+            },
+            {
+              "start": 8.56,
+              "end": 10.16,
+              "text": "diện phải chèo chếch hướng lên"
+            },
+            {
+              "start": 10.16,
+              "end": 11.66,
+              "text": "thượng nguồn để bù dòng nước"
+            },
+            {
+              "start": 11.66,
+              "end": 11.93,
+              "text": "chảy!"
+            }
+          ],
+          "audio_duration": 11.93,
+          "subtitle_chunks": [
+            "Trên sông nước,",
+            "tay chèo kayak cũng áp dụng",
+            "nguyên lí này:",
+            "Chèo xuôi dòng thì nước đẩy nhanh hơn,",
+            "chèo ngược dòng thì triệt tiêu sức thuyền,",
+            "và muốn sang đúng bờ đối",
+            "diện phải chèo chếch hướng lên",
+            "thượng nguồn để bù dòng nước",
+            "chảy!"
+          ],
+          "broll_prompt": "Close water-level action shot of a bright yellow kayak paddle slicing into foaming river rapids, splashing crystal-clear water drops in slow motion, 16:9 8k.",
+          "hud_rect": [
+            60,
+            120,
+            760,
+            540
+          ]
+        },
+        {
+          "scene_idx": 5,
+          "scene_id": "V7_S05",
+          "title": "Lời cảm ơn & Tổng kết toàn bộ 7 video của cả 2 Nhóm",
+          "duration_sec": 13.39,
+          "keyframe_prompt": "Cinematic medium shot of the fictional 16-year-old Vietnamese female student presenter (original non-celebrity character ) with thin round glasses in pastel mint cardigan, smiling radiantly with hands neatly clasped, giving a warm polite bow of appreciation to the viewer. Modern exhibition gallery backdrop with soft ambient light. 16:9, 8k, photorealistic, no text, no numbers, no watermarks.",
+          "flow_i2v_prompt": "A fictional 16-year-old Vietnamese high school student presenter (original non-celebrity character) wearing round glasses and a pastel mint cardigan. The presenter smiles warmly, bows with polite gratitude, and waves cheerfully to conclude the entire series. High quality natural motion.",
+          "hud_type": "hud_boxes",
+          "hud_data": {
+            "title": "HOÀN THÀNH CHUỖI 7 VIDEO VẬT LÍ 10",
+            "summary": "7 Video Hoạt họa Google Flow Hybrid (Full Animation)",
+            "teams": "Nhóm 1 & Nhóm 2 - Bài 4 & Bài 5",
+            "thanks": "Trân trọng cảm ơn quý thầy cô và các bạn đã đồng hành!",
+            "rect": [
+              980,
+              130,
+              1860,
+              870
+            ],
+            "presenters": "Nhóm 1: Thế Mỹ • ĐP.Hoàng Bách • Văn Hoàng • Thanh Tùng • Gia Nguyên",
+            "badge": "NHÓM 1 - VẬT LÍ 10"
+          },
+          "speaker": "Cẩm Nhung",
+          "voiceover_text": "Đó chính là vẻ đẹp thực tiễn của công thức cộng vận tốc trong thế giới hiện đại! Nhóm 2 xin trân trọng gửi lời cảm ơn sâu sắc tới quý thầy cô và các bạn đã đồng hành, theo dõi trọn vẹn cả 7 video Vật lí 10 của chúng mình!",
+          "subtitles": [
+            {
+              "start": 0.0,
+              "end": 1.77,
+              "text": "Đó chính là vẻ đẹp thực tiễn"
+            },
+            {
+              "start": 1.77,
+              "end": 3.79,
+              "text": "của công thức cộng vận tốc trong"
+            },
+            {
+              "start": 3.79,
+              "end": 4.93,
+              "text": "thế giới hiện đại!"
+            },
+            {
+              "start": 4.93,
+              "end": 6.51,
+              "text": "Nhóm 2 xin trân trọng gửi"
+            },
+            {
+              "start": 6.51,
+              "end": 7.9,
+              "text": "lời cảm ơn sâu sắc tới"
+            },
+            {
+              "start": 7.9,
+              "end": 9.28,
+              "text": "quý thầy cô và các bạn"
+            },
+            {
+              "start": 9.28,
+              "end": 10.11,
+              "text": "đã đồng hành,"
+            },
+            {
+              "start": 10.11,
+              "end": 11.5,
+              "text": "theo dõi trọn vẹn cả 7"
+            },
+            {
+              "start": 11.5,
+              "end": 13.07,
+              "text": "video Vật lí 10 của chúng"
+            },
+            {
+              "start": 13.07,
+              "end": 13.39,
+              "text": "mình!"
+            }
+          ],
+          "audio_duration": 13.39,
+          "subtitle_chunks": [
+            "Đó chính là vẻ đẹp thực tiễn",
+            "của công thức cộng vận tốc trong",
+            "thế giới hiện đại!",
+            "Nhóm 2 xin trân trọng gửi",
+            "lời cảm ơn sâu sắc tới",
+            "quý thầy cô và các bạn",
+            "đã đồng hành,",
+            "theo dõi trọn vẹn cả 7",
+            "video Vật lí 10 của chúng",
+            "mình!"
+          ],
+          "broll_prompt": "Grand finale wide shot: both student presenters (male and female) standing side by side in the magnificent physics studio, bowing with warm smiles and applause, 16:9 8k.",
+          "hud_rect": [
+            980,
+            130,
+            1860,
+            870
+          ]
+        }
+      ],
+      "voice_actor": "vi-VN-HoaiMyNeural",
+      "actual_duration_sec": 64.39,
+      "estimated_duration": "1m 4s",
+      "account_target": "Account 2 (Bài 5)",
+      "account_id": "acc_2",
+      "account_cap_credits": 1000,
+      "account_lesson": "Bài 5: Tốc độ và vận tốc",
+      "assigned_lesson": "Nhóm 1: Thế Mỹ • ĐP.Hoàng Bách • Văn Hoàng • Thanh Tùng • Gia Nguyên"
+    }
+  ]
+}
